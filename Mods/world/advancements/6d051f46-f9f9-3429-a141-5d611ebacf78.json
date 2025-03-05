@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "cfm:recipes/cfm/stripped_oak_desk": {
     "criteria": {
       "has_planks": "2025-03-05 15:50:55 +0000"
@@ -8,17 +9,27 @@
   "cfm:recipes/cfm/stripped_oak_park_bench": {
     "criteria": {
       "has_log": "2025-03-05 15:50:55 +0000"
+=======
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "lush_desert": "2025-03-05 10:25:04 -0500"
+>>>>>>> 5d7f864d3fa570b19ccafe3a3cc3d284472d574e
     },
     "done": true
   },
   "farmersdelight:main/root": {
     "criteria": {
+<<<<<<< HEAD
       "seeds": "2025-03-05 15:32:38 +0000"
+=======
+      "seeds": "2025-03-05 10:25:04 -0500"
+>>>>>>> 5d7f864d3fa570b19ccafe3a3cc3d284472d574e
     },
     "done": true
   },
   "betterdungeons:root": {
     "criteria": {
+<<<<<<< HEAD
       "always": "2025-03-05 15:32:38 +0000"
     },
     "done": true
@@ -50,11 +61,63 @@
   "cfm:recipes/cfm/oak_kitchen_counter": {
     "criteria": {
       "has_log": "2025-03-05 15:50:55 +0000"
+=======
+      "always": "2025-03-05 10:25:05 -0500"
+    },
+    "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-03-05 10:25:04 -0500"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2025-03-05 10:25:05 -0500"
+>>>>>>> 5d7f864d3fa570b19ccafe3a3cc3d284472d574e
     },
     "done": true
   },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
+<<<<<<< HEAD
       "log_spam_fixer": "2025-03-05 15:32:38 +0000"
     },
     "done": false
@@ -188,11 +251,33 @@
   "cfm:recipes/cfm/stripped_oak_coffee_table": {
     "criteria": {
       "has_planks": "2025-03-05 15:50:55 +0000"
+=======
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-03-05 10:25:05 -0500"
+>>>>>>> 5d7f864d3fa570b19ccafe3a3cc3d284472d574e
     },
     "done": true
   },
   "byg:biomepedia_gift": {
     "criteria": {
+<<<<<<< HEAD
       "tick": "2025-03-05 15:32:38 +0000"
     },
     "done": true
@@ -230,11 +315,51 @@
   "mowziesmobs:root": {
     "criteria": {
       "custom_test_name": "2025-03-05 15:32:38 +0000"
+=======
+      "tick": "2025-03-05 10:25:05 -0500"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2025-03-05 10:25:05 -0500"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "lush_desert": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2025-03-05 10:25:05 -0500"
+>>>>>>> 5d7f864d3fa570b19ccafe3a3cc3d284472d574e
     },
     "done": true
   },
   "incendium:technical/using/shield": {
     "criteria": {
+<<<<<<< HEAD
       "log_spam_fixer": "2025-03-05 15:32:38 +0000"
     },
     "done": false
@@ -268,6 +393,17 @@
       "has_log": "2025-03-05 15:50:55 +0000"
     },
     "done": true
+=======
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-03-05 10:25:04 -0500"
+    },
+    "done": false
+>>>>>>> 5d7f864d3fa570b19ccafe3a3cc3d284472d574e
   },
   "DataVersion": 2975
 }
