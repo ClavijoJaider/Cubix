@@ -1,0 +1,58 @@
+Prefix: '&e'
+MySQL:
+  Enabled: false
+  Host: localhost
+  Database: database
+  Username: username
+  Password: password
+  Port: 3306
+Settings:
+  Slot: 5
+  Delay: 5
+  ToggleSound:
+    Enabled: true
+    Sound: LAVA_POP
+    Vol: 2.0
+    Pitch: 2.0
+  BlockMovement: true
+  BlockDrop: true
+  GiveOnRespawn: true
+  ClearInvOnJoin: false
+  ClearInvOnWorldChange: false
+  JoinToggleMessage: false
+  ShowToggleMessages: false
+  ShowToggleTitles: false
+  ToggleItem: true
+  EnabledWorlds:
+  - Lobby
+Messages:
+  Show: '&e¡Mostrando a todos los jugadores!'
+  Rank: '&b¡Mostrando solo jugadores con rango!'
+  Hide: '&7¡Se han ocultado todos los jugadores!'
+  Delay: '&eDebes esperar &f{cooldown} segundos&e para volver a usar.'
+Titles:
+  Show:
+    Title: '&e&lTODOS LOS JUGADORES'
+    Subtitle: '&7¡ahora todos son visibles!'
+  Rank:
+    Title: '&b&lJUGADORES CON RANGO'
+    Subtitle: '&7¡ahora se mostraran unicamente los jugadores con rango!'
+  Hide:
+    Title: '&cOCULTAR A TODOS'
+    Subtitle: '&7¡has ocultado a todos los jugadores!'
+Items:
+  Show:
+    Name: '&e&lVISIBILIDAD &fMostrar a todos.'
+    Item: INK_SACK
+    Data: 10
+    Lore: ''
+  Rank:
+    Name: '&e&lVISIBILIDAD &fSolo rangos.'
+    Item: INK_SACK
+    Data: 6
+    Lore: ''
+  Hide:
+    Name: '&e&lVISIBILIDAD &fOcultar a todos.'
+    Item: INK_SACK
+    Data: 9
+    Lore: ''

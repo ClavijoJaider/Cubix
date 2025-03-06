@@ -1,0 +1,49 @@
+prefix:
+  independentTextComponent: false
+  normal:
+    priority: 1
+    perm: act.prefix.normal
+    value: '&7[N]'
+    useGroupEvents: true
+  donor:
+    priority: 2
+    perm: act.prefix.donor
+    value: '&7[&a&o$&7]'
+    useGroupEvents: true
+  staff:
+    priority: 3
+    perm: act.prefix.staff
+    value: '&7[&b&lS&7]'
+    useGroupEvents: true
+suffix:
+  independentTextComponent: false
+  member:
+    priority: 1
+    perm: act.suffix.member
+    value: '&7[&8Member&7]'
+    hoverText: |-
+      &7This player has not supported the server.
+      &7Click here to message the player.
+    suggestCmd: '/msg %player_name% '
+  donor:
+    priority: 2
+    perm: act.suffix.donor
+    value: '&7[&bDonor&7]'
+    hoverText: |-
+      &bThis player has supported the server.
+      &7Click here to message the player.
+    suggestCmd: '/msg %player_name% '
+colored_name:
+  independentTextComponent: false
+  red:
+    priority: 1
+    perm: act.name.red
+    value: '&c%player_name%'
+  blue:
+    priority: 2
+    perm: act.name.blue
+    value: '&b%player_name%'
+  green:
+    priority: 3
+    perm: act.name.green
+    value: '&a%player_name%'

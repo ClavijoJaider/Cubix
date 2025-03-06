@@ -1,0 +1,46 @@
+
+#Archivo de configuración - Mensajes del plugin.
+#
+#En este archivo se configuran los mensajes de
+#respuesta de los respectivos comandos o acciones
+#del plugin.
+
+#Configuración por frandhz
+
+prefix: §x§f§f§8§a§0§0♯ §x§f§f§9§6§0§0§l| §x§f§f§a§1§0§0S§x§f§f§a§d§0§0e§x§f§f§b§8§0§0r§x§f§f§c§4§0§0v§x§f§f§c§f§0§0e§x§f§f§d§b§0§0r §x§f§f§e§6§0§0･ §f
+nopermission: '%prefix&fLo sentimos, no cuentas con los permisos suficientes.'
+toggle:
+  'on': '%prefix&fHas &a&ohabilitado &fla scoreboard.'
+  'off': '%prefix&fHas &c&odeshabilitado &fla scoreboard.'
+  on_other_target: '%prefix&3%sender% &fha &a&ohabilitado &ftu scoreboard.'
+  on_other_sender: '%prefix&fHas habilitado la scoreboard de &3%target%.'
+  off_other_target: '%prefix&3%sender% &fha &c&odeshabilitado &ftu scoreboard.'
+  off_other_sender: '%prefix&fHas deshabilitado la scoreboard de &3%target%.'
+reload:
+  start: '%prefix&fSe ha iniciado la recarga del plugin...'
+  completed: '%prefix&f¡Se ha completado la recarga del plugin exitosamente! &7&o%MS%ms'
+switch:
+  error: '%prefix&fPorfavor especifica una scoreboard valida.'
+  success: '%prefix&fHas cambiado tu scoreboard a &d&o%scoreboard%&f.'
+  nopermission: '%prefix&fNo tienes el permiso para cambiar a la scoreboard &d&o%scoreboard%&f.'
+  world: '%prefix&fLo sentimos, esta scoreboard no esta habilitada para este mundo.'
+  already_activated: '%prefix&fLa scoreboard solicitada ya esta activa.'
+  already_active_other: '%prefix&3%target% &fya tiene activa la scoreboard &d&o%scoreboard%&f.'
+  success_other: '%prefix&fCambiaste exitosamente la scoreboard de &3%target% &fa &d&o%scoreboard%&f.'
+  success_by_other: '%prefix&fTu scoreboard ha sido cambiada por &f%sender%&f.'
+  world_other: '%prefix&3%target% &fno puede activar la scoreboard &d&o%scoreboard% &fen su mundo.'
+  nopermission_other: '%prefix&3%target% &fno tiene permiso para ver la scoreboard &d&o%scoreboard%&f.'
+trigger:
+  insert: '%prefix&cFailed to insert the trigger listener, triggers will not work!'
+  register:
+    invalid: '%prefix&cFailed to activate trigger for class: %class_name%, Invalid
+      class name!'
+    second: '%prefix&cFailed to activate trigger for class: %class_name%, Trigger
+      already active!'
+    invalid-method: '%prefix&cFailed to activate trigger for class: %class_name%,
+      Invalid method name!'
+plugin:
+  information: '%prefix&fEl servidor corre la versión &d&o%version%&f del plugin.'
+invalid_player: '%prefix&c&n%value%&f no es un jugador válido.'
+invalid_command: '%prefix&c&n/%command%&f no es un comando válido. Usa &a&n/asb help&f para ver los comandos disponibles.'
+invalid_sender: '%prefix&cEste comando solo se puede ejecutar en juego por una persona.'

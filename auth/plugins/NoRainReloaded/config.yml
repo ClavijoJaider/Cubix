@@ -1,0 +1,123 @@
+################################################
+#                                              #	
+#            Plugin NoRainReloaded             #
+#              Configuration File              #
+#          Plugin created by xtomyserrax       #
+#                                              #
+################################################
+
+# NOTE BEFORE YOU EDIT: Try to edit the config.yml when the server is closed. Always make a BACKUP of the config.yml preventing you lose your configuration!
+
+Enable:
+# This will enable/disable with a true or false some systems.
+  AlwaysDay: true
+#Enable or Disable the always day system. For default this is enabled but none world is added.
+  AlwaysNight: true
+#Enable or Disable the always night system. For default this is enabled but none world is added.
+  Metrics: true
+#Enable or Disable the metrics system. It collects data for me to see how much servers uses the plugin and things like the minecraft version!
+  Updater: true
+#Enable or Disable the detection of new updates.
+
+# Time that will be set in world for Always Day.
+AlwaysDayTime: 6000
+# Time that will be set in world for Always Night.
+AlwaysNightTime: 20000
+# After how many seconds the always day/night will work in repeatedly mode.
+Timer: 15
+
+#Messages Config - Translate
+#Advices:
+#1. Dont remove the " ' ' "
+#2. Translate the text which is between the " ' ' "
+#3. When you have cant it is the message for people which cant use that command.
+#4. Dont try to use the " ' " as an apostrophe cause you will break the file and it wont be recognized.
+#5. Please be careful with where you leave spaces cause it is sometimes a common YML console error.
+
+#NoPermission Message
+nopermission-message: '&cYou dont have permission to perform this command.'
+
+#Update Message
+newupdate-message: '&a[NoRainReloaded] New update found. Version &2%new_version% &aand you are in version %current_version%! Download it in:'
+failedtocheckupdate-message: '&c[NoRainReloaded] Failed to check for an update on spigot!'
+didntfoundanupdate-message: '&b[NoRainReloaded] Didnt find a new update on spigot. You are up to date!'
+
+#ShowsThisHelpPage Message
+showsthishelppage-helpmessage: 'Shows this help page!'
+
+#NextPage Message
+nextpage-helpmessage: 'Go to the next help page!'
+ 
+#NoRainReloaded Help Messages
+norainhelp-helpmessage: 'Check if rain is enabled or disabled!'
+worldrainhelp-helpmessage: 'Disable or enable rain in a world!'
+worldstats-helpmessage: 'Check the stats of that world!'
+alwaysday-helpmessage: 'Set always day on or off!'
+alwaysnight-helpmessage: 'Set always night on or off!'
+nrrupdate-helpmessage: 'Check for updates!'
+nrrversion-helpmessage: 'See the version of the plugin!'
+nrrreload-helpmessage: 'Reload the config.yml of the plugin!'
+
+#Commands Messages
+notenougharguments-message: '&cNot enough arguments. You have to specify a world: /worldrain [world|all] [on|off].'
+norainconsole-message: '&cNot enough arguments. You have to specify a world: /norain [world] to check or /worldrain [world|all] [on|off] to enable or disable.'
+incorrectarguments-message: '&cNot enough arguments. You have to specify if you want it on or off: /worldrain [world|all] [on|off].'
+worldraintype-message: '&5Type: /worldrain [world|all] [on|off] to enable or disable rain.'
+cantfindworld-message: '&cWorld &4%world% &ccouldnt be found. Please check again.'
+notanormalworld-message: '&cRain can only be enabled or disabled in normal type worlds.'
+rainisdisabled-message: '&bRain is &3disabled &bin world &3%world%&b.'
+rainisenabled-message: '&aRain is &2enabled &ain world &2%world%&a.'
+raindisabled-message: '&bYou have &3disabled &brain in world &3%world%&b.'
+raindisabledall-message: '&bYou have &3disabled &brain in all worlds.'
+rainenabled-message: '&aYou have &2enabled &arain in world &2%world%&a.'
+rainenabledall-message: '&aYou have &2enabled &arain in all worlds.'
+alreadydisabled-message: '&cYou cant disable rain in world &4%world%&c because it has been already disabled.'
+alreadyenabled-message: '&cYou cant enable rain in world &4%world%&c because it has been already enabled.'
+
+#WorldStats Messages
+enabled-message: '&2enabled'
+disabled-message: '&9disabled'
+noworldstatus-message: '&cNot enough arguments. You have to specify a world: /worldstats [world]'
+worldstatus-message: '&3World status of &b%world%&3:'
+statusworldrain-message: '&5- World Rain: %rain%'
+statusalwaysday-message: '&5- Always Day: %alwaysday%'
+statusalwaysnight-message: '&5- Always Night: %alwaysnight%'
+
+#AlwaysDay Messages
+notenoughargumentsad-message: '&cNot enough arguments. You have to specify a world: /alwaysday [world|all] [on|off].'
+norainconsolead-message: '&cNot enough arguments. You have to specify a world: /alwaysday [world] to check or /alwaysday [world|all] [on|off] to enable or disable.'
+incorrectargumentsad-message: '&cNot enough arguments. You have to specify if you want it on or off: /alwaysday [world|all] [on|off].'
+worldraintypead-message: '&5Type: /alwaysday [world|all] [on|off] to enable or disable always day.'
+notanormalworldad-message: '&cAlways day can only be enabled or disabled in normal type worlds.'
+alwaysdayisdisabled-message: '&bAlways day is &3disabled &bin world &3%world%&b.'
+alwaysdayisenabled-message: '&aAlways day is &2enabled &ain world &2%world%&a.'
+alwaysdaydisabled-message: '&bYou have &3disabled &balways day in world &3%world%&b.'
+alwaysdaydisabledall-message: '&bYou have &3disabled &balways day in all worlds.'
+alwaysdayenabled-message: '&aYou have &2enabled &aalways day in world &2%world%&a.'
+alwaysdayenabledall-message: '&aYou have &2enabled &aalways day in all worlds.'
+alwaysdayenabledallwithex-message: '&aYou have &2enabled &aalways day in some worlds because some others have always night enabled.'
+couldntalwaysdayenabledall-message: '&cYou couldnt enable always day in any worlds because all of them have always night enabled.'
+alreadydisabledad-message: '&cYou cant disable always day in world &4%world%&c because it has been already disabled.'
+alreadyenabledad-message: '&cYou cant enable always day in world &4%world%&c because it has been already enabled.'
+alreadyalwaysnight-message: '&cYou cant enable always day in world &4%world%&c because it has enabled always night, disable always night first.'
+
+#AlwaysNight Messages
+notenoughargumentsan-message: '&cNot enough arguments. You have to specify a world: /alwaysnight [world|all] [on|off].'
+norainconsolean-message: '&cNot enough arguments. You have to specify a world: /alwaysnight [world] to check or /alwaysnight [world|all] [on|off] to enable or disable.'
+incorrectargumentsan-message: '&cNot enough arguments. You have to specify if you want it on or off: /alwaysnight [world|all] [on|off].'
+worldraintypean-message: '&5Type: /alwaysnight [world|all] [on|off] to enable or disable always day.'
+notanormalworldan-message: '&cAlways night can only be enabled or disabled in normal type worlds.'
+alwaysnightisdisabled-message: '&bAlways night is &3disabled &bin world &3%world%&b.'
+alwaysnightisenabled-message: '&aAlways night is &2enabled &ain world &2%world%&a.'
+alwaysnightdisabled-message: '&bYou have &3disabled &balways night in world &3%world%&b.'
+alwaysnightdisabledall-message: '&bYou have &3disabled &balways night in all worlds.'
+alwaysnightenabled-message: '&aYou have &2enabled &aalways night in world &2%world%&a.'
+alwaysnightenabledall-message: '&aYou have &2enabled &aalways night in all worlds.'
+alwaysnightenabledallwithex-message: '&aYou have &2enabled &aalways night in some worlds because some others have always day enabled.'
+couldntalwaysnightenabledall-message: '&cYou couldnt enable always night in any worlds because all of them have always day enabled.'
+alreadydisabledan-message: '&cYou cant disable always night in world &4%world%&c because it has been already disabled.'
+alreadyenabledan-message: '&cYou cant enable always night in world &4%world%&c because it has been already enabled.'
+alreadyalwaysday-message: '&cYou cant enable always night in world &4%world%&c because it has enabled always day, disable always day first.'
+
+#Do not touch this.
+FileVersion: '1.3.1'

@@ -1,0 +1,27 @@
+id: starter_kit
+title: "&aStarter Kit"
+size: 9
+items:
+  sword:
+    material: IRON_SWORD
+    slot: 4
+    name: "&aSword"
+    lore:
+      - "&7A basic iron sword."
+    click-actions:
+      give:
+        type: give item
+        item:
+          material: IRON_SWORD
+  bread:
+    material: BREAD
+    slot: 6
+    name: "&aFood"
+    lore:
+      - "&7A piece of bread"
+    click-actions:
+      give:
+        type: give item
+        item:
+          material: BREAD
+          amount: 3

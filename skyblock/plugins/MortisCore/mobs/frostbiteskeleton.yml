@@ -1,0 +1,23 @@
+id: frostbite_skeleton
+type: SKELETON
+tag: frostbite_skeleton
+name: "&fFrostbite Skeleton"
+drops:
+  ice-shard:
+    chance: 50
+    material: ICE
+    name: "&bFrozen Shard"
+    lore:
+      - "&7A chilling fragment of ice"
+  frostbone:
+    chance: 30
+    material: BONE
+    name: "&bFrostbone"
+    lore:
+      - "&7Bone infused with icy magic"
+  frozen-bow:
+    chance: 10
+    material: BOW
+    name: "&bGlacier Bow"
+    lore:
+      - "&7Shoots freezing arrows"

@@ -1,0 +1,1692 @@
+Pets:
+  Cow:
+    Name: '&9Cow'
+    Material: LEATHER
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Cow Pet.'
+    Types:
+      Cow:
+        Name: '&9Cow'
+        Material: LEATHER
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Cow:
+        Name: '&9Cow &7(Baby)'
+        Material: WHEAT
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Mushroom Cow:
+        Name: '&9Mushroom Cow'
+        Material: RED_MUSHROOM
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Mushroom Cow:
+        Name: '&9Mushroom Cow &7(Baby)'
+        Material: MUSHROOM_STEW
+        Mystery Dust: 90
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Cow
+  Chicken:
+    Name: '&9Chicken'
+    Material: EGG
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Chicken Pet.'
+    Types:
+      Chicken:
+        Name: '&9Chicken'
+        Material: FEATHER
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Chicken:
+        Name: '&9Chicken &7(Baby)'
+        Material: WHEAT_SEEDS
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Chicken
+  Wolf:
+    Name: '&9Wolf'
+    Material: BONE
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Wolf Pet.'
+    Types:
+      Wolf:
+        Name: '&9Wolf'
+        Material: BONE
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Wolf:
+        Name: '&9Wolf &7(Baby)'
+        Material: BONE_MEAL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Wolf
+  Pig:
+    Name: '&9Pig'
+    Material: PORKCHOP
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Pig Pet.'
+    Types:
+      Pig:
+        Name: '&9Pig'
+        Material: COOKED_PORKCHOP
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Pig:
+        Name: '&9Pig &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Pig Zombie:
+        Name: '&9Pig Zombie'
+        Material: GOLD_INGOT
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Pig Zombie:
+        Name: '&9Pig Zombie &7(Baby)'
+        Material: GOLD_NUGGET
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+    GUI-Name: Pig
+  Silverfish:
+    Name: '&9Silverfish'
+    Material: SILVERFISH_SPAWN_EGG
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Silverfish Pet.'
+    Types:
+      Silverfish:
+        Name: '&9Silverfish'
+        Material: SILVERFISH_SPAWN_EGG
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Silverfish
+  Endermite:
+    Name: '&9Endermite'
+    Material: ENDERMITE_SPAWN_EGG
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Endermite Pet.'
+    Types:
+      Endermite:
+        Name: '&9Endermite'
+        Material: ENDERMITE_SPAWN_EGG
+        Mystery Dust: 55
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Endermite
+  Zombie:
+    Name: '&9Zombie'
+    Material: ZOMBIE_HEAD
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Zombie Pet.'
+    Types:
+      Zombie:
+        Name: '&9Zombie'
+        Material: ROTTEN_FLESH
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Zombie:
+        Name: '&9Zombie &7(Baby)'
+        Material: POTATO
+        Mystery Dust: 50
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      Husk:
+        Name: '&9Zombie Husk'
+        Material: head:d674c63c8db5f4ca628d69a3b1f8a36e29d8fd775e1a6bdb6cabb4be4db121
+        Mystery Dust: 45
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Husk:
+        Name: '&9Zombie Husk &7(Baby)'
+        Material: head:d674c63c8db5f4ca628d69a3b1f8a36e29d8fd775e1a6bdb6cabb4be4db121
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      Red Little Helper:
+        Name: '&9Red Little Helper'
+        Material: LEATHER_HELMET:#FF0000
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      Green Little Helper:
+        Name: '&9Green Little Helper'
+        Material: LEATHER_HELMET:#00FF00
+        Mystery Dust: 30
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+    GUI-Name: Zombie
+  Cat:
+    Name: '&9Cat'
+    Material: COD
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Cat Pet.'
+    Types:
+      Black Cat:
+        Name: '&9Cat: Black'
+        Material: BLACK_WOOL
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Black Cat:
+        Name: '&9Cat: Black &7(Baby)'
+        Material: BLACK_CARPET
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Red Cat:
+        Name: '&9Cat: Red'
+        Material: RED_WOOL
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Red Cat:
+        Name: '&9Cat: Red &7(Baby)'
+        Material: RED_CARPET
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Siamese Cat:
+        Name: '&9Cat: Siamese'
+        Material: GRAY_WOOL
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Siamese Cat:
+        Name: '&9Cat: Siamese &7(Baby)'
+        Material: GRAY_CARPET
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Wild Ocelot:
+        Name: '&9Wild Ocelot'
+        Material: ORANGE_WOOL
+        Mystery Dust: 15
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Wild Ocelot:
+        Name: '&9Wild Ocelot &7(Baby)'
+        Material: ORANGE_CARPET
+        Mystery Dust: 35
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Cat
+  Rabbit:
+    Name: '&9Rabbit'
+    Material: CARROT
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Rabbit Pet.'
+    Types:
+      Black Rabbit:
+        Name: '&9Rabbit: Black'
+        Material: head:72c58116a147d1a9a26269224a8be184fe8e5f3f3df9b61751369ad87382ec9
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Baby Black Rabbit:
+        Name: '&9Rabbit: Black &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Black & White Rabbit:
+        Name: '&9Rabbit: Black & White'
+        Material: head:cb8cff4b15b8ca37e25750f345718f289cb22c5b3ad22627a71223faccc
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Baby Black & White Rabbit:
+        Name: '&9Rabbit: Black & White &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Brown Rabbit:
+        Name: '&9Rabbit: Brown'
+        Material: head:7d1169b2694a6aba826360992365bcda5a10c89a3aa2b48c438531dd8685c3a7
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Baby Brown Rabbit:
+        Name: '&9Rabbit: Brown &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Gold Rabbit:
+        Name: '&9Rabbit: Gold'
+        Material: head:c977a3266bf3b9eaf17e5a02ea5fbb46801159863dd288b93e6c12c9cb
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Baby Gold Rabbit:
+        Name: '&9Rabbit: Gold &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Salt & Pepper Rabbit:
+        Name: '&9Rabbit: Salt & Pepper'
+        Material: head:dc29aebe803e5d4dc3b010c9dd56444f863b2d86a6a2afd4a6a721748ba4fa
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Baby Salt & Pepper Rabbit:
+        Name: '&9Rabbit: Salt & Pepper &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      White Rabbit:
+        Name: '&9Rabbit: White'
+        Material: head:374d8298797e712bb1f75ad6ffa7734ac4237ea69be1db92f0e41115a2c170cf
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+      Baby White Rabbit:
+        Name: '&9Rabbit: White &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.9
+        Lore: ''
+    GUI-Name: Rabbit
+  Sheep:
+    Name: '&9Sheep'
+    Material: WHITE_WOOL
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Sheep Pet.'
+    Types:
+      Black Sheep:
+        Name: '&9Sheep: Black'
+        Material: BLACK_TERRACOTTA
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Black Sheep:
+        Name: '&9Sheep: Black &7(Baby)'
+        Material: BLACK_WOOL
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Blue Sheep:
+        Name: '&9Sheep: Blue'
+        Material: BLUE_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Blue Sheep:
+        Name: '&9Sheep: Blue &7(Baby)'
+        Material: BLUE_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Brown Sheep:
+        Name: '&9Sheep: Brown'
+        Material: BROWN_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Brown Sheep:
+        Name: '&9Sheep: Brown &7(Baby)'
+        Material: BROWN_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Cyan Sheep:
+        Name: '&9Sheep: Cyan'
+        Material: CYAN_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Cyan Sheep:
+        Name: '&9Sheep: Cyan &7(Baby)'
+        Material: CYAN_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Gray Sheep:
+        Name: '&9Sheep: Gray'
+        Material: GRAY_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Gray Sheep:
+        Name: '&9Sheep: Gray &7(Baby)'
+        Material: GRAY_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Green Sheep:
+        Name: '&9Sheep: Green'
+        Material: GREEN_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Green Sheep:
+        Name: '&9Sheep: Green &7(Baby)'
+        Material: GREEN_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Light Blue Sheep:
+        Name: '&9Sheep: Light Blue'
+        Material: LIGHT_BLUE_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Light Blue Sheep:
+        Name: '&9Sheep: Light Blue &7(Baby)'
+        Material: LIGHT_BLUE_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Lime Sheep:
+        Name: '&9Sheep: Lime'
+        Material: LIME_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Lime Sheep:
+        Name: '&9Sheep: Lime &7(Baby)'
+        Material: LIME_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Magenta Sheep:
+        Name: '&9Sheep: Magenta'
+        Material: MAGENTA_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Magenta Sheep:
+        Name: '&9Sheep: Magenta &7(Baby)'
+        Material: MAGENTA_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Orange Sheep:
+        Name: '&9Sheep: Orange'
+        Material: ORANGE_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Orange Sheep:
+        Name: '&9Sheep: Orange &7(Baby)'
+        Material: ORANGE_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Pink Sheep:
+        Name: '&9Sheep: Pink'
+        Material: PINK_TERRACOTTA
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Pink Sheep:
+        Name: '&9Sheep: Pink &7(Baby)'
+        Material: PINK_WOOL
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Purple Sheep:
+        Name: '&9Sheep: Purple'
+        Material: PURPLE_TERRACOTTA
+        Mystery Dust: 55
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Purple Sheep:
+        Name: '&9Sheep: Purple &7(Baby)'
+        Material: PURPLE_WOOL
+        Mystery Dust: 75
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Red Sheep:
+        Name: '&9Sheep: Red'
+        Material: RED_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Red Sheep:
+        Name: '&9Sheep: Red &7(Baby)'
+        Material: RED_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Silver Sheep:
+        Name: '&9Sheep: Silver'
+        Material: LIGHT_GRAY_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Silver Sheep:
+        Name: '&9Sheep: Silver &7(Baby)'
+        Material: LIGHT_GRAY_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      White Sheep:
+        Name: '&9Sheep: White'
+        Material: WHITE_TERRACOTTA
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby White Sheep:
+        Name: '&9Sheep: White &7(Baby)'
+        Material: WHITE_WOOL
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Yellow Sheep:
+        Name: '&9Sheep: Yellow'
+        Material: YELLOW_TERRACOTTA
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Yellow Sheep:
+        Name: '&9Sheep: Yellow &7(Baby)'
+        Material: YELLOW_WOOL
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Sheep
+  Horse:
+    Name: '&9Horse'
+    Material: SADDLE
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Horse Pet.'
+    Types:
+      Black Horse:
+        Name: '&9Horse: Black'
+        Material: COAL
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Black Horse:
+        Name: '&9Horse: Black &7(Baby)'
+        Material: CHARCOAL
+        Mystery Dust: 60
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Brown Horse:
+        Name: '&9Horse: Brown'
+        Material: BRICK
+        Mystery Dust: 15
+        Rarity: Common
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Brown Horse:
+        Name: '&9Horse: Brown &7(Baby)'
+        Material: COCOA_BEANS
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Chestnut Horse:
+        Name: '&9Horse: Chestnut'
+        Material: MELON_SEEDS
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Chestnut Horse:
+        Name: '&9Horse: Chestnut &7(Baby)'
+        Material: PUMPKIN_SEEDS
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Creamy Horse:
+        Name: '&9Horse: Creamy'
+        Material: MILK_BUCKET
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Creamy Horse:
+        Name: '&9Horse: Creamy &7(Baby)'
+        Material: SUGAR
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Dark Brown Horse:
+        Name: '&9Horse: Dark Brown'
+        Material: DARK_OAK_LOG
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Dark Brown Horse:
+        Name: '&9Horse: Dark Brown &7(Baby)'
+        Material: DARK_OAK_PLANKS
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Gray Horse:
+        Name: '&9Horse: Gray'
+        Material: APPLE
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Gray Horse:
+        Name: '&9Horse: Gray &7(Baby)'
+        Material: GRAY_DYE
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      White Horse:
+        Name: '&9Horse: White'
+        Material: QUARTZ_BLOCK
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby White Horse:
+        Name: '&9Horse: White &7(Baby)'
+        Material: DIORITE
+        Mystery Dust: 60
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Donkey:
+        Name: '&9Donkey'
+        Material: LEATHER
+        Mystery Dust: 27
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Donkey:
+        Name: '&9Donkey &7(Baby)'
+        Material: CARROT
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Mule:
+        Name: '&9Mule'
+        Material: COOKED_MUTTON
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Mule:
+        Name: '&9Mule &7(Baby)'
+        Material: MUTTON
+        Mystery Dust: 35
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Skeleton Horse:
+        Name: '&9Skeleton Horse'
+        Material: BONE
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Skeleton Horse:
+        Name: '&9Skeleton Horse &7(Baby)'
+        Material: BONE_MEAL
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Undead Horse:
+        Name: '&9Undead Horse'
+        Material: DARK_OAK_SAPLING
+        Mystery Dust: 63
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Undead Horse:
+        Name: '&9Undead Horse &7(Baby)'
+        Material: DEAD_BUSH
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Horse
+  Villager:
+    Name: '&9Villager'
+    Material: EMERALD
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Villager Pet.'
+    Types:
+      Blacksmith Villager:
+        Name: '&9Villager: Blacksmith'
+        Material: IRON_ORE
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Blacksmith Villager:
+        Name: '&9Villager: Blacksmith &7(Baby)'
+        Material: IRON_INGOT
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Butcher Villager:
+        Name: '&9Villager: Butcher'
+        Material: IRON_AXE
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Butcher Villager:
+        Name: '&9Villager: Butcher &7(Baby)'
+        Material: WOODEN_AXE
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Farmer Villager:
+        Name: '&9Villager: Farmer'
+        Material: IRON_HOE
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Farmer Villager:
+        Name: '&9Villager: Farmer &7(Baby)'
+        Material: WOODEN_HOE
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Librarian Villager:
+        Name: '&9Villager: Librarian'
+        Material: BOOKSHELF
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Librarian Villager:
+        Name: '&9Villager: Librarian &7(Baby)'
+        Material: BOOK
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Priest Villager:
+        Name: '&9Villager: Priest'
+        Material: WRITABLE_BOOK
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Baby Priest Villager:
+        Name: '&9Villager: Priest &7(Baby)'
+        Material: MAP
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Zombie Villager:
+        Name: '&9Villager: Zombie'
+        Material: GOLDEN_APPLE
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Zombie Villager:
+        Name: '&9Villager: Zombie &7(Baby)'
+        Material: GOLDEN_HELMET
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      Witch:
+        Name: '&9Witch'
+        Material: POTION:8196
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Evoker:
+        Name: '&9Evoker'
+        Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Vindicator:
+        Name: '&9Vindicator'
+        Material: head:4f6fb89d1c631bd7e79fe185ba1a6705425f5c31a5ff626521e395d4a6f7e2
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Illusioner:
+        Name: '&9Illusioner'
+        Material: head:1c678c9f4c6dd4d991930f82e6e7d8b89b2891f35cba48a4b18539bbe7ec927
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Villager
+  Spider:
+    Name: '&9Spider'
+    Material: STRING
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Spider Pet.'
+    Types:
+      Spider:
+        Name: '&9Spider'
+        Material: SPIDER_EYE
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Cave Spider:
+        Name: '&9Cave Spider'
+        Material: STRING
+        Mystery Dust: 27
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Spider
+  Skeleton:
+    Name: '&9Skeleton'
+    Material: BOW
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Skeleton Pet.'
+    Types:
+      Skeleton:
+        Name: '&9Skeleton'
+        Material: BOW
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Wither Skeleton:
+        Name: '&9Wither Skeleton'
+        Material: STONE_SWORD
+        Mystery Dust: 70
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Stray Skeleton:
+        Name: '&9Stray Skeleton'
+        Material: head:78ddf76e555dd5c4aa8a0a5fc584520cd63d489c253de969f7f22f85a9a2d56
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Skeleton
+  Blaze:
+    Name: '&9Blaze'
+    Material: BLAZE_ROD
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Blaze Pet.'
+    Types:
+      Blaze:
+        Name: '&9Blaze'
+        Material: BLAZE_ROD
+        Mystery Dust: 55
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Blaze
+  Creeper:
+    Name: '&9Creeper'
+    Material: CREEPER_HEAD
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Creeper Pet.'
+    Types:
+      Creeper:
+        Name: '&9Creeper'
+        Material: GUNPOWDER
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+      Powered Creeper:
+        Name: '&9Powered Creeper'
+        Material: TNT
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.7
+        Lore: ''
+    GUI-Name: Creeper
+  Golem:
+    Name: '&9Golem'
+    Material: head:89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Golem Pet.'
+    Types:
+      Golem:
+        Name: '&9Golem'
+        Material: IRON_BLOCK
+        Mystery Dust: 200
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Golem
+  Snowman:
+    Name: '&9Snowman'
+    Material: SNOWBALL
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Snowman Pet.'
+    Types:
+      Snowman:
+        Name: '&9Snowman'
+        Material: SNOWBALL
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+    GUI-Name: Snowman
+  Polar Bear:
+    Name: '&9Polar Bear'
+    Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Polar Bear Pet.'
+    Types:
+      Polar Bear:
+        Name: '&9Polar Bear'
+        Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Polar Bear:
+        Name: '&9Polar Bear &7(Baby)'
+        Material: head:bab178f5cdd750f0e356860aa5539153eb2abec1e146ca57c65d25a5df8fdfe
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+    GUI-Name: Polar Bear
+  Llama:
+    Name: '&9Llama'
+    Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
+    Enabled: true
+    Lore:
+    - ''
+    - '&7&m---------------------------'
+    - '&9You can customize your Llama Pet.'
+    Types:
+      Brown Llama:
+        Name: '&9Llama: Brown'
+        Material: head:c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Brown Llama:
+        Name: '&9Llama: Brown &7(Baby)'
+        Material: head:c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      Creamy Llama:
+        Name: '&9Llama: Creamy'
+        Material: head:80899acfebf947a0effc4022deb080543f7e389116bd4964c2c227ffa34a3375
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Creamy Llama:
+        Name: '&9Llama: Creamy &7(Baby)'
+        Material: head:80899acfebf947a0effc4022deb080543f7e389116bd4964c2c227ffa34a3375
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      Gray Llama:
+        Name: '&9Llama: Gray'
+        Material: head:cf24e56fd9ffd7133da6d1f3e2f455952b1da462686f753c597ee82299a
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby Gray Llama:
+        Name: '&9Llama: Gray &7(Baby)'
+        Material: head:cf24e56fd9ffd7133da6d1f3e2f455952b1da462686f753c597ee82299a
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+      White Llama:
+        Name: '&9Llama: White'
+        Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.6
+        Lore: ''
+      Baby White Llama:
+        Name: '&9Llama: White &7(Baby)'
+        Material: head:83d9b5915912ffc2b85761d6adcb428a812f9b83ff634e331162ce46c99e9
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: false
+        Purchasable: false
+        Move-Speed: 0.5
+        Lore: ''
+    GUI-Name: Llama
+  Panda:
+    Name: '&ePanda'
+    Material: head:dca096eea506301bea6d4b17ee1605625a6f5082c71f74a639cc940439f47166
+    Enabled: true
+    Lore:
+    - '&7Click here to see all pets'
+    - '&7in the Panda category!'
+    Types:
+      Normal Panda:
+        Name: '&5Panda: Normal'
+        Material: head:dca096eea506301bea6d4b17ee1605625a6f5082c71f74a639cc940439f47166
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Normal'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Normal Panda:
+        Name: '&6Panda: Normal (Baby)'
+        Material: head:dca096eea506301bea6d4b17ee1605625a6f5082c71f74a639cc940439f47166
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Normal (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+      Lazy Panda:
+        Name: '&5Panda: Lazy'
+        Material: head:7818b681cace1c641919f53edadecb142330d089a826b56219138c33b7a5e0db
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Lazy'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Lazy Panda:
+        Name: '&6Panda: Lazy (Baby)'
+        Material: head:7818b681cace1c641919f53edadecb142330d089a826b56219138c33b7a5e0db
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Lazy (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+      Worried Panda:
+        Name: '&5Panda: Worried'
+        Material: head:c8e921c57e54dd07337ffba629e72caf3850d836b76562b1bc3bc5949f2d41d
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Worried'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Worried Panda:
+        Name: '&6Panda: Worried (Baby)'
+        Material: head:c8e921c57e54dd07337ffba629e72caf3850d836b76562b1bc3bc5949f2d41d
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Worried (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+      Playful Panda:
+        Name: '&5Panda: Playful'
+        Material: head:b6463e64ce29764db3cb46806cee606afc24bdf0ce14b6660c270a96c787426
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Playful'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Playful Panda:
+        Name: '&6Panda: Playful (Baby)'
+        Material: head:b6463e64ce29764db3cb46806cee606afc24bdf0ce14b6660c270a96c787426
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Playful (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+      Brown Panda:
+        Name: '&5Panda: Brown'
+        Material: head:c5d0d45bf992b072cf5c513e06beefe8bdc809c8150f3d14b883796a7b74e406
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Brown'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Brown Panda:
+        Name: '&6Panda: Brown (Baby)'
+        Material: head:c5d0d45bf992b072cf5c513e06beefe8bdc809c8150f3d14b883796a7b74e406
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Brown (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+      Weak Panda:
+        Name: '&5Panda: Weak'
+        Material: head:5c2d25e956337d82791fa0e6617a40086f02d6ebfbfd5a6459889cf206fca787
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Weak'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Weak Panda:
+        Name: '&6Panda: Weak (Baby)'
+        Material: head:5c2d25e956337d82791fa0e6617a40086f02d6ebfbfd5a6459889cf206fca787
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Weak (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+      Aggressive Panda:
+        Name: '&5Panda: Aggressive'
+        Material: head:83fe1e782ae96a30336a03ef74681ce3a6905fcc673fa56c046aaee6aa28307d
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - '&7Type: &9Panda: Aggressive'
+        - ''
+        - '&7Click to summon this pet.'
+      Baby Aggressive Panda:
+        Name: '&6Panda: Aggressive (Baby)'
+        Material: head:83fe1e782ae96a30336a03ef74681ce3a6905fcc673fa56c046aaee6aa28307d
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - '&7Type: &9Panda: Aggressive (Baby)'
+        - ''
+        - '&7Click to summon this pet.'
+    GUI-Name: Panda

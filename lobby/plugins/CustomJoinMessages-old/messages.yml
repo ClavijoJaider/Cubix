@@ -1,0 +1,237 @@
+# Default Placeholders:
+#
+# %name% -> Players Name
+# %displayname% -> Players Display Name
+# %prefix% -> Players Prefix
+# %suffix% -> Players Suffix
+# %uniquejoins% -> The amount of players who have joined
+#
+# All placeholders from PlaceholderAPI can be used in all messages
+#
+# To add multiple lines, just add to the message lists.
+# For random messages, add another number with more messages under the 'Messages' section.
+#
+# If the permission is set to 'cjm.default' you don't need to give players that permission. it will work for everyone even if you deny it.
+#
+# To center a message in the chatbox, simply put '<center>' at the beginning of the message.
+#
+# All chat messages support JSON!
+# You can use https://minecraft.tools/en/tellraw.php to create JSON messages.
+# just remember to surround the JSON part with ( ' ' ).
+#
+# If you combine regular messages & JSON messages into the same
+# section, the regular messages will be sent first no matter the order in the list. This is
+# due to how JSON messages are sent. If you want them to stay in order, You'll
+# have to make the other messages JSON as well.
+# This can be done as simple as '{"text":"&aYour message here!"}'
+
+Prefix: '§x§f§f§8§a§0§0♯ §x§f§f§9§6§0§0§l| §x§f§f§a§1§0§0S§x§f§f§a§d§0§0e§x§f§f§b§8§0§0r§x§f§f§c§4§0§0v§x§f§f§c§f§0§0e§x§f§f§d§b§0§0r §x§f§f§e§6§0§0･ §f'
+
+Public:
+  Chat:
+    First-Join:
+      1:
+        Permission: cjm.default
+    Join:
+      default:
+        Permission: cjm.default
+      1:
+        Permission: cjm.media
+        Messages:
+          1:
+            - §6§l> §e¡El jugador §x§f§f§0§0§f§5§lM§x§e§e§0§0§e§2§lE§x§d§e§0§0§c§f§lD§x§c§d§0§0§b§c§lI§x§b§c§0§0§a§9§lA §f%name% §eha entrado al lobby!
+      2:
+        Permission: cjm.duque
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§0§0§9§4§f§f§lD§x§0§0§7§d§f§f§lU§x§0§0§6§6§f§f§lQ§x§0§0§4§f§f§f§lU§x§0§0§3§8§f§f§lE &f%name% &eha entrado al lobby!'
+      3:
+        Permission: cjm.rey
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§f§f§c§7§0§0§lR§x§f§f§b§0§0§0§lE§x§f§f§9§9§0§0§lY &f%name% &eha entrado al lobby!'
+      4:
+        Permission: cjm.emperador
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§8§6§0§0§7§9§lE§x§8§e§0§0§8§0§lM§x§9§7§0§0§8§8§lP§x§9§f§0§0§8§f§lE§x§a§7§0§0§9§7§lR§x§a§f§0§0§9§e§lA§x§b§8§0§0§a§5§lD§x§c§0§0§0§a§d§lO§x§c§8§0§0§b§4§lR &f%name% &eha entrado al lobby!'
+      5:
+        Permission: cjm.cmod
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§0§0§7§b§8§b§lC§x§0§0§9§0§9§c§l-§x§0§0§a§6§a§e§lM§x§0§0§b§b§b§f§lO§x§0§0§d§0§d§0§lD &f%name% &eha entrado al lobby!'
+      6:
+        Permission: cjm.mod
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§0§0§9§d§3§f§lM§x§0§0§b§b§3§1§lO§x§0§0§d§8§2§3§lD &f%name% &eha entrado al lobby!'
+      7:
+        Permission: cjm.admin
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§d§8§0§0§0§0§lA§x§e§2§1§2§1§2§lD§x§e§c§2§3§2§3§lM§x§f§5§3§5§3§5§lI§x§f§f§4§6§4§6§lN &f%name% &eha entrado al lobby!'
+      8:
+        Permission: cjm.manager
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§d§8§0§0§0§0§lM§x§d§f§0§c§0§c§lA§x§e§5§1§7§1§7§lN§x§e§c§2§3§2§3§lA§x§f§2§2§f§2§f§lG§x§f§9§3§a§3§a§lE§x§f§f§4§6§4§6§lR &f%name% &eha entrado al lobby!'
+      9:
+        Permission: cjm.dueño
+        Messages:
+          1:
+            - '&6&l> &e¡El jugador §x§a§a§0§0§0§0§lD§x§b§f§0§0§0§0§lU§x§d§5§0§0§0§0§lE§x§e§a§0§0§0§0§lÑ§x§f§f§0§0§0§0§lO &f%name% &eha entrado al lobby!'
+    Quit:
+      1:
+        Permission: cjm.notused
+        Messages:
+          1:
+            - '&a%name% &7has left!'
+
+  # 'Fade-In', 'Stay' & 'Fade-Out' values only work on 1.10+.
+  Title:
+    First-Join:
+      1:
+        Permission: cjm.default
+        Title: ''
+        SubTitle: ''
+        Fade-In: 2
+        Stay: 40
+        Fade-Out: 2
+    Join:
+      1:
+        Permission: cjm.default
+        Title: ''
+        SubTitle: ''
+        Fade-In: 2
+        Stay: 40
+        Fade-Out: 2
+    Quit:
+      1:
+        Permission: cjm.default
+        Title: ''
+        SubTitle: ''
+        Fade-In: 2
+        Stay: 40
+        Fade-Out: 2
+
+  # Doesn't work on 1.8.
+  ActionBar:
+    First-Join:
+      1:
+        Permission: cjm.default
+        Message: '&7Welcome &a%name% &7to our server!'
+    Join:
+      2:
+        Permission: cjm.default
+        Message: '&a%name% &7has joined!'
+    Quit:
+      2:
+        Permission: cjm.default
+        Message: '&a%name% &7has left!'
+
+# Messages only sent to the person who joined.
+Private:
+  Chat:
+    First-Join:
+      1:
+        Permission: cjm.default
+        Messages:
+          1:
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r §x§f§f§6§b§0§0§l¡§x§f§f§6§e§0§0§lʙ§x§f§f§7§1§0§0§lɪ§x§f§f§7§4§0§0§lᴇ§x§f§f§7§7§0§0§lɴ§x§f§f§7§a§0§0§lᴠ§x§f§f§7§d§0§0§lᴇ§x§f§f§8§0§0§0§lɴ§x§f§f§8§3§0§0§lɪ§x§f§f§8§6§0§0§lᴅ§x§f§f§8§9§0§0§l@ §x§f§f§8§c§0§0§lᴀ §x§f§f§8§f§0§0§lʟ§x§f§f§9§2§0§0§lᴏ§x§f§f§9§4§0§0§lʙ§x§f§f§9§7§0§0§lʙ§x§f§f§9§a§0§0§lʏ §x§f§f§9§d§0§0§ls§x§f§f§a§0§0§0§lᴇ§x§f§f§a§3§0§0§lᴛ§x§f§f§a§6§0§0§lᴜ§x§f§f§a§9§0§0§lᴘ §x§f§f§a§c§0§0§lᴠ§x§f§f§a§f§0§0§l1§x§f§f§b§2§0§0§l.§x§f§f§b§5§0§0§l0§x§f§f§b§8§0§0§l!'
+            - '&r'
+            - '&r &8ᴇsᴘᴇʀᴏ ǫᴜᴇ ᴇsᴛᴇ sᴇᴛᴜᴘ ᴛᴇ ᴀʏᴜᴅᴇ ʏ ʟᴏs ᴅɪsғʀᴜᴛᴇs.'
+            - '&r'
+            - '&r &aʀᴇᴄᴜᴇʀᴅᴀ ǫᴜᴇ ᴇs ɪᴍᴘᴏʀᴛᴀɴᴛᴇ ǫᴜᴇ ʟᴇᴀs ᴇʟ ᴀʀᴄʜɪᴠᴏ'
+            - '&r &aᴅᴇ ᴛᴇxᴛᴏ ǫᴜᴇ ᴠɪᴇɴᴇ ɪɴᴄʟᴜɪᴅᴏ ᴇɴ ᴇʟ ᴀʀᴄʜɪᴠᴏ ᴄᴏᴍᴘʀɪᴍɪᴅᴏ'
+            - '&r &aᴘᴀʀᴀ ǫᴜᴇ ᴛᴇɴɢᴀs ᴇɴ ᴄᴜᴇɴᴛᴀ ᴀsᴘᴇᴄᴛᴏs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs ᴅᴇʟ sᴇᴛᴜᴘ.'
+            - '&r '
+    Join:
+      1:
+        Permission: cjm.default
+        Messages:
+          1:
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r'
+            - '&r §x§f§f§6§b§0§0§l¡§x§f§f§6§e§0§0§lʙ§x§f§f§7§1§0§0§lɪ§x§f§f§7§4§0§0§lᴇ§x§f§f§7§7§0§0§lɴ§x§f§f§7§a§0§0§lᴠ§x§f§f§7§d§0§0§lᴇ§x§f§f§8§0§0§0§lɴ§x§f§f§8§3§0§0§lɪ§x§f§f§8§6§0§0§lᴅ§x§f§f§8§9§0§0§l@ §x§f§f§8§c§0§0§lᴀ §x§f§f§8§f§0§0§lʟ§x§f§f§9§2§0§0§lᴏ§x§f§f§9§4§0§0§lʙ§x§f§f§9§7§0§0§lʙ§x§f§f§9§a§0§0§lʏ §x§f§f§9§d§0§0§ls§x§f§f§a§0§0§0§lᴇ§x§f§f§a§3§0§0§lᴛ§x§f§f§a§6§0§0§lᴜ§x§f§f§a§9§0§0§lᴘ §x§f§f§a§c§0§0§lᴠ§x§f§f§a§f§0§0§l1§x§f§f§b§2§0§0§l.§x§f§f§b§5§0§0§l0§x§f§f§b§8§0§0§l!'
+            - '&r'
+            - '&r &8ᴇsᴘᴇʀᴏ ǫᴜᴇ ᴇsᴛᴇ sᴇᴛᴜᴘ ᴛᴇ ᴀʏᴜᴅᴇ ʏ ʟᴏs ᴅɪsғʀᴜᴛᴇs.'
+            - '&r'
+            - '&r &aʀᴇᴄᴜᴇʀᴅᴀ ǫᴜᴇ ᴇs ɪᴍᴘᴏʀᴛᴀɴᴛᴇ ǫᴜᴇ ʟᴇᴀs ᴇʟ ᴀʀᴄʜɪᴠᴏ'
+            - '&r &aᴅᴇ ᴛᴇxᴛᴏ ǫᴜᴇ ᴠɪᴇɴᴇ ɪɴᴄʟᴜɪᴅᴏ ᴇɴ ᴇʟ ᴀʀᴄʜɪᴠᴏ ᴄᴏᴍᴘʀɪᴍɪᴅᴏ'
+            - '&r &aᴘᴀʀᴀ ǫᴜᴇ ᴛᴇɴɢᴀs ᴇɴ ᴄᴜᴇɴᴛᴀ ᴀsᴘᴇᴄᴛᴏs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs ᴅᴇʟ sᴇᴛᴜᴘ.'
+            - '&r '
+
+  # 'Fade-In', 'Stay' & 'Fade-Out' values only work on 1.10+.
+  Title:
+    First-Join:
+      1:
+        Permission: cjm.default
+        Title: '&aWelcome!'
+        SubTitle: ''
+        Fade-In: 2
+        Stay: 60
+        Fade-Out: 2
+    Join:
+      1:
+        Permission: cjm.default
+        Title: '&2Welcome back!'
+        SubTitle: ''
+        Fade-In: 2
+        Stay: 60
+        Fade-Out: 2
+
+  # Doesn't work on 1.8.
+  ActionBar:
+    First-Join:
+      1:
+        Permission: cjm.default
+        Message: '&aWelcome to our server!'
+    Join:
+      2:
+        Permission: cjm.default
+        Message: '&2Welcome back!'
+
+
+Commands:
+  No-Permission: '&fNo tienes los permisos suficientes para hacer eso.'
+  joinmessage:
+    Enable: '&f¡Has &ahabilitado &flos anuncios de entrada!'
+    Disable: '&f¡Has &cdeshabilitado &flos anuncios de entrada!'
+    Already-Enabled: '&f¡Ya tienes los anuncios habilitados!'
+    Already-Disabled: '&f¡Ya tienes los anuncios deshabilitados!'
+  quitmessage:
+    Enable: '&aYou have &2enabled &aquit messages!'
+    Disable: '&aYou have &cdisabled &aquit messages!'
+    Already-Enabled: '&cYou already have quit messages enabled!'
+    Already-Disabled: '&cYou already have quit messages disabled!'
+
+# DO NOT TOUCH!!!
+version: "2.0.0"

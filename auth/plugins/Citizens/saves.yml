@@ -1,0 +1,55 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    name: §r
+    uuid: 156532e3-1e8c-4c6a-8b6d-ef1046e1209a
+    traits:
+      age: {}
+      horsemodifiers: {}
+      owner:
+        uuid: 4164d54c-6683-4f02-8461-5cc3382411df
+      type: WANDERING_TRADER
+      location:
+        bodyYaw: -149.9585
+        world: Auth
+        x: -4.5022
+        y: 49.0
+        z: 2.4807
+        yaw: -149.9585
+        pitch: 0.0
+      spawned: true
+      skintrait: {}
+      gravity:
+        enabled: true
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      commandtrait:
+        commands:
+          '0':
+            command: dm open wiki
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        temporaryPermissionsDuration: 0
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,horsemodifiers,gravity,skintrait,mounttrait,location,type,inventory,age
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      flyable: true

@@ -1,0 +1,7 @@
+# Copyright © 2020 Property of Rían Errity Licensed under GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See <LICENSE.md>
+
+# Command to be run following falling into the void
+# Set this to worldspawn if you'd like to teleport the player to the world spawn
+# Keep this as 'spawn %name%' if you have a plugin such as essentials or CMI that handles the /spawn command
+# %name% relates to the user's playername.
+fall-cmd: "spawn %name%"

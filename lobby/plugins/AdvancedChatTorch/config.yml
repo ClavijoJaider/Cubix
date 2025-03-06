@@ -1,0 +1,48 @@
+# #########################
+#
+# # AdvancedChatTorch
+#
+# # Created By MCGamer00000
+#
+# #########################
+
+# #########################
+#
+# # AdvancedChatTorch
+#
+# # Created By MCGamer00000
+#
+# #########################
+colorperm:
+  all: act.color.all
+  allColors: act.color.allcolors
+  black: act.color.black
+  dark_blue: act.color.dark_blue
+  dark_green: act.color.dark_green
+  aqua: act.color.aqua
+  dark_red: act.color.black
+  purple: act.color.black
+  gold: act.color.gold
+  light_gray: act.color.light_gray
+  dark_gray: act.color.dark_gray
+  light_blue: act.color.light_blue
+  light_green: act.color.light_green
+  light_red: act.color.light_red
+  magenta: act.color.magenta
+  yellow: act.color.yellow
+  white: act.color.white
+  bold: act.color.bold
+  strikethr: act.color.strikethrough
+  underline: act.color.underline
+  italic: act.color.italic
+  magic: act.color.magic
+ignore:
+  enabled: false
+  characterList:
+  - '@'
+  '@':
+    perm: act.ignoreCharacter
+chat:
+  autoUpdateGroups: true
+  enableRelationalPlaceholders: false
+  useOldWay: false

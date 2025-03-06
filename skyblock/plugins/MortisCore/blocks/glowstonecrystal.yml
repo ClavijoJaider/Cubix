@@ -1,0 +1,24 @@
+id: glowstone_crystal
+material: GLOWSTONE
+tag: glowstone_crystal
+item:
+  material: GLOWSTONE
+  name: "&6Glowstone Crystal"
+  lore:
+    - "&7Glowing with mystical energy"
+drops:
+  luminescent-dust:
+    chance: 75
+    material: GLOWSTONE_DUST
+    name: "&6Luminescent Dust"
+    lore:
+      - "&7A shimmering dust with"
+      - "&7magical properties"
+    glow: true
+  essence-vial:
+    chance: 25
+    material: EXPERIENCE_BOTTLE
+    name: "&aEssence Vial"
+    lore:
+      - "&7Contains essence of the"
+      - "&7Glowstone Crystal"

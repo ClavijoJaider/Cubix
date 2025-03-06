@@ -1,0 +1,50 @@
+
+#Archivo de configuración - Scoreboard de bienvenida.
+#
+#En este archivo se configuran las lineas que 
+#se mostraran unos segundos al entrar al servidor.
+
+#Configuración por frandhz
+
+display:
+  # TÍTULO SCOREBOARD
+    title:
+      text:
+      - "<gradient start=&#FFC700 end=&#FFEE55>&lAUTH</gradient>"
+      random: false
+  # LINEAS SCOREBOARD
+    fecha:
+      text:
+      - "   &7☀ %server_time_dd/MM/y%"
+      random: false
+      interval: 200
+      score: 6
+    vacio-1:
+      text:
+      - " "
+      random: false
+      score: 5
+    bv-1:
+      text:
+      - "&#FFEE55│ &f¡Bienvenid@ al"
+      random: false 
+      interval: 20
+      score: 4 
+    bv-2:
+      text:
+      - "&#FFEE55│ &fservidor!"
+      random: true
+      interval: 1
+      score: 3
+    vacio-2:
+      text:
+      - " "
+      random: true
+      interval: 1
+      score: 2
+    ip-servidor:
+      text:
+      - "<gradient start=&#FFEE55 end=&#FFC700>mc.servidor.net</gradient>"
+      random: true
+      interval: 1
+      score: 1

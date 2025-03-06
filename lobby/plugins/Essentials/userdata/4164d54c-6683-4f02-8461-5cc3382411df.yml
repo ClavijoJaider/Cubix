@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1663474140452
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663474648794
+  login: 1663474566889
+money: '1'
+last-account-name: frandhz
+lastlocation:
+  world: fe8bc52e-3296-450e-a5c7-c69389567ad1
+  world-name: Lobby
+  x: 0.46844502542384614
+  y: 99.0
+  z: 9.52415158625294
+  yaw: -0.6822675466537476
+  pitch: -3.2304859161376953
+logoutlocation:
+  world: fe8bc52e-3296-450e-a5c7-c69389567ad1
+  world-name: Lobby
+  x: 1.1873495665529825
+  y: 100.0
+  z: 0.8180994638739059
+  yaw: 10.67108154296875
+  pitch: 9.920023918151855
+nickname: frandhz

@@ -1,0 +1,23 @@
+id: blaze_guardian
+type: BLAZE
+tag: blaze_guardian
+name: "&6Blaze Guardian"
+drops:
+  blaze-essence:
+    chance: 40
+    material: BLAZE_POWDER
+    name: "&6Essence of Ember"
+    lore:
+      - "&7A potent blaze essence"
+  inferno-scale:
+    chance: 30
+    material: IRON_NUGGET
+    name: "&fInferno Scale"
+    lore:
+      - "&7Scale from a blazing guardian"
+  flameheart-sword:
+    chance: 15
+    material: GOLDEN_SWORD
+    name: "&6Flameheart Sword"
+    lore:
+      - "&7Sword ablaze with fiery power"

@@ -1,0 +1,190 @@
+Particles:
+  Water Splash:
+    Name: '&6Water Splash Particle'
+    Material: NETHER_STAR
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Drip Water:
+    Name: '&6Drip Water Particle'
+    Material: WATER_BUCKET
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Drip Lava:
+    Name: '&6Drip Lava Particle'
+    Material: LAVA_BUCKET
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Crit:
+    Name: '&6Crit Particle'
+    Material: STONE_SWORD
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Magic Crit:
+    Name: '&6Magic Crit Particle'
+    Material: POTION:8204
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Spell:
+    Name: '&6Spell Particle'
+    Material: ENDER_CHEST
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Instant Spell:
+    Name: '&6Instant Spell Particle'
+    Material: GHAST_TEAR
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Mob Spell:
+    Name: '&6Mob Spell Particle'
+    Material: EXPERIENCE_BOTTLE
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Witch Spell:
+    Name: '&6Witch Spell Particle'
+    Material: POTION:8260
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Angry Villager:
+    Name: '&6Angry Villager Particle'
+    Material: FIRE_CHARGE
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Happy Villager:
+    Name: '&6Happy Villager Particle'
+    Material: EMERALD
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Town Aura:
+    Name: '&6Town Aura Particle'
+    Material: MYCELIUM
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Note:
+    Name: '&6Note Particle'
+    Material: NOTE_BLOCK
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Portal:
+    Name: '&6Portal Particle'
+    Material: ENDER_PEARL
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Enchantment Table:
+    Name: '&6Enchantment Table Particle'
+    Material: ENCHANTING_TABLE
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Flame:
+    Name: '&6Flame Particle'
+    Material: GOLD_NUGGET
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Redstone:
+    Name: '&6Redstone Particle'
+    Material: REDSTONE
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Heart:
+    Name: '&6Heart Particle'
+    Material: POPPY
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Fireworks Spark:
+    Name: '&6Fireworks Spark Particle'
+    Material: FIREWORK_ROCKET
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Smoke:
+    Name: '&6Smoke Particle'
+    Material: FIREWORK_STAR
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Slime:
+    Name: '&6Slime Particle'
+    Material: SLIME_BALL
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''

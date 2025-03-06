@@ -1,0 +1,155 @@
+Morphs:
+  Pig:
+    Name: '&2Pig Morph'
+    Material: COOKED_PORKCHOP
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Cow:
+    Name: '&2Cow Morph'
+    Material: COOKED_BEEF
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Enderman:
+    Name: '&2Enderman Morph'
+    Material: ENDER_PEARL
+    Cooldown: 10
+    Mystery Dust: 60
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Chicken:
+    Name: '&2Chicken Morph'
+    Material: EGG
+    Cooldown: 10
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Spider:
+    Name: '&2Spider Morph'
+    Material: COBWEB
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Sheep:
+    Name: '&2Sheep Morph'
+    Material: WHITE_WOOL
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Skeleton:
+    Name: '&2Skeleton Morph'
+    Material: BOW
+    Cooldown: 10
+    Mystery Dust: 70
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Creeper:
+    Name: '&2Creeper Morph'
+    Material: TNT
+    Cooldown: 10
+    Mystery Dust: 95
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Blaze:
+    Name: '&2Blaze Morph'
+    Material: BLAZE_POWDER
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Zombie:
+    Name: '&2Zombie Morph'
+    Material: ROTTEN_FLESH
+    Cooldown: 10
+    Mystery Dust: 105
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Iron Golem:
+    Name: '&2Iron Golem Morph'
+    Material: IRON_BLOCK
+    Cooldown: 10
+    Mystery Dust: 120
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Witch:
+    Name: '&2Witch Morph'
+    Material: POTION:8196
+    Cooldown: 10
+    Mystery Dust: 110
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Snowman:
+    Name: '&2Snowman Morph'
+    Material: SNOWBALL
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''
+  Guardian:
+    Name: '&2Guardian Morph'
+    Material: PRISMARINE_SHARD
+    Cooldown: 10
+    Mystery Dust: 130
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Enabled-Ability: true
+    Lore: ''

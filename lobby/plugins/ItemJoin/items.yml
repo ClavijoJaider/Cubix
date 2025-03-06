@@ -1,0 +1,60 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 2
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  Modalidades:
+    id: PLAYER_HEAD
+    slot: 0
+    interact-right:
+      - 'player: selector'
+    name: '§x§0§0§a§7§1§1§l✦ §x§0§0§a§e§1§0§lᴍ§x§0§0§b§6§1§0§lᴏ§x§0§0§b§d§0§f§lᴅ§x§0§0§c§4§0§f§lᴀ§x§0§0§c§c§0§e§lʟ§x§0§0§d§3§0§e§lɪ§x§0§0§d§a§0§d§lᴅ§x§0§0§e§2§0§c§lᴀ§x§0§0§e§9§0§c§lᴅ§x§0§0§f§0§0§b§lᴇ§x§0§0§f§8§0§b§ls §x§0§0§f§f§0§a§l✦'
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0=
+    itemflags: inventory-modify, animate, death-drops, self-drops
+    triggers: join, respawn, world-switch
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    enabled-worlds: Lobby
+  Informacion:
+    id: PLAYER_HEAD
+    slot: 1
+    interact-right:
+      - 'player: informacion'
+    name: '&#084cfb&l✎ &#1759fb&lɪ&#2766fc&lɴ&#3674fc&lғ&#4681fd&lᴏ &#558efd&l✎'
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y2YmY5NThhYmQ3ODI5NWVlZDZmZmMyOTNiMWFhNTk1MjZlODBmNTQ5NzY4MjllYTA2ODMzN2MyZjVlOCJ9fX0=
+    enabled-worlds: Lobby
+    itemflags: inventory-modify,placement, hide-attributes, death-drops, self-drops
+    triggers: join, respawn, world-change
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+  Parkour:
+    id: PLAYER_HEAD
+    slot: 8
+    interact-right:
+      - 'console: ajp start %player% parkour'
+    name: '§x§0§0§8§f§a§f§l▞ §x§0§0§9§8§b§5§lᴘ§x§0§0§a§0§b§c§lᴀ§x§0§0§a§9§c§2§lʀ§x§0§0§b§2§c§9§lᴋ§x§0§0§b§a§c§f§lᴏ§x§0§0§c§3§d§5§lᴜ§x§0§0§c§b§d§c§lʀ §x§0§0§d§4§e§2§l▚'
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM1OTk1MWRjZDI4ODQzNTgzOTYzODY1ZGQ2ZGU4NjEzZTg5YzU1NjBmYzhlMmY3ZTExYzhhYmFiNzgifX19
+    enabled-worlds: Lobby
+    itemflags: inventory-modify,placement, hide-attributes, death-drops, self-drops
+    triggers: join, respawn, world-change
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+  Accesorios:
+    id: PLAYER_HEAD
+    slot: 7
+    interact-right:
+      - 'player: cosmetics'
+    name: '§x§b§4§0§0§0§0§l❃ §x§b§b§0§0§0§0§lᴀ§x§c§1§0§0§0§0§lᴄ§x§c§8§0§0§0§0§lᴄ§x§c§f§0§0§0§0§lᴇ§x§d§5§0§0§0§0§ls§x§d§c§0§0§0§0§lᴏ§x§e§2§0§0§0§0§lʀ§x§e§9§0§0§0§0§lɪ§x§f§0§0§0§0§0§lᴏ§x§f§6§0§0§0§0§ls §x§f§d§0§0§0§0§l❃'
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI5OTRiNDFmMDdmODdiMzI4MTg2YWNmY2JkYWJjNjk5ZDViMTg0N2ZhYmIyZTQ5ZDVhYmMyNzg2NTE0M2E0ZSJ9fX0=
+    enabled-worlds: Lobby
+    itemflags: inventory-modify,placement, hide-attributes, death-drops, self-drops
+    triggers: join, respawn, world-change
+    commands-sound: BLOCK_NOTE_BLOCK_PLING

@@ -1,0 +1,18 @@
+location: Lobby:8.525:102.545:22.528
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: RED_BED'
+    height: 0.6
+  - content: '&2&l¡NUEVAS HABILIDADES!'
+    height: 0.3
+  - content: '&3BedWars  v1.0'
+    height: 0.3
+  - content: '&e&l¡HAZ CLIC PARA IR!'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,8 @@
+Mystery-Vaults:
+  Lobby:
+    BlockFace: EAST
+    Location:
+      world: Lobby
+      x: -9.0
+      y: 100.0
+      z: 11.0

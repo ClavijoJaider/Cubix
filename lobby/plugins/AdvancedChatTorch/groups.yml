@@ -1,0 +1,160 @@
+default:
+  priority: 1
+  perm: chatformat.default
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: '7'
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+media:
+  priority: 2
+  perm: chatformat.media
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: '7'
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+duque:
+  priority: 3
+  perm: chatformat.duque
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: '7'
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+rey:
+  priority: 4
+  perm: chatformat.rey
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: '7'
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+emperador:
+  priority: 5
+  perm: chatformat.emperador
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: '7'
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+cmod:
+  priority: 6
+  perm: chatformat.cmod
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: b
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+mod:
+  priority: 7
+  perm: chatformat.mod
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: c
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+admin:
+  priority: 8
+  perm: chatformat.admin
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: c
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+manager:
+  priority: 9
+  perm: chatformat.manager
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: c
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"
+dueño:
+  priority: 10
+  perm: chatformat.dueño
+  format: '&e%alonsolevels_level%✰ %luckperms_prefix% &f%player_name%&7: %message%'
+  useChatColor: true
+  chatColor: c
+  on_click:
+    suggest_command: true
+    suggested_command: /msg %player_name%
+    run_command: false
+    runned_command: /info %player_name%
+  on_hover:
+    show_text: true
+    text_shown: "&e&lᴘᴇʀғɪʟ &f･ &7&o%player_name%\n\n &7･ &fNivel: &e%alonsolevels_level%✰\
+      \n &7･ &fTag: \n &7･ &fEntró: &d%player_first_played_formatted% \n \n   &bᴄʟ\
+      ɪᴄ ᴘᴀʀᴀ ᴍsɢ"

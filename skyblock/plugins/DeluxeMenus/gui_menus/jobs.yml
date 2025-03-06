@@ -1,0 +1,692 @@
+# JobsReborn GUI v1.4 made by GabyTM (https://www.mc-market.org/members/100752/)
+#
+# If you need any help you can contact me on discord @ https://gabytm.me/ or on MC-Market
+#
+
+menu_title: '&8Pick a Job!'
+open_command:
+- jobs browse
+size: 36
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: jobs.access
+      deny_commands:
+      - '[message] You dont have permission to open menu: Jobs'
+items:
+  'glass':
+    material: STAINED_GLASS_PANE
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    display_name: '&f '
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'woodcutter':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3ZWVhYjZiMDFjNjFjODBiNDQ0OWEwNWU5MmQzNWNiMDVkMzM2NTQ0YzljYmFmNDhjMTYxNGU4NDkyMCJ9fX0'
+    slot: 10
+    priority: 2
+    display_name: '&aWoodcutter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Woodcutter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Woodcutter%'
+    - '&9%jobsr_description_Woodcutter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fKill'
+    - '&7- &fCustom Kill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Woodcutter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Woodcutter'
+  'woodcutter-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3ZWVhYjZiMDFjNjFjODBiNDQ0OWEwNWU5MmQzNWNiMDVkMzM2NTQ0YzljYmFmNDhjMTYxNGU4NDkyMCJ9fX0'
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Woodcutter%'
+          output: true
+    display_name: '&aWoodcutter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Woodcutter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Woodcutter%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Woodcutter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fKill'
+    - '&7- &fCustom Kill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Woodcutter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Woodcutter'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'miner':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0'
+    slot: 11
+    priority: 2
+    display_name: '&8Miner'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Miner%'
+    - ' &7Workers: &a%jobsr_totalplayers_Miner%'
+    - '&9%jobsr_description_miner%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fTNTBreak'
+    - '&7- &fPlace'
+    - '&7- &fKill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Miner'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Miner'
+  'miner-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0'
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Miner%'
+          output: true
+    display_name: '&8Miner'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Miner%'
+    - ' &7Workers: &a%jobsr_totalplayers_Miner%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_miner%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fTNTBreak'
+    - '&7- &fPlace'
+    - '&7- &fKill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Miner'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Miner'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'builder':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ5OWZkZGY4ZjQ2YjZkZTI1NDYyZWY4ZWEzNmZhZmI3ZjY3MTM2OTI3MWY4YWRjYzM2Y2MwY2IxYWI4In19fQ'
+    slot: 12
+    priority: 2
+    display_name: '&fBuilder'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Builder%'
+    - ' &7Workers: &a%jobsr_totalplayers_Builder%'
+    - '&9%jobsr_description_Builder%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fTNTBreak'
+    - '&7- &fPlace'
+    - '&7- &fKill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Builder'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Builder'
+  'builder-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ5OWZkZGY4ZjQ2YjZkZTI1NDYyZWY4ZWEzNmZhZmI3ZjY3MTM2OTI3MWY4YWRjYzM2Y2MwY2IxYWI4In19fQ'
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Builder%'
+          output: true
+    display_name: '&fBuilder'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Builder%'
+    - ' &7Workers: &a%jobsr_totalplayers_Builder%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Builder%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fTNTBreak'
+    - '&7- &fPlace'
+    - '&7- &fKill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Builder'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Builder'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'digger':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMzOThhYjNjYjY5NmIzNDQzMGJlOTQ0YjE0YWZiZDIyN2ZkODdlOTkwMjZiY2ZjOGI3Mzg3YTg2MWJkZSJ9fX0'
+    slot: 13
+    priority: 2
+    display_name: '&6Digger'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Digger%'
+    - ' &7Workers: &a%jobsr_totalplayers_Digger%'
+    - '&9%jobsr_description_Digger%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fKill'
+    - '&7- &fCustom Kill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Digger'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Digger'
+  'digger-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMzOThhYjNjYjY5NmIzNDQzMGJlOTQ0YjE0YWZiZDIyN2ZkODdlOTkwMjZiY2ZjOGI3Mzg3YTg2MWJkZSJ9fX0'
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Digger%'
+          output: true
+    display_name: '&6Digger'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Digger%'
+    - ' &7Workers: &a%jobsr_totalplayers_Digger%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Digger%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fKill'
+    - '&7- &fCustom Kill'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Digger'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Digger'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'farmer':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE2NTY5MjZhZGNkNTA3ZmYwNzljZTQyZjUxNzc0MzVjMjhlZjM2OTM1OWNmN2NhNmY5ZDgyNWY1NzY3ZGIifX19'
+    slot: 14
+    priority: 2
+    display_name: '&9Farmer'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Farmer%'
+    - ' &7Workers: &a%jobsr_totalplayers_Farmer%'
+    - '&9%jobsr_description_Farmer%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fPlace'
+    - '&7- &fKill'
+    - '&7- &fBreed'
+    - '&7- &fTame'
+    - '&7- &fShear'
+    - '&7- &fMilk'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Farmer'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Farmer'
+  'farmer-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE2NTY5MjZhZGNkNTA3ZmYwNzljZTQyZjUxNzc0MzVjMjhlZjM2OTM1OWNmN2NhNmY5ZDgyNWY1NzY3ZGIifX19'
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Farmer%'
+          output: true
+    display_name: '&9Farmer'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Farmer%'
+    - ' &7Workers: &a%jobsr_totalplayers_Farmer%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Farmer%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBreak'
+    - '&7- &fPlace'
+    - '&7- &fKill'
+    - '&7- &fBreed'
+    - '&7- &fTame'
+    - '&7- &fShear'
+    - '&7- &fMilk'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Farmer'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Farmer'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'hunter':
+    material: head;%player_name%
+    slot: 15
+    priority: 2
+    display_name: '&cHunter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Hunter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Hunter%'
+    - '&9%jobsr_description_Hunter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fTame'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Hunter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Hunter'
+  'hunter-working':
+    material: head;%player_name%
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Hunter%'
+          output: true
+    display_name: '&cHunter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Hunter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Hunter%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Hunter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fTame'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Hunter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Hunter'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'explorer':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19'
+    slot: 16
+    priority: 2
+    display_name: '&bExplorer'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Explorer%'
+    - ' &7Workers: &a%jobsr_totalplayers_Explorer%'
+    - '&9%jobsr_description_Hunter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fExplore'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Explorer'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Explorer'
+  'explorer-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19'
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Explorer%'
+          output: true
+    display_name: '&bExplorer'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Explorer%'
+    - ' &7Workers: &a%jobsr_totalplayers_Explorer%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Hunter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fExplore'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Explorer'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Explorer'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'crafter':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U3ZDhjMjQyZDJlNGY4MDI4ZjkzMGJlNzZmMzUwMTRiMjFiNTI1NTIwOGIxYzA0MTgxYjI1NzQxMzFiNzVhIn19fQ'
+    slot: 20
+    priority: 2
+    display_name: '&cCrafter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Crafter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Crafter%'
+    - '&9%jobsr_description_Crafter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fCraft'
+    - '&7- &fSmelt'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Crafter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Crafter'
+  'crafter-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U3ZDhjMjQyZDJlNGY4MDI4ZjkzMGJlNzZmMzUwMTRiMjFiNTI1NTIwOGIxYzA0MTgxYjI1NzQxMzFiNzVhIn19fQ'
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Crafter%'
+          output: true
+    display_name: '&cCrafter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Crafter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Crafter%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Crafter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fCraft'
+    - '&7- &fSmelt'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Crafter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Crafter'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'fisherman':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBjZDcxZmJiYmJiNjZjN2JhZjc4ODFmNDE1YzY0ZmE4NGY2NTA0OTU4YTU3Y2NkYjg1ODkyNTI2NDdlYSJ9fX0'
+    slot: 21
+    priority: 2
+    display_name: '&bFisherman'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Fisherman%'
+    - ' &7Workers: &a%jobsr_totalplayers_Fisherman%'
+    - '&9%jobsr_description_Fisherman%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fFish'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Fisherman'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Fisherman'
+  'fisherman-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBjZDcxZmJiYmJiNjZjN2JhZjc4ODFmNDE1YzY0ZmE4NGY2NTA0OTU4YTU3Y2NkYjg1ODkyNTI2NDdlYSJ9fX0'
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Woodcutter%'
+          output: true
+    display_name: '&bFisherman'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Fisherman%'
+    - ' &7Workers: &a%jobsr_totalplayers_Fisherman%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Fisherman%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fKill'
+    - '&7- &fFish'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Fisherman'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Fisherman'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'weaponsmith':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ'
+    slot: 22
+    priority: 2
+    display_name: '&5Weaponsmith'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Weaponsmith%'
+    - ' &7Workers: &a%jobsr_totalplayers_Weaponsmith%'
+    - '&9%jobsr_description_Weaponsmith%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fCraft'
+    - '&7- &fSmelt'
+    - '&7- &fRepair'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Weaponsmith'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Weaponsmith'
+  'weaponsmith-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0MjVhYTNkOTQ2MThhODdkYWM5Yzk0ZjM3N2FmNmNhNDk4NGMwNzU3OTY3NGZhZDkxN2Y2MDJiN2JmMjM1In19fQ'
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Weaponsmith%'
+          output: true
+    display_name: '&5Weaponsmith'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Weaponsmith%'
+    - ' &7Workers: &a%jobsr_totalplayers_Weaponsmith%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Weaponsmith%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fCraft'
+    - '&7- &fSmelt'
+    - '&7- &fRepair'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Weaponsmith'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Weaponsmith'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'brewer':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVhYTNhM2E2MmMzYjdmZDE2MzZhMTg1YzRjMzFmNWQ3NmIyZDM2NTNjNWFkMzA4ZTg4MTllMmU2MTAxOSJ9fX0'
+    slot: 23
+    priority: 2
+    display_name: '&dBrewer'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Brewer%'
+    - ' &7Workers: &a%jobsr_totalplayers_Brewer%'
+    - '&9%jobsr_description_Brewer%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBrew'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Brewer'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Brewer'
+  'brewer-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVhYTNhM2E2MmMzYjdmZDE2MzZhMTg1YzRjMzFmNWQ3NmIyZDM2NTNjNWFkMzA4ZTg4MTllMmU2MTAxOSJ9fX0'
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Brewer%'
+          output: true
+    display_name: '&dBrewer'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Brewer%'
+    - ' &7Workers: &a%jobsr_totalplayers_Brewer%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Brewer%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fBrew'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Brewer'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Brewer'
+# +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  'enchanter':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+    slot: 24
+    priority: 2
+    display_name: '&1Enchanter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Enchanter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Enchanter%'
+    - '&9%jobsr_description_Enchanter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fEnchant'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto join this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Enchanter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs join Enchanter'
+  'enchanter-working':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19'
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        already_working:
+          type: string equals
+          input: '%jobsr_user_isin_Enchanter%'
+          output: true
+    display_name: '&1Enchanter'
+    lore:
+    - '&9Max Level: &f%jobsr_maxlvl_Enchanter%'
+    - ' &7Workers: &a%jobsr_totalplayers_Enchanter%'
+    - ' &7Already Working'
+    - '&9%jobsr_description_Enchanter%'
+    - ''
+    - '&aValid actions are:'
+    - '&7- &fEnchant'
+    - ''
+    - '&9&lLEFT CLICK &ffor more info'
+    - '&9&lRIGHT CLICK &fto leave this job'
+    left_click_commands:
+    - '[close]'
+    - '[player] jobs info Enchanter'
+    right_click_commands:
+    - '[close]'
+    - '[player] jobs leave Enchanter'

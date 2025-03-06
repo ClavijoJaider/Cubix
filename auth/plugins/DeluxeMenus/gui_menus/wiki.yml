@@ -1,0 +1,163 @@
+
+#Archivo de configuración - Menú Wiki.
+#
+#En este archivo se encuentra la
+#configuración del menú /wiki.
+
+#Configuración por frandhz
+
+menu_title: '§x§f§f§c§7§0§0§lS§x§f§f§c§b§0§0§le§x§f§e§c§e§0§0§lr§x§f§e§d§2§0§0§lv§x§f§e§d§6§0§0§le§x§f§d§d§a§0§0§lr §x§f§d§d§d§0§0§lW§x§f§d§e§1§0§0§li§x§f§c§e§5§0§0§lk§x§f§c§e§9§0§0§li §x§f§c§e§c§0§0§l- §x§f§b§f§0§0§0§lA§x§f§b§f§4§0§0§ly§x§f§b§f§8§0§0§lu§x§f§a§f§b§0§0§ld§x§f§a§f§f§0§0§la'
+open_command:
+  - help
+  - wiki
+  - ayuda
+open_commands:
+  - '[sound] ENTITY_ARROW_HIT_PLAYER'
+size: 44
+items:
+  'filler_item':
+    material: YELLOW_STAINED_GLASS_PANE
+    slots:
+    #bara v
+      - 1
+      - 8
+      - 17
+      - 26
+      - 35
+      - 37
+      - 18
+      - 27
+      #bara h
+      - 0
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      #panel fill
+      - 9
+    display_name: '&8♯'
+  'filler_item2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    #bara v
+      - 10
+      - 19
+      - 16
+      - 28
+      - 25
+      - 34
+    display_name: '&8♯'
+  'cambiar-clave':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ᴄᴀᴍʙɪᴀʀ ᴄʟᴀᴠᴇ'
+    lore:
+      - ''
+      - '&fᴘᴀʀᴀ ᴄᴀᴍʙɪᴀʀ ᴛᴜ ᴄʟᴀᴠᴇ ᴅᴇʙᴇs'
+      - '&fᴜsᴀʀ ᴇʟ sɪɢᴜɪᴇɴᴛᴇ ᴄᴏᴍᴀɴᴅᴏ:'
+      - ''
+      - '&3► &f/changepassword &b<clave-actual>'
+      - '  &b<nueva-clave>'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]" 
+  'comandos-sporte':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ᴄᴏᴍᴀɴᴅᴏs sᴏᴘᴏʀᴛᴇ'
+    lore:
+      - ''
+      - '&fsɪ ɴᴇᴄᴇsɪᴛᴀs ᴀʏᴜᴅᴀ, ᴘᴜᴇᴅᴇs ᴜsᴀʀ ᴇsᴛᴏs'
+      - '&fᴄᴏᴍᴀɴᴅᴏs:'
+      - ''
+      - '&3► &f/helpop &b<mensaje> &f- /request &b<mensaje>'
+      - '   &7&oManda un mensaje de ayuda a los staff.'
+      - ''
+      - '&3► &f/report &b<usuario> <motivo>'
+      - '   &7&oManda un reporte de un jugador al staff.'   
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]" 
+  'modo-premium':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 30
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ᴍᴏᴅᴏ ᴘʀᴇᴍɪᴜᴍ'
+    lore:
+      - ''
+      - '§x§f§f§0§0§0§0§lɴ§x§f§f§0§0§0§0§lᴏ§x§f§f§0§0§0§0§lᴛ§x§f§f§0§0§0§0§lᴀ§x§f§f§0§0§0§0§l: &cᴇsᴛᴇ ᴍᴏᴅᴏ ᴇs sᴏʟᴀᴍᴇɴᴛᴇ ᴘᴀʀᴀ '
+      - '&cʟᴏs ᴜsᴜᴀʀɪᴏs ᴄᴏɴ ᴄᴜᴇɴᴛᴀs ᴏʀɪɢɪɴᴀʟᴇs,'
+      - '&csɪ ʟᴀ ᴛᴜʏᴀ ɴᴏ ʟᴏ ᴇs, ɴᴏ ᴀᴄᴛɪᴠᴇs ᴇsᴛᴀ'
+      - '&cᴏᴘᴄɪᴏɴ ᴏ ᴘᴇʀᴅᴇʀᴀs ᴇʟ ᴀᴄᴄᴇsᴏ ᴀ ᴇʟʟᴀ.'
+      - ''
+      - '&fᴘᴀʀᴀ ᴀᴄᴛɪᴠᴀʀ ᴇsᴛᴇ ᴍᴏᴅᴏ ᴜsᴀ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ:'
+      - ''
+      - '&3► &f/...'
+      - ''
+      - '&7&oLo sentimos, este comando se encuentra'
+      - '&7&oen mantenimiento.'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]" 
+  'ir-lobby':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 32
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ɪʀ ᴀʟ ʟᴏʙʙʏ'
+    lore:
+      - ''
+      - '&fᴘᴀʀᴀ ɪʀ ᴀʟ ʟᴏʙʙʏ ᴘʀɪɴᴄɪᴘᴀʟ'
+      - '&fᴘᴜᴇᴅᴇs ʜᴀᴄᴇʀ ʟᴏ sɪɢᴜɪᴇɴᴛᴇ:'
+      - ''
+      - '&3► &fUsar el comando &b/lobby'
+      - '&3► &fDar clic al NPC.'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]" 
+

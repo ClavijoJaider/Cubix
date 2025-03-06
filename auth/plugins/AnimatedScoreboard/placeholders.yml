@@ -1,0 +1,19 @@
+# Archivo de configuración - Placeholders.
+#
+# En este archivo se encuentra los placeholders
+# disponibles para el plugin.
+
+# Configuración por frandhz
+
+# NOTA: Preferible no modificar este archivo.
+
+scoreboard:
+  names:
+    adminboard: adminboard
+    endscoreboard: endscoreboard
+    globalscoreboard: globalscoreboard
+    netherscoreboard: netherscoreboard
+    defaultscoreboard: defaultscoreboard
+  disabled: '&ddeshabilitado'
+  enabled: '&dhabilitado'
+  none-active: '&dNone'

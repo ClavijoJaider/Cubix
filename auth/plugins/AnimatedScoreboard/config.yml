@@ -1,0 +1,32 @@
+
+#Archivo de configuración - General.
+#
+#En este archivo se encuentra la
+#configuración general del plugin.
+
+#Configuración por frandhz
+
+# 
+# What data storage should we use:
+# - YAML 	: stores the player data in human readable form in playerdata.yml
+# - SQLITE	: stores the player data in a local SQLite database called playerdata-sqlite.db
+#
+
+worlds:
+  global:
+  - defaultscoreboard
+  - defaultscoreboard
+  world:
+  - defaultscoreboard
+  - defaultscoreboard
+  world_the_end: defaultscoreboard
+  world_nether: defaultscoreboard
+permissions:
+  adminboard: animatedscoreboard.test
+placeholderapi: true
+check_updates: true
+debug_mode: false
+enable-triggers: true
+player-storage: SQLITE
+force-legacy: false
+hex-in-placeholders: true

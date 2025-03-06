@@ -1,0 +1,20 @@
+location: Lobby:13.467:102.342:10.483
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: §x§0§0§f§f§f§0☄ §x§0§0§9§4§f§f¿Te gusta este setup? §x§0§0§f§f§f§0☄
+    height: 0.3
+  - content: '&fSuscribete a mi canal para estar'
+    height: 0.3
+  - content: '&fal tanto de mis trabajos ☺'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: §x§0§0§f§f§f§0¡Disfruta el setup!
+    height: 0.3
+  actions: {}

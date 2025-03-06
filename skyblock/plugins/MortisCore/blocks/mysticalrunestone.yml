@@ -1,0 +1,19 @@
+id: mystical_runestone
+material: OBSIDIAN
+tag: mystical_runestone
+item:
+  material: OBSIDIAN
+  name: "&bMystical Runestone"
+  lore:
+    - "&7Engraved with ancient runes of power."
+drops:
+  mystical-shard:
+    material: LAPIS_LAZULI
+    name: "&bMystical Shard"
+    lore:
+      - "&7A fragment of the mystical runestone."
+  essence-of-fire:
+    material: BLAZE_POWDER
+    name: "&6Essence of Fire"
+    lore:
+      - "&7Holds the essence of mystical flames."

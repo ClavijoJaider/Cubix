@@ -1,0 +1,8 @@
+#Estes opciones son usado en todo de un servidor.  Si hay multiworld, son los predeterminados por todos los mundos; si no, son los reales opciones.
+#Sat Sep 03 17:51:33 CDT 2022
+Entity.minecraft\:item_frame.Enabled=false
+LinkedWorlds=
+LastSaved=1662245493705
+Entity.minecraft\:item.Enabled=false
+ServerName=AuthHub2
+Entity.x-extended\:hologram.Enabled=false

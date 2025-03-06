@@ -1,0 +1,17 @@
+
+#Archivo de configuración - Triggers.
+#
+#En este archivo se encuentra la configuración
+#de los triggers y targets para el funcionamiento
+#de la scoreboard de bienvenida (joinboard).
+
+#Configuración por grul (Awrul)
+
+#NOTA: Modificar este archivo bajo responsabilidad.
+
+event: org.bukkit.event.player.PlayerJoinEvent
+target-player: getPlayer
+trigger-scoreboard: joinboard
+#stay-time = Tiempo que se mostrara la scoreboard de bienvenida al entrar.
+stay-time: 100
+reset-on-trigger: false

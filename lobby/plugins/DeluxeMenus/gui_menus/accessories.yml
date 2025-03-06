@@ -1,0 +1,59 @@
+menu_title: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lO§x§f§f§b§0§0§0§lB§x§f§f§c§3§0§0§lB§x§f§f§d§6§0§0§lY §x§5§8§5§8§5§8ᴀ§x§6§0§6§0§6§0ᴄ§x§6§8§6§8§6§8ᴄ§x§7§1§7§1§7§1ᴇ§x§7§9§7§9§7§9s§x§8§1§8§1§8§1ᴏ§x§8§9§8§9§8§9ʀ§x§9§2§9§2§9§2ɪ§x§9§a§9§a§9§aᴏ§x§a§2§a§2§a§2s'
+open_command:
+- gadgets
+- gadget
+- cosmetics
+- cosmetic
+- particle
+- particles
+- pet
+- pets
+- accessories
+size: 27
+items:
+  cosmetics:
+    material: MAGMA_CREAM
+    slot: 13
+    display_name: '&x&f&b&8&8&0&0&lC&x&f&b&9&1&0&0&lO&x&f&b&9&9&0&0&lS&x&f&c&a&2&0&0&lM&x&f&c&a&a&0&0&lE&x&f&c&b&3&0&0&lT&x&f&c&b&b&0&0&lI&x&f&d&c&4&0&0&lC&x&f&d&c&c&0&0&lO&x&f&d&d&5&0&0&lS &x&7&7&7&7&7&7ᴀ&x&8&6&8&6&8&6ᴄ&x&9&5&9&5&9&5ᴄ&x&a&4&a&4&a&4ᴇ&x&b&3&b&3&b&3s&x&c&1&c&1&c&1ᴏ&x&d&0&d&0&d&0ʀ&x&d&f&d&f&d&fɪ&x&e&e&e&e&e&eᴏ&x&f&d&f&d&f&ds'
+    lore:
+    - ''
+    - '&7ɢᴀᴅɢᴇᴛs ǫᴜᴇ ᴘᴜᴇᴅᴇs ᴜsᴀʀ'
+    - '&7ᴇɴ ʟᴏs ᴅɪғᴇʀᴇɴᴛᴇs ʟᴏʙʙɪᴇs.'
+    - ''
+    - '  §7･ &fDesbloqueados: &f%gadgetsmenu_unlocked_total%&7/&f%gadgetsmenu_total_size% &7(&f%gadgetsmenu_unlocked_total_percentages%%&7)'
+    - ''
+    - '&c&oClic para ver tus cosmeticos...'
+    left_click_commands:
+    - '[openguimenu] cosmetics'
+    right_click_commands:
+    - '[openguimenu] cosmetics'
+  glass:
+    display_name: '&r'
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 13
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26

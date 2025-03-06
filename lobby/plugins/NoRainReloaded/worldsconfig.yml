@@ -1,0 +1,11 @@
+# In this File you dont need to do anything. You can add or remove worlds but all of this can be done with commands!
+
+NoRainWorlds:
+  world: true
+  Lobby: true
+AlwaysDayWorlds:
+  world: true
+  Lobby: true
+AlwaysNightWorlds:
+  world: false
+  Lobby: false

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1728647058546
+  login: 1728648955208
+money: '0'
+last-account-name: ErrorX
+logoutlocation:
+  world: 047526bd-a2ee-4f5d-bf2d-165f092c73b2
+  world-name: spawn
+  x: -24.244088799507434
+  y: 64.0
+  z: 3.281141303883258
+  yaw: -72.437255859375
+  pitch: 19.499988555908203

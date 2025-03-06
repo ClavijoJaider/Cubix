@@ -1,0 +1,121 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00A711","text":"✦
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00AE10","text":"ᴍ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B610","text":"ᴏ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00BD0F","text":"ᴅ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00C40F","text":"ᴀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00CC0E","text":"ʟ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00D30E","text":"ɪ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00DA0D","text":"ᴅ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00E20C","text":"ᴀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00E90C","text":"ᴅ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00F00B","text":"ᴇ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00F80B","text":"s
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF0A","text":"✦"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRAFvJLzE1l4PbNT0nMyUxJTEktZgAAbyCfuTQAAAA=
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 010ebeb7-53a3-4176-9ee1-f261b4699f10
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#084CFB","text":"✎
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1759FB","text":"ɪ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2766FC","text":"ɴ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3674FC","text":"ғ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4681FD","text":"ᴏ
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#558EFD","text":"✎"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDREFvJLzE1l4PbMS8svyk1MzszPYwAAYNMlDjQAAAA=
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: cb06d06d-aadb-4cc7-a098-76acb66c617f
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y2YmY5NThhYmQ3ODI5NWVlZDZmZmMyOTNiMWFhNTk1MjZlODBmNTQ5NzY4MjllYTA2ODMzN2MyZjVlOCJ9fX0=
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LIME_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"VISIBILIDAD
+        "},{"bold":false,"italic":false,"color":"white","text":"Mostrar a todos."}],"text":""}'
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B40000","text":"❃
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BB0000","text":"ᴀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C10000","text":"ᴄ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C80000","text":"ᴄ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CF0000","text":"ᴇ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D50000","text":"s"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DC0000","text":"ᴏ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E20000","text":"ʀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E90000","text":"ɪ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F00000","text":"ᴏ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F60000","text":"s
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FD0000","text":"❃"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRHFvJLzE1l4HJMTk4tzi/KzC9mAAA63Q6cMwAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: dad25f5a-179b-43ae-91f8-3e50d9fec157
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI5OTRiNDFmMDdmODdiMzI4MTg2YWNmY2JkYWJjNjk5ZDViMTg0N2ZhYmIyZTQ5ZDVhYmMyNzg2NTE0M2E0ZSJ9fX0=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#008FAF","text":"▞
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0098B5","text":"ᴘ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00A0BC","text":"ᴀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00A9C2","text":"ʀ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B2C9","text":"ᴋ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00BACF","text":"ᴏ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00C3D5","text":"ᴜ"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00CBDC","text":"ʀ
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00D4E2","text":"▚"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYLRAFvJLzE1lYA9ILMrOLy1iAADLvB3jMAAAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 16c3ed6a-26b0-4a03-8e68-6f85d1f5ad97
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM1OTk1MWRjZDI4ODQzNTgzOTYzODY1ZGQ2ZGU4NjEzZTg5YzU1NjBmYzhlMmY3ZTExYzhhYmFiNzgifX19
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

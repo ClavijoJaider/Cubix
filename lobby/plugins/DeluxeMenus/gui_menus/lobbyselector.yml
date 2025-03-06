@@ -1,0 +1,155 @@
+menu_title: '§x§f§f§8§a§0§0§lS§x§f§f§9§5§0§0§lE§x§f§f§a§0§0§0§lL§x§f§f§a§b§0§0§lE§x§f§f§b§5§0§0§lC§x§f§f§c§0§0§0§lT§x§f§f§c§b§0§0§lO§x§f§f§d§6§0§0§lR §x§5§8§5§8§5§8ʟ§x§6§4§6§4§6§4ᴏ§x§7§1§7§1§7§1ʙ§x§7§d§7§d§7§dʙ§x§8§9§8§9§8§9ɪ§x§9§6§9§6§9§6ᴇ§x§a§2§a§2§a§2s'
+open_command:
+- lobbyselector
+- lobbyselect
+- lobbies
+- lobbylist
+- hubselector
+- hubselect
+- hubs
+update_interval: 1
+size: 27
+items:
+#
+#
+#               LOBBY #1
+#
+#
+  lobby_1:
+    dynamic_amount: '%bungee_Lobby%'
+    material: BEACON
+    update: true
+    slot: 11
+    display_name: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lo§x§f§f§b§0§0§0§lb§x§f§f§c§3§0§0§lb§x§f§f§d§6§0§0§ly &8♯1'
+    lore:
+    - '&8Servidor'
+    - ''
+    - '&7ᴄᴀᴍʙɪᴀ ᴇɴᴛʀᴇ ɴᴜᴇsᴛʀᴏs ʟᴏʙʙɪᴇs.'
+    - ''
+    - '&7&l> &fJugadores: &b%bungee_Lobby%'
+    - '&7&l> &fEstado: &a¡Activo!'
+    - ''
+    - '&a&o¡Ya estas conectad@ a este lobby!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+#
+#
+#               LOBBY #2
+#
+#
+  lobby_2:
+    dynamic_amount: '%bungee_Lobby-2%'
+    material: BEACON
+    update: true
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25699%'
+          output: 'Online'
+    display_name: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lo§x§f§f§b§0§0§0§lb§x§f§f§c§3§0§0§lb§x§f§f§d§6§0§0§ly &8♯2'
+    lore:
+    - '&8Servidor'
+    - ''
+    - '&7ᴄᴀᴍʙɪᴀ ᴇɴᴛʀᴇ ɴᴜᴇsᴛʀᴏs ʟᴏʙʙɪᴇs.'
+    - ''
+    - '&7&l> &fJugadores: &b%bungee_Lobby-2%'
+    - '&7&l> &fEstado: &a¡Activo!'
+    - ''
+    - '&7&o[Clic para conectar]'
+    left_click_commands:
+    - '[close]'
+    - '[connect] Lobby-2'
+    right_click_commands:
+    - '[close]'
+    - '[connect] Lobby-2'
+  lobby_2-offline:
+    material: REDSTONE_BLOCK
+    update: true
+    slot: 13
+    priority: 2
+    display_name: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lo§x§f§f§b§0§0§0§lb§x§f§f§c§3§0§0§lb§x§f§f§d§6§0§0§ly &8♯2'
+    lore:
+    - '&8Servidor'
+    - ''
+    - '&7ᴄᴀᴍʙɪᴀ ᴇɴᴛʀᴇ ɴᴜᴇsᴛʀᴏs ʟᴏʙʙɪᴇs.'
+    - ''
+    - '&7&l> &fJugadores: &b%bungee_Lobby-2%'
+    - '&7&l> &fEstado: &c¡Apagado!'
+    - ''
+    - '&c&oEl servidor se encuentra apagado...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+#
+#
+#               LOBBY #3
+#
+#
+  lobby_3:
+    dynamic_amount: '%bungee_Lobby-3%'
+    material: BEACON
+    update: true
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25699%'
+          output: 'Online'
+    display_name: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lo§x§f§f§b§0§0§0§lb§x§f§f§c§3§0§0§lb§x§f§f§d§6§0§0§ly &8♯3'
+    lore:
+    - '&8Servidor'
+    - ''
+    - '&7ᴄᴀᴍʙɪᴀ ᴇɴᴛʀᴇ ɴᴜᴇsᴛʀᴏs ʟᴏʙʙɪᴇs.'
+    - ''
+    - '&7&l> &fJugadores: &b%bungee_Lobby-3%'
+    - '&7&l> &fEstado: &a¡Activo!'
+    - ''
+    - '&7&o[Clic para conectar]'
+    left_click_commands:
+    - '[close]'
+    - '[connect] Lobby-3'
+    right_click_commands:
+    - '[close]'
+    - '[connect] Lobby-3'
+  lobby_3-offline:
+    material: REDSTONE_BLOCK
+    update: true
+    slot: 15
+    priority: 2
+    display_name: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lo§x§f§f§b§0§0§0§lb§x§f§f§c§3§0§0§lb§x§f§f§d§6§0§0§ly &8♯3'
+    lore:
+    - '&8Servidor'
+    - ''
+    - '&7ᴄᴀᴍʙɪᴀ ᴇɴᴛʀᴇ ɴᴜᴇsᴛʀᴏs ʟᴏʙʙɪᴇs.'
+    - ''
+    - '&7&l> &fJugadores: &b%bungee_Lobby-3%'
+    - '&7&l> &fEstado: &c¡Apagado!'
+    - ''
+    - '&c&oEl servidor se encuentra apagado...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  gray-glass:
+    display_name: '&f♯'
+    material: WHITE_STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0-8
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 18-26
+
+

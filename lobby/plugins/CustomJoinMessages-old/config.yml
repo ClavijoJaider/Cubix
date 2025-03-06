@@ -1,0 +1,195 @@
+##########################################
+#                                        #
+#          Custom Join Messages          #
+#              by Insprill               #
+#                                        #
+##########################################
+#
+# Messages only sent to everyone on the server.
+Public:
+
+  # Messages sent in the chatbox.
+  Chat:
+    First-Join:
+      Enabled: true
+      Delay: 0
+      Broadcast-To-Console: true
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Join:
+      Enabled: true
+      Delay: 0
+      Broadcast-To-Console: true
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Quit:
+      Enabled: false
+      Delay: 0
+      Broadcast-To-Console: true
+      Radius:
+        Enabled: false
+        Range: 100.0
+
+  # Messages sent as a title (middle of the screen).
+  Title:
+    First-Join:
+      Enabled: false
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Join:
+      Enabled: false
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Quit:
+      Enabled: false
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+
+  # Messages sent as an action bar message (right above the hot bar).
+  ActionBar:
+    First-Join:
+      Enabled: false
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Join:
+      Enabled: false
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Quit:
+      Enabled: false
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+
+
+# Messages only sent to the person who joined.
+Private:
+
+  # Messages sent in the chatbox.
+  Chat:
+    First-Join:
+      Enabled: true
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+    Join:
+      Enabled: true
+      Delay: 0
+      Radius:
+        Enabled: false
+        Range: 100.0
+
+  # Messages sent as a title (middle of the screen).
+  Title:
+    First-Join:
+      Enabled: false
+      Delay: 0
+    Join:
+      Enabled: false
+      Delay: 0
+
+  # Messages sent as an action bar message (right above the hot bar).
+  ActionBar:
+    First-Join:
+      Enabled: false
+      Delay: 0
+    Join:
+      Enabled: false
+      Delay: 0
+
+# Settings for hooks into other plugins. These settings only apply after a restart.
+Addons:
+  # Settings for AuthMe (https://www.spigotmc.org/resources/6269/).
+  AuthMe:
+    # Whether we should use AuthMe's login event to send join messages over
+    # the regular Join event. Enable this to only send join message
+    # once a player successfully logs in.
+    Use-Login-Event: true
+
+  # Settings for SuperVanish (https://www.spigotmc.org/resources/1331/) and PremiumVanish (https://www.spigotmc.org/resources/14404/).
+  SuperVanish:
+    # Settings for sending custom vanish/ unvanish messages. If you enable
+    # this, disable fake messages in Super/PremiumVanishes config.
+    Fake-Messages:
+      # Whether we should use our own messages.
+      Enabled: true
+      # Whether we should send a quit message when a player vanishes.
+      Vanish: true
+      # Whether we should send a join message when a player unvanishes.
+      Unvanish: true
+
+  # Settings for CMI (https://www.spigotmc.org/resources/3742/).
+  CMI:
+    # Settings for sending custom vanish/ unvanish messages. If you enable
+    # this, disable fake messages in Super/PremiumVanishes config.
+    Fake-Messages:
+      # Whether we should use our own messages.
+      Enabled: true
+      # Whether we should send a quit message when a player vanishes.
+      Vanish: true
+      # Whether we should send a join message when a player unvanishes.
+      Unvanish: true
+
+# The date format used for the `/cjm joindate <player>` command.
+date-format: MM/dd/yyyy
+
+# Enable this if you have centered messages enabled and you don't want a bunch
+# of whitespace before the message that is sent to the server's console.
+Remove-Whitespace-Before-Console-Messages: true
+
+
+# This is used to store whether each player has certain messages turned on or off.
+# Choose between 'YAML' and 'MySQL'.
+
+Storage-Type: 'YAML'
+
+# This is only used if Storage-Type is set to MySQL
+MySQL:
+  Host: "localhost"
+  Port: "3306"
+  Database: "cjm"
+  Username: "root"
+  Password: ""
+  autoReconnect: true
+
+
+  # DO NOT TOUCH THESE IF YOU DON'T KNOW WHAT YOU'RE DOING!!!
+
+
+  # Use SSL when communicating with the server (true/false).
+  useSLL: true
+  # If "useSSL" is set to "true", should the driver verify the server's certificate?
+  verifyServerCertificate: false
+  # Maximum number of reconnects to attempt if autoReconnect is true, default is '5'.
+  maxReconnects: 5
+  # If autoReconnect is enabled, the initial time to wait between re-connect attempts (in seconds, defaults to '3').
+  initialTimeout: 3
+  # Amount of MySQL connection pools. only increase this if SQL queries are taking a long time.
+  maxPoolSize: 2
+  # Set this to true to stop CJM from auto-downloading the HikariCP jar when MySQL is enabled. If you disable this, you should download the latest version
+  # manually from here: https://repo1.maven.org/maven2/com/zaxxer/HikariCP/
+  # CJM will work without HikariCP, however, it will be much less efficient and you may run into connection issues.
+  # This only applies if you are using MySQL with CJM.
+  Dont-Download-HikariCP: false
+
+
+# Fixes blank messages being sent. Only enable if blank messages are being sent when a player joins/ leaves.
+# Only applies after a full server restart.
+Empty-Message-Fix: false
+
+# DO NOT TOUCH!!!
+version: "2.0.1"

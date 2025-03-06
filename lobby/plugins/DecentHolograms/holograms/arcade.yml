@@ -1,0 +1,16 @@
+location: Lobby:10.549:102.232:16.483
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: CLOCK'
+    height: 0.6
+  - content: '&3Arcade  v1.0'
+    height: 0.3
+  - content: '&e&l¡HAZ CLIC PARA IR!'
+    height: 0.3
+  actions: {}

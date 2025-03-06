@@ -1,0 +1,211 @@
+menu_title: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lO§x§f§f§b§0§0§0§lB§x§f§f§c§3§0§0§lB§x§f§f§d§6§0§0§lY §x§5§8§5§8§5§8ᴀ§x§6§0§6§0§6§0ᴄ§x§6§8§6§8§6§8ᴄ§x§7§1§7§1§7§1ᴇ§x§7§9§7§9§7§9s§x§8§1§8§1§8§1ᴏ§x§8§9§8§9§8§9ʀ§x§9§2§9§2§9§2ɪ§x§9§a§9§a§9§aᴏ§x§a§2§a§2§a§2s'
+open_command:
+- gadgetsmenu
+- gmenu main
+size: 54
+update_interval: 1
+items:
+  settings:
+    material: clock
+    slot: 3
+    display_name: '§x§f§b§8§8§0§0§lA§x§f§c§a§3§0§0§lY§x§f§c§b§e§0§0§lU§x§f§d§d§8§0§0§lD§x§f§d§f§3§0§0§lA §x§7§9§7§9§7§9ᴀ§x§7§e§7§e§7§eᴄ§x§8§4§8§4§8§4ᴄ§x§8§9§8§9§8§9ᴇ§x§8§f§8§f§8§fs§x§9§4§9§4§9§4ᴏ§x§9§a§9§a§9§aʀ§x§9§f§9§f§9§fɪ§x§a§5§a§5§a§5ᴏ§x§a§a§a§a§a§as'
+    lore:
+    - ''
+    - '§x§0§0§9§2§f§b¿§x§0§0§9§2§f§bC§x§0§0§9§2§f§bo§x§0§0§9§2§f§bm§x§0§0§9§2§f§bo §x§0§0§9§2§f§bo§x§0§0§9§2§f§bb§x§0§0§9§2§f§bt§x§0§0§9§2§f§be§x§0§0§9§2§f§bn§x§0§0§9§2§f§bg§x§0§0§9§2§f§bo §x§0§0§9§2§f§ba§x§0§0§9§2§f§bc§x§0§0§9§2§f§bc§x§0§0§9§2§f§be§x§0§0§9§2§f§bs§x§0§0§9§2§f§bo§x§0§0§9§2§f§br§x§0§0§9§2§f§bi§x§0§0§9§2§f§bo§x§0§0§9§2§f§bs§x§0§0§9§2§f§b?'
+    - '&7ᴘᴀʀᴀ ᴄᴏɴsᴇɢᴜɪʀ ᴀᴄᴄᴇsᴏʀɪᴏs'
+    - '&7ʜᴀʏ ᴅɪғᴇʀᴇɴᴛᴇs ᴍᴀɴᴇʀᴀs ᴄᴏᴍᴏ:'
+    - ''
+    - '  §7･ &fComprando rango §x§0§0§9§4§f§f§lD§x§0§0§7§d§f§f§lU§x§0§0§6§6§f§f§lQ§x§0§0§4§f§f§f§lU§x§0§0§3§8§f§f§lE &fo'
+    - '    &fsuperior.'
+    - '  §7･ &fObteniendolos en las'
+    - '    §x§0§0§b§0§f§bᴄ§x§0§0§a§e§f§bᴀ§x§0§0§a§c§f§bᴊ§x§0§0§a§a§f§bᴀ§x§0§0§a§8§f§bs §x§0§0§a§6§f§bᴍ§x§0§0§a§4§f§bɪ§x§0§0§a§2§f§bs§x§0§0§a§0§f§bᴛ§x§0§0§9§e§f§bᴇ§x§0§0§9§c§f§bʀ§x§0§0§9§a§f§bɪ§x§0§0§9§8§f§bᴏ§x§0§0§9§6§f§bs§x§0§0§9§4§f§bᴀ§x§0§0§9§2§f§bs&f.'
+    - ''
+    - '&c&oClic para abrir la tienda de cajas...'
+    left_click_commands:
+    - '[openguimenu] tiendacajas'
+    right_click_commands:
+    - '[openguimenu] tiendacajas'
+  hats:
+    material: DIAMOND_HELMET
+    slot: 21
+    update: true
+    display_name: '&3&lSombreros'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Selecciona algun sombrero para'
+    - '&7presumir tu alto conocimiento en'
+    - '&7prendas superiores.'
+    - ''
+    - '&3&lESTADO'
+    - '&b&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_hats%&7/&f%gadgetsmenu_hats_size% &7(&f%gadgetsmenu_unlocked_hats_percentages%%&7)'
+    - '&b&l > &7Equipado: &f%gadgetsmenu_equipped_hat%'
+    - ''
+    - '&7&o[Clic para ver los sombreros]'
+    left_click_commands:
+    - '[player] gmenu menu hats'
+    right_click_commands:
+    - '[player] gmenu menu hats'
+  animatedhats:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y0YjhjOWYzMzc4NjkxNTllZDMxYTcxYmQ1MDNiNzI1YjJlZTI2NGE2ZWIxMWU1OGU2NTdlMWE4YTk5YyJ9fX0=
+    slot: 22
+    update: true
+    display_name: '&c&lSombreros Animados'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Selecciona algun sombrero para'
+    - '&7presumir tu alto conocimiento en'
+    - '&7prendas superiores.'
+    - ''
+    - '&c&lESTADO'
+    - '&4&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_animated_hats%&7/&f%gadgetsmenu_animated_hats_size% &7(&f%gadgetsmenu_unlocked_animated_hats_percentages%%&7)'
+    - '&4&l > &7Equipado: &f%gadgetsmenu_equipped_animated_hat%'
+    - ''
+    - '&7&o[Clic para ver los sombreros animados]'
+    left_click_commands:
+    - '[player] gmenu menu animated_hats'
+    right_click_commands:
+    - '[player] gmenu menu animated_hats'
+  emotes:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ4ZjVmYjM4N2NhNjZmYzJmNjViOTFmY2IyMzE2MDQ1NDhlODU2NTg5NWJiOTZjNjc2OTg0MjA1ZTZmMTkifX19
+    slot: 23
+    update: true
+    display_name: '&e&lEmotes'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Expresa tus sentimientos a los'
+    - '&7demas, con estos emotes sabran'
+    - '&7como te sientes'
+    - ''
+    - '&e&lESTADO'
+    - '&6&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_emotes%&7/&f%gadgetsmenu_emotes_size% &7(&f%gadgetsmenu_unlocked_emotes_percentages%%&7)'
+    - '&6&l > &7Equipado: &f%gadgetsmenu_equipped_emote%'
+    - ''
+    - '&7&o[Clic para ver los emotes]'
+    left_click_commands:
+    - '[player] gmenu menu emotes'
+    right_click_commands:
+    - '[player] gmenu menu emotes'
+  suits:
+    material: IRON_LEGGINGS
+    slot: 30
+    update: true
+    display_name: '&f&lTrajes'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Disfrasate de lo que mas te guste'
+    - '&7de nuestra selección de trajes'
+    - '&7que tenemos para ti.'
+    - ''
+    - '&f&lESTADO'
+    - '&7&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_suits%&7/&f%gadgetsmenu_suits_size% &7(&f%gadgetsmenu_unlocked_suits_percentages%%&7)'
+    - ''
+    - '&f&lEQUIPADO'
+    - '&7&l > &7Casco: &f%gadgetsmenu_equipped_suit_helmet%'
+    - '&7&l > &7Pechera: &f%gadgetsmenu_equipped_suit_chestplate%'
+    - '&7&l > &7Pantalones: &f%gadgetsmenu_equipped_suit_leggings%'
+    - '&7&l > &7Botas: &f%gadgetsmenu_equipped_suit_boots%'
+    - ''
+    - '&7&o[Clic para ver los trajes]'
+    left_click_commands:
+    - '[player] gmenu menu suits'
+    right_click_commands:
+    - '[player] gmenu menu suits'
+  gadgets:
+    material: ENDER_PEARL
+    slot: 31
+    update: true
+    display_name: '&5&lGadgets'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Disfruta de animaciones en'
+    - '&7el juego.'
+    - ''
+    - '&5&lESTADO'
+    - '&d&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_gadgets%&7/&f%gadgetsmenu_gadgets_size% &7(&f%gadgetsmenu_unlocked_gadgets_percentages%%&7)'
+    - '&d&l > &7Equipado: &f%gadgetsmenu_equipped_gadget%'
+    - ''
+    - '&7&o[Clic para ver los gadgets]'
+    left_click_commands:
+    - '[player] gmenu menu gadgets'
+    right_click_commands:
+    - '[player] gmenu menu gadgets'
+  particles:
+    material: BLAZE_POWDER
+    slot: 32
+    update: true
+    display_name: '&6&lParticulas'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Pon particulas a tu skin para'
+    - '&7sea unica.'
+    - ''
+    - '&6&lESTADO'
+    - '&e&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_particles%&7/&f%gadgetsmenu_particles_size% &7(&f%gadgetsmenu_unlocked_particles_percentages%%&7)'
+    - '&e&l > &7Equipado: &f%gadgetsmenu_equipped_particle%'
+    - ''
+    - '&7&o[Clic para ver las particulas]'
+    left_click_commands:
+    - '[player] gmenu menu particles'
+    right_click_commands:
+    - '[player] gmenu menu particles'
+  cloaks:
+    material: SLIME_BALL
+    slot: 40
+    update: true
+    display_name: '&a&lCapas'
+    lore:
+    - '&8Cosmetico'
+    - ''
+    - '&7Agrega una capa hecha de'
+    - '&7particulas.'
+    - ''
+    - '&a&lESTADO'
+    - '&2&l > &7Desbloqueados: &f%gadgetsmenu_unlocked_cloaks%&7/&f%gadgetsmenu_cloaks_size% &7(&f%gadgetsmenu_unlocked_cloaks_percentages%%&7)'
+    - '&2&l > &7Equipado: &f%gadgetsmenu_equipped_cloak%'
+    - ''
+    - '&7&o[Clic para ver las capas]'
+    left_click_commands:
+    - '[player] gmenu menu cloaks'
+    right_click_commands:
+    - '[player] gmenu menu cloaks'
+  reset:
+    material: RED_DYE
+    slot: 5
+    display_name: '&4&lResetear cosmeticos'
+    lore:
+    - '&8Ajustes'
+    - ''
+    - '&7Con esta opcion quitarar todos los'
+    - '&7cosmeticos que tengas activos.'
+    - ''
+    - '&7&o[Clic para quitar tus cosmeticos]'
+    left_click_commands:
+    - '[close]'
+    - '[player] gmenu reset all'
+    right_click_commands:
+    - '[close]'
+    - '[player] gmenu reset all'
+  glass1:
+    display_name: '&c♯'
+    material: RED_STAINED_GLASS_PANE
+    slots:
+    - 0-2
+    - 4
+    - 6-19
+    - 25-28
+    - 34-39
+    - 41-53
+  glass2:
+    display_name: '&f♯'
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 24
+    - 33
+    - 20
+    - 29

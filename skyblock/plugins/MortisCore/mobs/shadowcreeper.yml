@@ -1,0 +1,22 @@
+id: shadow_creeper
+type: CREEPER
+tag: shadow_creeper
+drops:
+  shadow-powder:
+    chance: 50
+    material: GUNPOWDER
+    name: "&8Dark Powder"
+    lore:
+      - "&7Explosive powder from a shadowy creature."
+  ebon-shard:
+    chance: 20
+    material: OBSIDIAN
+    name: "&8Ebon Shard"
+    lore:
+      - "&7A shard of darkness."
+  cloak-of-shadows:
+    chance: 10
+    material: LEATHER_CHESTPLATE
+    name: "&8Shadow Cloak"
+    lore:
+      - "&7Cloak that conceals in darkness."

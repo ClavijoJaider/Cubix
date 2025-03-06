@@ -1,0 +1,103 @@
+locations:
+  SPAWN:
+    world: world
+    x: 0
+    y: 80
+    z: 0
+    particle: BIGCRIT
+  practice:
+    world: world
+    x: -44
+    y: 79
+    z: -12
+    particle: doublewitch
+  factions:
+    world: world
+    x: -44
+    y: 79
+    z: 12
+    particle: potion
+  skyblock:
+    world: world
+    x: -39
+    y: 79
+    z: 17
+    particle: happyvillager
+  skywars:
+    world: world
+    x: -42
+    y: 79
+    z: -15
+    particle: magic
+  uhc:
+    world: world
+    x: -39
+    y: 79
+    z: -17
+    particle: mobspawner
+  crates:
+    world: world
+    x: -27
+    y: 79
+    z: -46
+    particle: witch
+  parkour:
+    world: world
+    x: -24
+    y: 78
+    z: 30
+    particle: doublespiral
+  namemc:
+    world: world
+    x: -33
+    y: 79
+    z: -36
+    particle: spew
+  '45':
+    world: hub
+    x: 10
+    y: 89
+    z: 0
+    particle: Spiral
+  tl1:
+    world: hub
+    x: -43
+    y: 90
+    z: 0
+    particle: magic
+  tl2:
+    world: hub
+    x: -39
+    y: 89
+    z: 4
+    particle: flame
+  tl3:
+    world: hub
+    x: -39
+    y: 89
+    z: -4
+    particle: Spiral
+  bsv:
+    world: hub
+    x: -9
+    y: 89
+    z: 16
+    particle: Spiral
+  bffa:
+    world: hub
+    x: -21
+    y: 89
+    z: 16
+    particle: Spiral
+  cajas:
+    world: Lobby
+    x: -9
+    y: 100
+    z: 11
+    particle: Spiral
+  setup:
+    world: Lobby
+    x: 13
+    y: 100
+    z: 10
+    particle: Spiral

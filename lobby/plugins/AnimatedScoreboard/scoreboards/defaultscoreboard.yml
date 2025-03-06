@@ -1,0 +1,104 @@
+
+#Archivo de configuración - Scoreboard default.
+#
+#En este archivo se configuran las lineas que 
+#se mostraran en la scoreboard por default.
+
+#Configuración por frandhz
+
+display:
+  # TÍTULO SCOREBOARD
+    title:
+      text:
+      - "<gradient start=&#FFC700 end=&#FFEE55>&lLOBBY &8&ov1.0</gradient>"
+      random: false
+      interval: 2
+  # LINEAS SCOREBOARD
+    fecha:
+      text:
+      - "   &7☀ %server_time_dd/MM/y%"
+      random: false
+      interval: 200
+      score: 15  
+    vacio-1:
+      text:
+      - " "
+      random: false
+      score: 14
+    nombre:
+      text:
+      - " &b➸ &3%player_name%"
+      random: false
+      score: 13
+    vacio-2:
+      text:
+      - " " 
+      random: false
+      interval: 20
+      score: 12
+    rango:
+      text:
+      - "&e│ &fRango: %luckperms_prefix%" #%luckperms_prefix%
+      random: false
+      interval: 20
+      score: 11
+    ping:
+      text:
+      - "&e│ &fPing: &a%player_ping%ms"    
+      random: false
+      interval: 60
+      score: 10 
+    vacio-3:
+      text:
+      - " "     
+      random: false
+      interval: 15
+      score: 9  
+    jugadores:
+      text:
+      - "&6│ &fJugadores: &a%server_online%"
+      random: false
+      interval: 200
+      score: 8
+    lobby:
+      text:
+      - "&6│ &fLobby: &9#1"   
+      random: true
+      interval: 1
+      score: 7
+    almas:
+      text:
+      - "&6│ &fAlmas: &c%playerpoints_points% ☠"      
+      random: true
+      interval: 1
+      score: 6
+    vacio-4:
+      text:
+      - " "  
+      random: false
+      interval: 10
+      score: 5
+    nivel:
+      text:
+      - "&e&lNIVEL &e✰"     
+      random: false
+      interval: 15
+      score: 4
+    nivel-barra:
+      text:
+      - "&8"     
+      random: false
+      interval: 15
+      score: 3
+    vacio-5:
+      text:
+      - " "  
+      random: false
+      interval: 10
+      score: 2
+    ip-servidor:
+      text:
+      - "<gradient start=&#FFEE55 end=&#FFC700>mc.servidor.mx</gradient>"    
+      random: true
+      interval: 1
+      score: 1

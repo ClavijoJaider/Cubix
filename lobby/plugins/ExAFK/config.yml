@@ -1,0 +1,40 @@
+# This is the duration that the titles/effects will be displayed to a player in seconds.
+# This setting is for servers that have set Essentials to kick players if AFK for a certain amount of time.
+# Times are in seconds - default is 600 (10 minutes)
+afk-duration:
+  title: 600
+  effect: 600
+  
+# Settings for titles
+# return-stay is duration the welcome back title is displayed for.
+# Times are in seconds
+title-settings:
+  fade-in: 1
+  fade-out: 2
+  return-stay: 4
+
+# These are the messages that will be randomly displayed when a player goes AFK.
+# Default colour codes and hex colours are supported use #<code>
+# If you just want a subtitle to be displayed, simply set one title message with line '&f '
+afk-messages:
+  titles:
+    - '§x§0§0§b§3§f§f☹ §x§0§0§9§d§f§e§lE§x§0§0§9§a§f§e§ls§x§0§0§9§6§f§e§lt§x§0§0§9§2§f§e§la§x§0§0§8§f§f§d§ls §x§0§0§8§b§f§d§lA§x§0§0§8§8§f§d§lF§x§0§0§8§4§f§d§lK'
+  subtitles:
+    - '§x§0§0§f§0§f§fM§x§0§0§f§0§f§fu§x§0§0§f§0§f§fe§x§0§0§f§0§f§fv§x§0§0§f§0§f§fe§x§0§0§f§0§f§ft§x§0§0§f§0§f§fe §x§0§0§f§0§f§fp§x§0§0§f§0§f§fa§x§0§0§f§0§f§fr§x§0§0§f§0§f§fa §x§0§0§f§0§f§fq§x§0§0§f§0§f§fu§x§0§0§f§0§f§fi§x§0§0§f§0§f§ft§x§0§0§f§0§f§fa§x§0§0§f§0§f§fr§x§0§0§f§0§f§ft§x§0§0§f§0§f§fe §x§0§0§f§0§f§fA§x§0§0§f§0§f§fF§x§0§0§f§0§f§fK'
+
+# These are the messages shown when a player returns from being AFK.
+# Default colour codes and hex colours are supported use #<code>
+# If you just want a subtitle to be displayed, simply set one title message with line '&f '
+return-messages:
+  titles:
+    - '§x§4§2§f§f§0§0☺ §x§4§1§f§4§0§0§l¡§x§3§f§e§9§0§0§lH§x§3§e§d§e§0§0§la§x§3§d§d§3§0§0§ls §x§3§b§c§8§0§0§lv§x§3§a§b§d§0§0§lu§x§3§8§b§2§0§0§le§x§3§7§a§7§0§0§ll§x§3§6§9§c§0§0§lt§x§3§4§9§1§0§0§lo§x§3§3§8§6§0§0§l!'
+  subtitles:
+    - '§x§9§2§f§f§8§1¡§x§9§2§f§f§8§1B§x§9§2§f§f§8§1i§x§9§2§f§f§8§1e§x§9§2§f§f§8§1n§x§9§2§f§f§8§1v§x§9§2§f§f§8§1e§x§9§2§f§f§8§1n§x§9§2§f§f§8§1i§x§9§2§f§f§8§1d§x§9§2§f§f§8§1@ §x§9§2§f§f§8§1d§x§9§2§f§f§8§1e §x§9§2§f§f§8§1v§x§9§2§f§f§8§1u§x§9§2§f§f§8§1e§x§9§2§f§f§8§1l§x§9§2§f§f§8§1t§x§9§2§f§f§8§1a§x§9§2§f§f§8§1!'
+  
+# The effect given to players when AFK.
+afk-effect:
+  effect: 'BLINDNESS'
+  
+plugin-messages:
+  config-reloaded: '&aConfiguración recargada...'
+  no-permission: '&cYou aren''t allowed to do that!'

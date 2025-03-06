@@ -1,0 +1,328 @@
+menu_title: "&8Settings"
+open_command:
+- setting
+- settings
+- toggle
+#register_command: true
+size: 36
+items:
+  'goback':
+    material: OAK_DOOR
+    display_name: "&6&l⤊ &6GoBack"
+    click_commands:
+    - "[sound] BLOCK_WOODEN_DOOR_OPEN"
+    - "[player] menu"
+    slot: 27
+  'background_body':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - 0-9
+    - 17-18
+    - 26
+    - 27-30
+    - 32-34
+  'close':
+    material: BARRIER
+    display_name: '&c&l✘ &cClose'
+    slot: 31
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_CHEST_CLOSE'
+
+
+  'TRADE_ICON':
+    material: EMERALD
+    slot: 13
+    display_name: '&6Trade &8| &7[Toggle]'
+    lore:
+    - ''
+    - '&6Description'
+    - ' &6| &7Toggle enable or disable your trading'
+    - ' &6| &7mode, so player can''t request.'
+    - ''
+  'TRADE_TRUE':
+    material: LIME_STAINED_GLASS_PANE
+    priority: 1
+    slot: 22
+    display_name: '&6Trade &8| &7[Enabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%tradesystem_status%'
+          output: 'Online'
+    lore:
+    - ''
+    - '&6Information'
+    - ' &6| &7Status: &a&l✔ &aEnabled'
+    - ' &6| &7Toggle: &6Trade'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] trade toggle'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'TRADE_FALSE':
+    material: RED_STAINED_GLASS_PANE
+    priority: 2
+    slot: 22
+    display_name: '&6Trade &8| &7[Disabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%tradesystem_status%'
+          output: 'Offline'
+    lore:
+    - ''
+    - '&6Information'
+    - ' &6| &7Status: &c&l❌ &cDisabled'
+    - ' &6| &7Toggle: &6Trade'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] trade toggle'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'SIT_ICON':
+    material: SMOOTH_QUARTZ_STAIRS
+    slot: 14
+    display_name: '&6Sit &8| &7[Toggle]'
+    lore:
+    - ''
+    - '&6Description'
+    - ' &6| &7Toggle enable or disable your sit'
+    - ' &6| &7lay, bellyflop mode.'
+    - ''
+
+  'SIT_TRUE':
+    material: LIME_STAINED_GLASS_PANE
+    priority: 1
+    slot: 23
+    display_name: '&6Sit &8| &7[Enabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%gsit_toggle%'
+          output: 'true'
+    lore:
+    - ''
+    - '&6Information'
+    - ' &6| &7Status: &a&l✔ &aEnabled'
+    - ' &6| &7Toggle: &6Sit Mode'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] sit toggle'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'SIT_FALSE':
+    material: RED_STAINED_GLASS_PANE
+    priority: 2
+    slot: 23
+    display_name: '&6Sit &8| &7[Disabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%gsit_toggle%'
+          output: 'false'
+    lore:
+    - ''
+    - '&6Information'
+    - ' &6| &7Status: &c&l❌ &cDisabled'
+    - ' &6| &7Toggle: &6Sit Mode'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] sit toggle'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'DEATH_ICON':
+    material: SKELETON_SKULL
+    slot: 15
+    display_name: '&6Death Message &8| &7[Toggle]'
+    lore:
+    - ''
+    - '&6Description'
+    - ' &6| &7Player dies? annoys you?'
+    - ' &6| &7Click me to &cDisable&7 or'
+    - ' &6| &aEnable&7 the death notifications!'
+    - ''
+
+  'DEATH_TRUE':
+    material: LIME_STAINED_GLASS_PANE
+    priority: 1
+    slot: 24
+    display_name: '&6Death Message &8| &7[Enabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%deathmessages_messages_enabled%'
+          output: 'true'
+    lore:
+    - ''
+    - '&6Information:'
+    - ' &6| &7Status: &a&l✔ &aEnabled'
+    - ' &6| &7Toggle: &6Death Message'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] deathmessages toggle'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'DEATH_FALSE':
+    material: RED_STAINED_GLASS_PANE
+    priority: 2
+    slot: 24
+    display_name: '&6Death Message &8| &7[Disabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%deathmessages_messages_enabled%'
+          output: 'false'
+    lore:
+    - ''
+    - '&6Information:'
+    - ' &6| &7Status: &c&l❌ &cDisabled'
+    - ' &6| &7Toggle: &6Death Message'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] deathmessages toggle'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'ANNOUNCEMENTS_ICON':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E2YjI3Mzg5NmE4NzI2YWQ5MGZlMjViOGIwZjdhYTM2MjgwMjc3ZGUwYjk1ZWVkZDFkZDQ4MWM3NDEzZDQwIn19fQ==
+    slot: 11
+    display_name: '&6Announcements &8| &7[Toggle]'
+    lore:
+    - ''
+    - '&6Description:'
+    - ' &6| &7Enable/Disable the announcements'
+    - ' &6| &7messages notifications.'
+    - ''
+  'ANNOUNCEMENTS_TRUE':
+    material: LIME_STAINED_GLASS_PANE
+    priority: 1
+    slot: 20
+    display_name: '&6Announcements &8| &7[Enabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%infiniteannouncements_toggle_announcement%'
+          output: 'False'
+    lore:
+    - ''
+    - '&6&lInformation:'
+    - ' &6| &7Status: &a&l✔ &aEnabled'
+    - ' &6| &7Toggle: &6Announcements'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] ia toggle announcement'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'ANNOUNCEMENTS_FALSE':
+    material: RED_STAINED_GLASS_PANE
+    priority: 2
+    slot: 20
+    display_name: '&6Announcements &8| &7[Disabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%infiniteannouncements_toggle_announcement%'
+          output: 'True'
+    lore:
+    - ''
+    - '&6&lInformation:'
+    - ' &6| &7Status: &c&l❌ &cDisabled'
+    - ' &6| &7Toggle: &6Announcements'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] ia toggle announcement'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'SOUND_ICON':
+    material: GOAT_HORN
+    item_flags:
+    - HIDE_ATTRIBUTES
+    slot: 12
+    display_name: '&6Announcements Sound &8| &7[Toggle]'
+    lore:
+    - ''
+    - '&6Description:'
+    - ' &6| &7Enable/Disable the announcements'
+    - ' &6| &7sound notifications.'
+    - ''
+
+  'SOUND_TRUE':
+    material: LIME_STAINED_GLASS_PANE
+    priority: 1
+    slot: 21
+    display_name: '&6Announcements Sound &8| &7[Enabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%infiniteannouncements_toggle_sound%'
+          output: 'False'
+    lore:
+    - ''
+    - '&6&lInformation:'
+    - ' &6| &7Status: &a&l✔ &aEnabled'
+    - ' &6| &7Toggle: &6Announcements Sound'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] ia toggle sound'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'SOUND_FALSE':
+    material: RED_STAINED_GLASS_PANE
+    priority: 2
+    slot: 21
+    display_name: '&6Announcements Sound &8| &7[Disabled]'
+    view_requirement:
+      requirements:
+        enabled:
+          type: string equals ignorecase
+          input: '%infiniteannouncements_toggle_sound%'
+          output: 'True'
+    lore:
+    - ''
+    - '&6&lInformation:'
+    - ' &6| &7Status: &c&l❌ &cDisabled'
+    - ' &6| &7Toggle: &6Announcements Sound'
+    - ''
+    - '&6&l| &6ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ'
+    click_commands:
+    - '[player] ia toggle sound'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'
+
+  'DailyRewardsSetting':  
+    material: Bell
+    priority: 2
+    slot: 35
+    display_name: '&6&lDaily Rewards Settings'
+    click_commands:
+    - '[player] dailyrewards:reward settings'
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_GUITAR'  

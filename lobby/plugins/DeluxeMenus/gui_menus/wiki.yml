@@ -1,0 +1,160 @@
+
+#Archivo de configuración - Menú Wiki.
+#
+#En este archivo se encuentra la
+#configuración del menú /wiki.
+
+#Configuración por frandhz
+
+menu_title: '§x§f§f§8§a§0§0§lL§x§f§f§9§d§0§0§lO§x§f§f§b§0§0§0§lB§x§f§f§c§3§0§0§lB§x§f§f§d§6§0§0§lY §x§7§9§7§9§7§9ᴡ§x§8§9§8§9§8§9ɪ§x§9§a§9§a§9§aᴋ§x§a§a§a§a§a§aɪ'
+open_command:
+  - help
+  - wiki
+  - ayuda
+open_commands:
+  - '[sound] ENTITY_ARROW_HIT_PLAYER'
+size: 44
+items:
+  'filler_item':
+    material: YELLOW_STAINED_GLASS_PANE
+    slots:
+    #bara v
+      - 1
+      - 8
+      - 17
+      - 26
+      - 35
+      - 37
+      - 18
+      - 27
+      #bara h
+      - 0
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      #panel fill
+      - 9
+    display_name: '&8♯'
+  'filler_item2':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    #bara v
+      - 10
+      - 19
+      - 16
+      - 28
+      - 25
+      - 34
+    display_name: '&8♯'
+  'parkour':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ᴘᴀʀᴋᴏᴜʀ'
+    lore:
+      - ''
+      - '&bᴊᴜᴇɢᴀ ᴀʟ ᴘᴀʀᴋᴏᴜʀ ᴘᴀʀᴀ ᴏʙᴛᴇɴᴇʀ:'
+      - ''
+      - '&3► &fExperiencia y subir de nivel'
+      - '&3► &fAlmas'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+  'almas':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ᴀʟᴍᴀs'
+    lore:
+      - ''
+      - '&b¿ᴘᴀʀᴀ ǫᴜᴇ sɪʀᴠᴇɴ ʟᴀs ᴀʟᴍᴀs?'
+      - ''
+      - '&3► &fLas almas son la economia global de la'
+      - '  &fnetwork, su función en el lobby es para'
+      - '  &fcomprar §x§0§0§b§0§f§bᴄ§x§0§0§a§e§f§bᴀ§x§0§0§a§c§f§bᴊ§x§0§0§a§a§f§bᴀ§x§0§0§a§8§f§bs §x§0§0§a§6§f§bᴍ§x§0§0§a§4§f§bɪ§x§0§0§a§2§f§bs§x§0§0§a§0§f§bᴛ§x§0§0§9§e§f§bᴇ§x§0§0§9§c§f§bʀ§x§0§0§9§a§f§bɪ§x§0§0§9§8§f§bᴏ§x§0§0§9§6§f§bs§x§0§0§9§4§f§bᴀ§x§0§0§9§2§f§bs&f.'
+      - ''
+      - '&7&oPara mas información, contacta a un staff.'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+  'niveles':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 30
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ɴɪᴠᴇʟᴇs'
+    lore:
+      - ''
+      - '§fCon los niveles a medida que subes vas'
+      - '&fobteniendo recompensas.'
+      - ''
+      - '&dʏ... ¿ᴄᴏᴍᴏ sᴜʙᴏ ᴅᴇ ɴɪᴠᴇʟ?'
+      - ''
+      - '&3► &fObteniendo experiencia de la network,'
+      - '  &fse obtiene jugando en todo el servidor.'
+      - '&3► &fAqui en el lobby se obtiene jugando al'
+      - '  &fparkour.'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+  'cajas':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+    slot: 32
+    priority: 1
+    update: true
+    hide_attributes:  true
+    display_name: '§x§f§a§f§f§0§0§lᴡ§x§f§a§f§f§0§0§lɪ§x§f§a§f§f§0§0§lᴋ§x§f§a§f§f§0§0§lɪ &8♯ᴄᴀᴊᴀs ᴍɪsᴛᴇʀɪᴏsᴀs'
+    lore:
+      - ''
+      - '&fLas cajas misteriosas se consiguen jugando'
+      - '&fen el servidor, se otorgan automaticamente.'
+      - ''
+      - '&dᴇɴ ᴇʟʟᴀs ᴘᴜᴇᴅᴇs ᴇɴᴄᴏɴᴛʀᴀʀ:'
+      - ''
+      - '&3► &fAccesorios que puedes usar en'
+      - '  &fnuestros lobbies.'
+      - ''
+      - '&c&oClic para cerrar...'
+    right_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"
+    left_click_commands:
+      - "[sound] BLOCK_NOTE_BLOCK_BELL"
+      - "[close]"

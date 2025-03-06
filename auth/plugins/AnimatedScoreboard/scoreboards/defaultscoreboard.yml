@@ -1,0 +1,86 @@
+
+#Archivo de configuración - Scoreboard default.
+#
+#En este archivo se configuran las lineas que 
+#se mostraran en la scoreboard por default.
+
+#Configuración por frandhz
+
+display:
+  # TÍTULO SCOREBOARD
+    title:
+      text:
+      - "<gradient start=&#FFC700 end=&#FFEE55>&lAUTH &8&ov1.0</gradient>"
+      random: false
+      interval: 2
+  # LINEAS SCOREBOARD
+    fecha:
+      text:
+      - "   &7☀ %server_time_dd/MM/y%"
+      random: false
+      interval: 200
+      score: 15  
+    vacio-1:
+      text:
+      - " "
+      random: false
+      score: 14
+    nombre:
+      text:
+      - " &b➸ &3%player_name%"
+      random: false
+      score: 13
+    vacio-2:
+      text:
+      - " " 
+      random: false
+      interval: 20
+      score: 12
+    rango:
+      text:
+      - "&e│ &fRango: %luckperms_prefix%"
+      random: false
+      interval: 20
+      score: 12
+    ping:
+      text:
+      - "&e│ &fPing: &a%player_ping%ms"    
+      random: false
+      interval: 60
+      score: 11 
+    vacio-3:
+      text:
+      - " "     
+      random: false
+      interval: 15
+      score: 10 
+    wiki1:
+      text:
+      - "&6│ &dᴀʏᴜᴅᴀ ɪɴɪᴄɪᴀʟ:"
+      random: false
+      interval: 200
+      score: 9
+    wiki2:
+      text:
+      - "&6│ &fPuedes usar el"   
+      random: true
+      interval: 1
+      score: 8
+    wiki3:
+      text:
+      - "&6│ &fcomando &7&o/wiki&f."      
+      random: true
+      interval: 1
+      score: 3
+    vacio-4:
+      text:
+      - " "  
+      random: false
+      interval: 10
+      score: 2
+    ip-servidor:
+      text:
+      - "<gradient start=&#FFEE55 end=&#FFC700>mc.servidor.net</gradient>"    
+      random: true
+      interval: 1
+      score: 1

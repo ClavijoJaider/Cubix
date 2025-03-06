@@ -1,0 +1,37 @@
+# This is the rewards file.
+# Here is a guide for this: https://wiki.ajg0702.us/ajparkour/configs/Rewards
+
+intervals:
+  '10':
+    message: §x§f§f§8§a§0§0♯ §x§f§f§9§6§0§0§l| §x§f§f§a§1§0§0S§x§f§f§a§d§0§0e§x§f§f§b§8§0§0r§x§f§f§c§4§0§0v§x§f§f§c§f§0§0e§x§f§f§d§b§0§0r
+      §x§f§f§e§6§0§0･ §e¡Genial! §fAlcanzaste una puntuación de §a{SCORE} saltos§f.
+    commands:
+    - points give {PLAYER} 1
+    - alonsolevels addexp {PLAYER} 10
+  '50':
+    message: §x§f§f§8§a§0§0♯ §x§f§f§9§6§0§0§l| §x§f§f§a§1§0§0S§x§f§f§a§d§0§0e§x§f§f§b§8§0§0r§x§f§f§c§4§0§0v§x§f§f§c§f§0§0e§x§f§f§d§b§0§0r
+      §x§f§f§e§6§0§0･ §e¡Genial! §fAlcanzaste una puntuación de §a{SCORE} saltos§f.
+    commands:
+    - points give {PLAYER} 5
+    - alonsolevels addexp {PLAYER} 20
+  '100':
+    message: §x§f§f§8§a§0§0♯ §x§f§f§9§6§0§0§l| §x§f§f§a§1§0§0S§x§f§f§a§d§0§0e§x§f§f§b§8§0§0r§x§f§f§c§4§0§0v§x§f§f§c§f§0§0e§x§f§f§d§b§0§0r
+      §x§f§f§e§6§0§0･ §e¡Genial! §fAlcanzaste una puntuación de §a{SCORE} saltos§f.
+    commands:
+    - points give {PLAYER} 10
+    - alonsolevels addexp {PLAYER} 50
+exceptions:
+  '1':
+    message: '&a&lCongrats, you made a jump!'
+    first-time-only: true
+specials:
+  beat-server-record:
+    message: '&a&lCongrats!&r&7 You reached the server high score!'
+    commands:
+    - give {PLAYER} emerald 1
+  start:
+    message: ''
+    commands: []
+  end:
+    message: ''
+    commands: []

@@ -1,0 +1,97 @@
+Banners:
+  Snow Bunny:
+    Name: '&8Snow Bunny Banner'
+    Mystery Dust: 15
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Reindeer:
+    Name: '&8Reindeer Banner'
+    Mystery Dust: 20
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Holiday Tree:
+    Name: '&8Holiday Tree Banner'
+    Mystery Dust: 20
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Santa:
+    Name: '&8Santa Banner'
+    Mystery Dust: 25
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Holiday Wreath:
+    Name: '&8Holiday Wreath Banner'
+    Mystery Dust: 28
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Heart:
+    Name: '&8Heart Banner'
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Guitar:
+    Name: '&8Guitar Banner'
+    Mystery Dust: 25
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Dino:
+    Name: '&8Dino Banner'
+    Mystery Dust: 40
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Redpool:
+    Name: '&8Redpool Banner'
+    Mystery Dust: 42
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Pengu:
+    Name: '&8Pengu Banner'
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Pug:
+    Name: '&8Pug Banner'
+    Mystery Dust: 48
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Skull King:
+    Name: '&8Skull King Banner'
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''

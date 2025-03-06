@@ -1,0 +1,9 @@
+spawns:
+  default:
+    world: fe8bc52e-3296-450e-a5c7-c69389567ad1
+    world-name: Lobby
+    x: 0.5
+    y: 100.0
+    z: 0.5
+    yaw: -0.04078221321105957
+    pitch: -1.1456620693206787

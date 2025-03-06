@@ -1,0 +1,131 @@
+menu_title: '§x§f§f§8§a§0§0§lI§x§f§f§9§2§0§0§lN§x§f§f§9§9§0§0§lF§x§f§f§a§1§0§0§lO§x§f§f§a§8§0§0§lR§x§f§f§b§0§0§0§lM§x§f§f§b§8§0§0§lA§x§f§f§b§f§0§0§lC§x§f§f§c§7§0§0§lI§x§f§f§c§e§0§0§lÓ§x§f§f§d§6§0§0§lN §x§5§8§5§8§5§8s§x§6§3§6§3§6§3ᴇ§x§6§d§6§d§6§dʀ§x§7§8§7§8§7§8ᴠ§x§8§2§8§2§8§2ɪ§x§8§d§8§d§8§dᴅ§x§9§7§9§7§9§7ᴏ§x§a§2§a§2§a§2ʀ'
+open_command:
+- informacion
+- info
+- links
+- link
+size: 36
+items:
+  foro:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlNTJhZThjOThhYzE5ZmQwNzYzN2E0NjlmZmEyNTZhYjBiM2IxMGVjZTYyNDMxODYxODhiYTM4ZGYxNTQifX19
+    slot: 12
+    display_name: '         §x§f§f§8§a§0§0§lF§x§f§f§a§3§0§0§lO§x§f§f§b§d§0§0§lR§x§f§f§d§6§0§0§lO'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lᴡ§x§f§c§f§c§f§c§lᴡ§x§f§9§f§9§f§9§lᴡ§x§f§6§f§6§f§6§l.§x§f§3§f§3§f§3§ls§x§f§0§f§0§f§0§lᴇ§x§e§d§e§d§e§d§lʀ§x§e§a§e§a§e§a§lᴠ§x§e§8§e§8§e§8§lɪ§x§e§5§e§5§e§5§lᴅ§x§e§2§e§2§e§2§lᴏ§x§d§f§d§f§d§f§lʀ§x§d§c§d§c§d§c§l.§x§d§9§d§9§d§9§lɴ§x§d§6§d§6§d§6§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§8§a§0§0§lF§x§f§f§a§3§0§0§lO§x§f§f§b§d§0§0§lR§x§f§f§d§6§0§0§lO \n §x§f§f§f§f§f§f§lᴡ§x§f§c§f§c§f§c§lᴡ§x§f§9§f§9§f§9§lᴡ§x§f§6§f§6§f§6§l.§x§f§3§f§3§f§3§ls§x§f§0§f§0§f§0§lᴇ§x§e§d§e§d§e§d§lʀ§x§e§a§e§a§e§a§lᴠ§x§e§8§e§8§e§8§lɪ§x§e§5§e§5§e§5§lᴅ§x§e§2§e§2§e§2§lᴏ§x§d§f§d§f§d§f§lʀ§x§d§c§d§c§d§c§l.§x§d§9§d§9§d§9§lɴ§x§d§6§d§6§d§6§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§8§a§0§0§lF§x§f§f§a§3§0§0§lO§x§f§f§b§d§0§0§lR§x§f§f§d§6§0§0§lO \n §x§f§f§f§f§f§f§lᴡ§x§f§c§f§c§f§c§lᴡ§x§f§9§f§9§f§9§lᴡ§x§f§6§f§6§f§6§l.§x§f§3§f§3§f§3§ls§x§f§0§f§0§f§0§lᴇ§x§e§d§e§d§e§d§lʀ§x§e§a§e§a§e§a§lᴠ§x§e§8§e§8§e§8§lɪ§x§e§5§e§5§e§5§lᴅ§x§e§2§e§2§e§2§lᴏ§x§d§f§d§f§d§f§lʀ§x§d§c§d§c§d§c§l.§x§d§9§d§9§d§9§lɴ§x§d§6§d§6§d§6§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+  tienda:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQyMDcwYWNjODE0YmM5NDZlNTk4NzllYzdkYTQ1ZGU5ODRkM2VlOWExNTkzOTNkZWZiNTk4NTNhYmUzYjYifX19
+    slot: 13
+    display_name: '          §x§f§f§8§a§0§0§lT§x§f§f§9§9§0§0§lI§x§f§f§a§8§0§0§lE§x§f§f§b§8§0§0§lN§x§f§f§c§7§0§0§lD§x§f§f§d§6§0§0§lA'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§lᴇ§x§f§8§f§8§f§8§lɴ§x§f§5§f§5§f§5§lᴅ§x§f§3§f§3§f§3§lᴀ§x§f§0§f§0§f§0§l.§x§e§e§e§e§e§e§ls§x§e§b§e§b§e§b§lᴇ§x§e§9§e§9§e§9§lʀ§x§e§7§e§7§e§7§lᴠ§x§e§4§e§4§e§4§lɪ§x§e§2§e§2§e§2§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§8§a§0§0§lT§x§f§f§9§9§0§0§lI§x§f§f§a§8§0§0§lE§x§f§f§b§8§0§0§lN§x§f§f§c§7§0§0§lD§x§f§f§d§6§0§0§lA \n §x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§lᴇ§x§f§8§f§8§f§8§lɴ§x§f§5§f§5§f§5§lᴅ§x§f§3§f§3§f§3§lᴀ§x§f§0§f§0§f§0§l.§x§e§e§e§e§e§e§ls§x§e§b§e§b§e§b§lᴇ§x§e§9§e§9§e§9§lʀ§x§e§7§e§7§e§7§lᴠ§x§e§4§e§4§e§4§lɪ§x§e§2§e§2§e§2§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§8§a§0§0§lT§x§f§f§9§9§0§0§lI§x§f§f§a§8§0§0§lE§x§f§f§b§8§0§0§lN§x§f§f§c§7§0§0§lD§x§f§f§d§6§0§0§lA \n §x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§lᴇ§x§f§8§f§8§f§8§lɴ§x§f§5§f§5§f§5§lᴅ§x§f§3§f§3§f§3§lᴀ§x§f§0§f§0§f§0§l.§x§e§e§e§e§e§e§ls§x§e§b§e§b§e§b§lᴇ§x§e§9§e§9§e§9§lʀ§x§e§7§e§7§e§7§lᴠ§x§e§4§e§4§e§4§lɪ§x§e§2§e§2§e§2§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+  votos:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ0ZWE1ZjVkNTU4NDI1YjQxY2I1MzBlM2U4YzY4ZTFmOTI1ZWE5OGMxODdmMWYxOGIyODY2YmI4OTE2In19fQ==
+    slot: 14
+    display_name: '          §x§0§0§8§1§0§5§lV§x§0§0§a§0§0§a§lO§x§0§0§b§f§0§f§lT§x§0§0§d§e§1§4§lO§x§0§0§f§d§1§9§lS'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lᴠ§x§f§c§f§c§f§c§lᴏ§x§f§a§f§a§f§a§lᴛ§x§f§7§f§7§f§7§lᴏ§x§f§5§f§5§f§5§ls§x§f§2§f§2§f§2§l.§x§e§f§e§f§e§f§ls§x§e§d§e§d§e§d§lᴇ§x§e§a§e§a§e§a§lʀ§x§e§8§e§8§e§8§lᴠ§x§e§5§e§5§e§5§lɪ§x§e§3§e§3§e§3§lᴅ§x§e§0§e§0§e§0§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§b§d§b§d§b§l.§x§d§8§d§8§d§8§lɴ§x§d§6§d§6§d§6§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§0§0§8§1§0§5§lV§x§0§0§a§0§0§a§lO§x§0§0§b§f§0§f§lT§x§0§0§d§e§1§4§lO§x§0§0§f§d§1§9§lS \n §x§f§f§f§f§f§f§lᴠ§x§f§c§f§c§f§c§lᴏ§x§f§a§f§a§f§a§lᴛ§x§f§7§f§7§f§7§lᴏ§x§f§5§f§5§f§5§ls§x§f§2§f§2§f§2§l.§x§e§f§e§f§e§f§ls§x§e§d§e§d§e§d§lᴇ§x§e§a§e§a§e§a§lʀ§x§e§8§e§8§e§8§lᴠ§x§e§5§e§5§e§5§lɪ§x§e§3§e§3§e§3§lᴅ§x§e§0§e§0§e§0§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§b§d§b§d§b§l.§x§d§8§d§8§d§8§lɴ§x§d§6§d§6§d§6§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§0§0§8§1§0§5§lV§x§0§0§a§0§0§a§lO§x§0§0§b§f§0§f§lT§x§0§0§d§e§1§4§lO§x§0§0§f§d§1§9§lS \n §x§f§f§f§f§f§f§lᴠ§x§f§c§f§c§f§c§lᴏ§x§f§a§f§a§f§a§lᴛ§x§f§7§f§7§f§7§lᴏ§x§f§5§f§5§f§5§ls§x§f§2§f§2§f§2§l.§x§e§f§e§f§e§f§ls§x§e§d§e§d§e§d§lᴇ§x§e§a§e§a§e§a§lʀ§x§e§8§e§8§e§8§lᴠ§x§e§5§e§5§e§5§lɪ§x§e§3§e§3§e§3§lᴅ§x§e§0§e§0§e§0§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§b§d§b§d§b§l.§x§d§8§d§8§d§8§lɴ§x§d§6§d§6§d§6§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+  discord:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1OWU1YzdiMDczOGI1NzlmM2I0NDRjMTNhNDdiZWQ0OTZiMzA4MzhiMmVlMmIxMjdjYzU5Y2Q3OThhZWU3NyJ9fX0=
+    slot: 20
+    display_name: '          §x§2§a§7§f§f§f§lD§x§3§0§8§8§f§f§lI§x§3§6§9§0§f§e§lS§x§3§c§9§9§f§e§lC§x§4§1§a§2§f§e§lO§x§4§7§a§a§f§d§lR§x§4§d§b§3§f§d§lD'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lᴅ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§ls§x§f§8§f§8§f§8§lᴄ§x§f§6§f§6§f§6§lᴏ§x§f§3§f§3§f§3§lʀ§x§f§1§f§1§f§1§lᴅ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§2§a§7§f§f§f§lD§x§3§0§8§8§f§f§lI§x§3§6§9§0§f§e§lS§x§3§c§9§9§f§e§lC§x§4§1§a§2§f§e§lO§x§4§7§a§a§f§d§lR§x§4§d§b§3§f§d§lD \n §x§f§f§f§f§f§f§lᴅ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§ls§x§f§8§f§8§f§8§lᴄ§x§f§6§f§6§f§6§lᴏ§x§f§3§f§3§f§3§lʀ§x§f§1§f§1§f§1§lᴅ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§2§a§7§f§f§f§lD§x§3§0§8§8§f§f§lI§x§3§6§9§0§f§e§lS§x§3§c§9§9§f§e§lC§x§4§1§a§2§f§e§lO§x§4§7§a§a§f§d§lR§x§4§d§b§3§f§d§lD \n §x§f§f§f§f§f§f§lᴅ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§ls§x§f§8§f§8§f§8§lᴄ§x§f§6§f§6§f§6§lᴏ§x§f§3§f§3§f§3§lʀ§x§f§1§f§1§f§1§lᴅ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+  youtube:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzNTNmZDBmODYzMTQzNTM4NzY1ODYwNzViOWJkZjBjNDg0YWFiMDMzMWI4NzJkZjExYmQ1NjRmY2IwMjllZCJ9fX0=
+    slot: 21
+    display_name: '          §x§f§f§0§0§0§0§lY§x§f§f§0§d§0§d§lO§x§f§e§1§a§1§a§lU§x§f§e§2§8§2§8§lT§x§f§e§3§5§3§5§lU§x§f§d§4§2§4§2§lB§x§f§d§4§f§4§f§lE'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lʏ§x§f§d§f§d§f§d§lᴏ§x§f§a§f§a§f§a§lᴜ§x§f§8§f§8§f§8§lᴛ§x§f§6§f§6§f§6§lᴜ§x§f§3§f§3§f§3§lʙ§x§f§1§f§1§f§1§lᴇ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§0§0§0§0§lY§x§f§f§0§d§0§d§lO§x§f§e§1§a§1§a§lU§x§f§e§2§8§2§8§lT§x§f§e§3§5§3§5§lU§x§f§d§4§2§4§2§lB§x§f§d§4§f§4§f§lE \n §x§f§f§f§f§f§f§lʏ§x§f§d§f§d§f§d§lᴏ§x§f§a§f§a§f§a§lᴜ§x§f§8§f§8§f§8§lᴛ§x§f§6§f§6§f§6§lᴜ§x§f§3§f§3§f§3§lʙ§x§f§1§f§1§f§1§lᴇ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§0§0§0§0§lY§x§f§f§0§d§0§d§lO§x§f§e§1§a§1§a§lU§x§f§e§2§8§2§8§lT§x§f§e§3§5§3§5§lU§x§f§d§4§2§4§2§lB§x§f§d§4§f§4§f§lE \n §x§f§f§f§f§f§f§lʏ§x§f§d§f§d§f§d§lᴏ§x§f§a§f§a§f§a§lᴜ§x§f§8§f§8§f§8§lᴛ§x§f§6§f§6§f§6§lᴜ§x§f§3§f§3§f§3§lʙ§x§f§1§f§1§f§1§lᴇ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n &r"
+  twitter:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY4NWEwYmU3NDNlOTA2N2RlOTVjZDhjNmQxYmEyMWFiMjFkMzczNzFiM2Q1OTcyMTFiYjc1ZTQzMjc5In19fQ==
+    slot: 22
+    display_name: '          §x§0§0§f§0§f§f§lT§x§0§0§e§b§f§f§lW§x§0§0§e§5§f§e§lI§x§0§0§e§0§f§e§lT§x§0§0§d§a§f§e§lT§x§0§0§d§5§f§d§lE§x§0§0§c§f§f§d§lR'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lᴡ§x§f§a§f§a§f§a§lɪ§x§f§8§f§8§f§8§lᴛ§x§f§6§f§6§f§6§lᴛ§x§f§3§f§3§f§3§lᴇ§x§f§1§f§1§f§1§lʀ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - '  §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§0§0§f§0§f§f§lT§x§0§0§e§b§f§f§lW§x§0§0§e§5§f§e§lI§x§0§0§e§0§f§e§lT§x§0§0§d§a§f§e§lT§x§0§0§d§5§f§d§lE§x§0§0§c§f§f§d§lR \n §x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lᴡ§x§f§a§f§a§f§a§lɪ§x§f§8§f§8§f§8§lᴛ§x§f§6§f§6§f§6§lᴛ§x§f§3§f§3§f§3§lᴇ§x§f§1§f§1§f§1§lʀ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§0§0§f§0§f§f§lT§x§0§0§e§b§f§f§lW§x§0§0§e§5§f§e§lI§x§0§0§e§0§f§e§lT§x§0§0§d§a§f§e§lT§x§0§0§d§5§f§d§lE§x§0§0§c§f§f§d§lR \n §x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lᴡ§x§f§a§f§a§f§a§lɪ§x§f§8§f§8§f§8§lᴛ§x§f§6§f§6§f§6§lᴛ§x§f§3§f§3§f§3§lᴇ§x§f§1§f§1§f§1§lʀ§x§e§f§e§f§e§f§l.§x§e§c§e§c§e§c§ls§x§e§a§e§a§e§a§lᴇ§x§e§8§e§8§e§8§lʀ§x§e§6§e§6§e§6§lᴠ§x§e§3§e§3§e§3§lɪ§x§e§1§e§1§e§1§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§c§d§c§d§c§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ \n &r"
+  instagram:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM4OGQ2MTYzZmFiZTdjNWU2MjQ1MGViMzdhMDc0ZTJlMmM4ODYxMWM5OTg1MzZkYmQ4NDI5ZmFhMDgxOTQ1MyJ9fX0=
+    slot: 23
+    display_name: '          §x§f§f§0§0§f§5§lI§x§f§8§0§0§f§6§lN§x§f§2§0§0§f§7§lS§x§e§b§0§0§f§8§lT§x§e§5§0§0§f§9§lA§x§d§e§0§0§f§a§lG§x§d§7§0§0§f§b§lR§x§d§1§0§0§f§c§lA§x§c§a§0§0§f§d§lM'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lɪ§x§f§d§f§d§f§d§lɴ§x§f§b§f§b§f§b§ls§x§f§9§f§9§f§9§lᴛ§x§f§7§f§7§f§7§lᴀ§x§f§5§f§5§f§5§lɢ§x§f§2§f§2§f§2§lʀ§x§f§0§f§0§f§0§lᴀ§x§e§e§e§e§e§e§lᴍ§x§e§c§e§c§e§c§l.§x§e§a§e§a§e§a§ls§x§e§8§e§8§e§8§lᴇ§x§e§6§e§6§e§6§lʀ§x§e§4§e§4§e§4§lᴠ§x§e§2§e§2§e§2§lɪ§x§e§0§e§0§e§0§lᴅ§x§d§d§d§d§d§d§lᴏ§x§d§b§d§b§d§b§lʀ§x§d§9§d§9§d§9§l.§x§d§7§d§7§d§7§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - '    §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§0§0§f§5§lI§x§f§8§0§0§f§6§lN§x§f§2§0§0§f§7§lS§x§e§b§0§0§f§8§lT§x§e§5§0§0§f§9§lA§x§d§e§0§0§f§a§lG§x§d§7§0§0§f§b§lR§x§d§1§0§0§f§c§lA§x§c§a§0§0§f§d§lM \n §x§f§f§f§f§f§f§lɪ§x§f§d§f§d§f§d§lɴ§x§f§b§f§b§f§b§ls§x§f§9§f§9§f§9§lᴛ§x§f§7§f§7§f§7§lᴀ§x§f§5§f§5§f§5§lɢ§x§f§2§f§2§f§2§lʀ§x§f§0§f§0§f§0§lᴀ§x§e§e§e§e§e§e§lᴍ§x§e§c§e§c§e§c§l.§x§e§a§e§a§e§a§ls§x§e§8§e§8§e§8§lᴇ§x§e§6§e§6§e§6§lʀ§x§e§4§e§4§e§4§lᴠ§x§e§2§e§2§e§2§lɪ§x§e§0§e§0§e§0§lᴅ§x§d§d§d§d§d§d§lᴏ§x§d§b§d§b§d§b§lʀ§x§d§9§d§9§d§9§l.§x§d§7§d§7§d§7§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§0§0§f§5§lI§x§f§8§0§0§f§6§lN§x§f§2§0§0§f§7§lS§x§e§b§0§0§f§8§lT§x§e§5§0§0§f§9§lA§x§d§e§0§0§f§a§lG§x§d§7§0§0§f§b§lR§x§d§1§0§0§f§c§lA§x§c§a§0§0§f§d§lM \n §x§f§f§f§f§f§f§lɪ§x§f§d§f§d§f§d§lɴ§x§f§b§f§b§f§b§ls§x§f§9§f§9§f§9§lᴛ§x§f§7§f§7§f§7§lᴀ§x§f§5§f§5§f§5§lɢ§x§f§2§f§2§f§2§lʀ§x§f§0§f§0§f§0§lᴀ§x§e§e§e§e§e§e§lᴍ§x§e§c§e§c§e§c§l.§x§e§a§e§a§e§a§ls§x§e§8§e§8§e§8§lᴇ§x§e§6§e§6§e§6§lʀ§x§e§4§e§4§e§4§lᴠ§x§e§2§e§2§e§2§lɪ§x§e§0§e§0§e§0§lᴅ§x§d§d§d§d§d§d§lᴏ§x§d§b§d§b§d§b§lʀ§x§d§9§d§9§d§9§l.§x§d§7§d§7§d§7§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ \n &r"
+  tiktok:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAxYWNmYzdmNTFlYjdiNDlkZTk5NjQ0MmUxZjU4YTJkYTVkODVhZDMwYzAwZmE4NzNmOGUzNDBlYTZjMjRlZiJ9fX0=
+    slot: 24
+    display_name: '          §x§f§f§2§5§2§5§lT§x§c§c§5§0§5§0§lI§x§9§9§7§b§7§b§lK§x§6§6§a§7§a§7§lT§x§3§3§d§2§d§2§lO§x§0§0§f§d§f§d§lK'
+    lore:
+    - ''
+    - '§x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§lᴋ§x§f§8§f§8§f§8§lᴛ§x§f§5§f§5§f§5§lᴏ§x§f§3§f§3§f§3§lᴋ§x§f§0§f§0§f§0§l.§x§e§e§e§e§e§e§ls§x§e§b§e§b§e§b§lᴇ§x§e§9§e§9§e§9§lʀ§x§e§7§e§7§e§7§lᴠ§x§e§4§e§4§e§4§lɪ§x§e§2§e§2§e§2§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ'
+    - ' §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§2§5§2§5§lT§x§c§c§5§0§5§0§lI§x§9§9§7§b§7§b§lK§x§6§6§a§7§a§7§lT§x§3§3§d§2§d§2§lO§x§0§0§f§d§f§d§lK \n §x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§lᴋ§x§f§8§f§8§f§8§lᴛ§x§f§5§f§5§f§5§lᴏ§x§f§3§f§3§f§3§lᴋ§x§f§0§f§0§f§0§l.§x§e§e§e§e§e§e§ls§x§e§b§e§b§e§b§lᴇ§x§e§9§e§9§e§9§lʀ§x§e§7§e§7§e§7§lᴠ§x§e§4§e§4§e§4§lɪ§x§e§2§e§2§e§2§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ \n &r"
+    right_click_commands:
+    - '[close]'
+    - "[message] &r\n §x§f§f§2§5§2§5§lT§x§c§c§5§0§5§0§lI§x§9§9§7§b§7§b§lK§x§6§6§a§7§a§7§lT§x§3§3§d§2§d§2§lO§x§0§0§f§d§f§d§lK \n §x§f§f§f§f§f§f§lᴛ§x§f§d§f§d§f§d§lɪ§x§f§a§f§a§f§a§lᴋ§x§f§8§f§8§f§8§lᴛ§x§f§5§f§5§f§5§lᴏ§x§f§3§f§3§f§3§lᴋ§x§f§0§f§0§f§0§l.§x§e§e§e§e§e§e§ls§x§e§b§e§b§e§b§lᴇ§x§e§9§e§9§e§9§lʀ§x§e§7§e§7§e§7§lᴠ§x§e§4§e§4§e§4§lɪ§x§e§2§e§2§e§2§lᴅ§x§d§f§d§f§d§f§lᴏ§x§d§d§d§d§d§d§lʀ§x§d§a§d§a§d§a§l.§x§d§8§d§8§d§8§lɴ§x§d§5§d§5§d§5§lᴇ§x§d§3§d§3§d§3§lᴛ \n §x§f§f§f§f§f§f§l@§x§f§c§f§c§f§c§ls§x§f§9§f§9§f§9§lᴇ§x§f§6§f§6§f§6§lʀ§x§f§3§f§3§f§3§lᴠ§x§f§0§f§0§f§0§lɪ§x§e§d§e§d§e§d§lᴅ§x§e§a§e§a§e§a§lᴏ§x§e§8§e§8§e§8§lʀ§x§e§5§e§5§e§5§lɴ§x§e§2§e§2§e§2§lᴇ§x§d§f§d§f§d§f§lᴛ§x§d§c§d§c§d§c§lᴡ§x§d§9§d§9§d§9§lᴏ§x§d§6§d§6§d§6§lʀ§x§d§3§d§3§d§3§lᴋ \n &r"
+  glass:
+    display_name: '&r'
+    material: STAINED_GLASS_PANE
+    data: 7
+    slots: 
+    - 0-11
+    - 15-19
+    - 25-35

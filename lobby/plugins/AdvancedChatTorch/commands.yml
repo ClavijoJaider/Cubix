@@ -1,0 +1,51 @@
+mainPerm: act.cmd
+noPermArgs: '&cNo tienes acceso a este comando, si crees que esto es un error puedes
+  contactar con un administrador.'
+noArgs: |-
+  &r
+  &6&lCHAT TORCH> &fComandos.
+  &r
+  &8&l●&r &f/act reload
+  &8&l●&r &f/act clearchat
+  &8&l●&r &f/act slowchat
+  &8&l●&r &f/act mutechat
+reload:
+  noPerm: '&cNo tienes acceso a este comando, si crees que esto es un error puedes
+    contactar con un administrador.'
+  perm: act.reload
+  invalidPlayer: '&cInvalid player. Check the name again.'
+  playerSuccess: '&6Successfully reloaded the player information!'
+  playerFail: '&cSomething went wrong when reloading the player information!'
+  success: '&aPlugin reloaded.'
+  fail: '&cSomething went wrong when reloading.'
+clearchat:
+  noPerm: No tienes acceso a este comando, si crees que esto es un error puedes contactar
+    con un administrador.
+  enabled: false
+  perm: act.clearchat
+  noClearPerm: act.clearchat.bypass
+  onNoClear: |2-
+
+    &eTu chat no se limpió debido a tus permisos.
+  success: |2
+
+    &6&lPHASE> &fEl chat ha sido liberado por &e%player%&f.
+slowchat:
+  noPerm: '&cNo tienes acceso a este comando, si crees que esto es un error puedes
+    contactar con un administrador.'
+  enabled: false
+  perm: act.slowchat
+  bypassPerm: act.slowchat.bypass
+  slowed: '&6Successfully slowed the chat!'
+  unslowed: '&6Successfully unslowed the chat!'
+  wait: '&6Wait <time>s until you can talk again!'
+  cooldown: 10000
+mutechat:
+  enabled: false
+  noPerm: '&cNo tienes acceso a este comando, si crees que esto es un error puedes
+    contactar con un administrador.'
+  perm: act.mutechat
+  override: act.mutechat.bypass
+  unmuted: '&6Successfully unmuted the chat!'
+  muted: '&6Successfully muted the chat!'
+  mute: '&6You can''t talk! Chat is silenced!'

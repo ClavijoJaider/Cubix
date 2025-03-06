@@ -1,0 +1,345 @@
+[15:28:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21+35-2513; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[15:28:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-190-main@5538d24 (2025-03-05T12:40:02Z) for Minecraft 1.21.4
+[15:28:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:28:38] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\custom-join-messages-17.7.1.jar'...
+[15:28:38] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\GadgetsMenu.jar'...
+[15:28:43] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GadgetsMenu.jar' in 4313ms.
+[15:28:43] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\custom-join-messages-17.7.1.jar' in 4776ms.
+[15:28:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 30 plugins
+[15:28:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (30):
+ - AdvancedChatTorch (2.2.3), AnimatedScoreboard (0.3.6), ArmorStandTools (4.4.6), BlockParticles (1.12), Citizens (2.0.37-SNAPSHOT (build 3750)), CommandNPC (1.9.1), CustomJoinMessages (17.7.1), DecentHolograms (2.8.15), DeluxeMenus (1.14.0-Release), DisableJoinMessage (1.0), Essentials (2.19.8-dev+3-1eb5d8a), EssentialsSpawn (2.19.8-dev+3-1eb5d8a), ExAFK (1.0.0), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1061;46dc455), Fireworks (1.2), GadgetsMenu (4.17.0), ItemJoin (6.1.2-RELEASE-b1076), JoinCommands (2.0.9), LuckPerms (5.3.83), Multiverse-Core (1.1), NoRainReloaded (1.3.1), PlaceholderAPI (2.11.6), PlayerPoints (3.3.0), TAB (5.0.7), Vault (1.7.3-b131), VisibilityToggle (3.8), VoidGenerator (1.0), WorldGuard (7.0.13+82fdc65), ajParkour (2.12.10), asCMD (2.3)
+[15:28:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:28:57] [ServerMain/INFO]: Loaded 1370 recipes
+[15:28:57] [ServerMain/INFO]: Loaded 1481 advancements
+[15:28:57] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:28:58] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 397,5ms
+[15:28:58] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:28:58] [Server thread/INFO]: Loading properties
+[15:28:58] [Server thread/INFO]: This server is running Paper version 1.21.4-190-main@5538d24 (2025-03-05T12:40:02Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[15:28:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:28:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:28:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:28:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:28:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:29:00] [Server thread/INFO]: Default game type: SURVIVAL
+[15:29:00] [Server thread/INFO]: Generating keypair
+[15:29:00] [Server thread/INFO]: Starting Minecraft server on *:30067
+[15:29:00] [Server thread/INFO]: Using default channel type
+[15:29:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:29:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:29:01] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:29:21] [Server thread/WARN]: Legacy plugin Multiverse-Core v1.1 does not specify an api-version.
+[15:29:21] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\ch\ethz\globis\phtree\phtree\2.8.1\phtree-2.8.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\it\unimi\dsi\fastutil\8.5.15\fastutil-8.5.15.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-platform-bukkit\4.3.3\adventure-platform-bukkit-4.3.3.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-platform-api\4.3.3\adventure-platform-api-4.3.3.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.3\adventure-text-serializer-bungeecord-4.3.3.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-text-serializer-gson\4.13.1\adventure-text-serializer-gson-4.13.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-platform-facet\4.3.3\adventure-platform-facet-4.3.3.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-platform-viaversion\4.3.3\adventure-platform-viaversion-4.3.3.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-text-minimessage\4.17.0\adventure-text-minimessage-4.17.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-api\4.17.0\adventure-api-4.17.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\net\kyori\adventure-key\4.17.0\adventure-key-4.17.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loading 2 libraries... please wait
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\com\mysql\mysql-connector-j\9.1.0\mysql-connector-j-9.1.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\com\google\protobuf\protobuf-java\4.26.1\protobuf-java-4.26.1.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\org\xerial\sqlite-jdbc\3.46.0.0\sqlite-jdbc-3.46.0.0.jar
+[15:29:22] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library C:\Users\Jaider Clavijo\Desktop\Network\Lobby\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[15:29:22] [Server thread/WARN]: Legacy plugin VoidGenerator v1.0 does not specify an api-version.
+[15:29:22] [Server thread/WARN]: Legacy plugin NoRainReloaded v1.3.1 does not specify an api-version.
+[15:29:23] [Server thread/WARN]: Legacy plugin Fireworks v1.2 does not specify an api-version.
+[15:29:23] [Server thread/WARN]: Legacy plugin DisableJoinMessage v1.0 does not specify an api-version.
+[15:29:23] [Server thread/WARN]: Legacy plugin CommandNPC v1.9.1 does not specify an api-version.
+[15:29:23] [Server thread/WARN]: Legacy plugin asCMD v2.3 does not specify an api-version.
+[15:29:23] [Server thread/WARN]: Legacy plugin AdvancedChatTorch v2.2.3 does not specify an api-version.
+[15:29:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.3.83
+[15:29:23] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:29:23] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1061;46dc455
+[15:29:23] [Server thread/WARN]: 
+**********************************************
+** You are using the Spigot-mapped FAWE jar on a modern Paper version.
+** This will result in slower first-run times and wasted disk space from plugin remapping.
+** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
+**********************************************
+[15:29:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@20f5481c]
+[15:29:26] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[15:29:26] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[15:29:26] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v1.1
+[15:29:26] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3750)
+[15:29:26] [Server thread/INFO]: [PlayerPoints] Loading server plugin PlayerPoints v3.3.0
+[15:29:26] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.6
+[15:29:26] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[15:29:26] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.8-dev+3-1eb5d8a
+[15:29:26] [Server thread/INFO]: [VoidGenerator] Loading server plugin VoidGenerator v1.0
+[15:29:26] [Server thread/INFO]: [VisibilityToggle] Loading server plugin VisibilityToggle v3.8
+[15:29:26] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[15:29:26] [Server thread/INFO]: [NoRainReloaded] Loading server plugin NoRainReloaded v1.3.1
+[15:29:26] [Server thread/INFO]: [Join Commands] Loading server plugin JoinCommands v2.0.9
+[15:29:26] [Server thread/INFO]: [ItemJoin] Loading server plugin ItemJoin v6.1.2-RELEASE-b1076
+[15:29:26] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
+[15:29:26] [Server thread/INFO]: [Fireworks] Loading server plugin Fireworks v1.2
+[15:29:26] [Server thread/INFO]: [ExAFK] Loading server plugin ExAFK v1.0.0
+[15:29:26] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.19.8-dev+3-1eb5d8a
+[15:29:26] [Server thread/INFO]: [DisableJoinMessage] Loading server plugin DisableJoinMessage v1.0
+[15:29:26] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-Release
+[15:29:26] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[15:29:26] [Server thread/INFO]: [CustomJoinMessages] Loading server plugin CustomJoinMessages v17.7.1
+[15:29:26] [Server thread/INFO]: [CommandNPC] Loading server plugin CommandNPC v1.9.1
+[15:29:26] [Server thread/INFO]: [BlockParticles] Loading server plugin BlockParticles v1.12
+[15:29:26] [Server thread/INFO]: [asCMD] Loading server plugin asCMD v2.3
+[15:29:26] [Server thread/INFO]: [ArmorStandTools] Loading server plugin ArmorStandTools v4.4.6
+[15:29:26] [Server thread/INFO]: [ArmorStandTools] Registered custom WorldGuard flag: ast
+[15:29:26] [Server thread/INFO]: [AnimatedScoreboard] Loading server plugin AnimatedScoreboard v0.3.6
+[15:29:26] [Server thread/INFO]: [ajParkour] Loading server plugin ajParkour v2.12.10
+[15:29:26] [Server thread/INFO]: [AdvancedChatTorch] Loading server plugin AdvancedChatTorch v2.2.3
+[15:29:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:29:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.83
+[15:29:27] [Server thread/INFO]:         __    
+[15:29:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.83
+[15:29:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:29:27] [Server thread/INFO]: 
+[15:29:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:29:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:29:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:29:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:29:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3269ms)
+[15:29:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:29:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:29:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:29:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:29:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:29:30] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1061;46dc455
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!                                                                !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!    Using history database whilst deleting disk history!        !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!    You will not be able to rollback edits after a user logs    !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!    out, recommended to disable delete-disk-on-logout if you    !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!    you want to have full history rollback functionality.       !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!    Disable use-database if you do not need to have rollback    !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!    functionality and wish to disable this warning.             !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!                                                                !!!
+[15:29:30] [Server thread/WARN]: [com.fastasyncworldedit.core.Fawe] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[15:29:30] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:29:30] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:29:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:29:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:29:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[15:29:32] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.0
+[15:29:33] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[15:29:33] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.0*
+[15:29:33] [Server thread/INFO]: VoidGenerator has been enabled!
+[15:29:33] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v6.1.2-RELEASE-b1076
+[15:29:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:29:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:29:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:29:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:29:33] [Server thread/INFO]: Preparing level "world"
+[15:29:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:29:34] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:34] [Server thread/INFO]: Preparing spawn area: 2%
+[15:29:35] [Server thread/INFO]: Preparing spawn area: 2%
+[15:29:35] [Server thread/INFO]: Preparing spawn area: 2%
+[15:29:35] [Server thread/INFO]: Time elapsed: 1599 ms
+[15:29:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:29:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:36] [Server thread/INFO]: Time elapsed: 231 ms
+[15:29:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:29:36] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:36] [Server thread/INFO]: Time elapsed: 147 ms
+[15:29:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:29:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:29:36] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:29:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[15:29:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:29:37] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v1.1*
+[15:29:37] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v1.1" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--].
+[15:29:37] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[15:29:37] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:38] [Server thread/INFO]: Preparing spawn area: 51%
+[15:29:38] [Server thread/INFO]: Time elapsed: 650 ms
+[15:29:38] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[15:29:38] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[15:29:38] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[15:29:38] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[15:29:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[15:29:38] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[15:29:38] [Server thread/INFO]: false
+[15:29:38] [Server thread/INFO]: [Multiverse-Core] Version 1.1 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[15:29:38] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3750)
+[15:29:39] [Server thread/INFO]: [Citizens] Detected system language [[es]]. If youd like you can contribute to Citizens translations via our Discord! https://discord.gg/Q6pZGSR
+[15:29:39] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[15:29:39] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[15:29:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[15:29:39] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[15:29:40] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[15:29:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[15:29:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[15:29:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[15:29:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.8-dev+3-1eb5d8a
+[15:29:40] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:29:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:29:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:29:41] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[15:29:42] [Server thread/INFO]: [Essentials] Using locale en
+[15:29:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:29:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:29:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:29:42] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:29:42] [Server thread/INFO]: [VisibilityToggle] Enabling VisibilityToggle v3.8
+[15:29:42] [Server thread/INFO]: VisibilityToggle>> Plugin Enabled!
+[15:29:42] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[15:29:42] [Server thread/INFO]: [TAB] Loaded NMS hook in 115ms
+[15:29:43] [Server thread/INFO]: [TAB] [WARN] [config.yml] Missing configuration section "scoreboard-teams.can-see-friendly-invisibles" of type Boolean, using default value false.
+[15:29:43] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "customtagname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[15:29:43] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "abovename" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[15:29:43] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "belowname" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[15:29:43] [Server thread/INFO]: [TAB] [WARN] Found a total of 4 issues.
+[15:29:43] [Server thread/INFO]: [TAB] Enabled in 456ms
+[15:29:43] [Server thread/INFO]: [NoRainReloaded] Enabling NoRainReloaded v1.3.1*
+[15:29:43] [Server thread/INFO]: [NoRainReloaded] Plugin enabled. Plugin created by xtomyserrax
+[15:29:43] [Server thread/INFO]: [Join Commands] Enabling JoinCommands v2.0.9
+[15:29:43] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
+[15:29:43] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]       [server: 1.21.4-190-5538d24 (MC: 1.21.4)]
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]                    Running Java 21
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]                            
+[15:29:43] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_21_R3
+[15:29:43] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[15:29:45] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[15:29:45] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[15:29:46] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 147ms)
+[15:29:46] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:29:48] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[15:29:48] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[15:29:48] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[15:29:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[15:29:48] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[15:29:48] [Server thread/INFO]: [Fireworks] Enabling Fireworks v1.2*
+[15:29:48] [Server thread/INFO]: [Fireworks] [STDOUT] Fireworks is now enabled!
+[15:29:48] [Server thread/WARN]: Nag author(s): '[]' of 'Fireworks v1.2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:29:48] [Server thread/INFO]: [ExAFK] Enabling ExAFK v1.0.0
+[15:29:48] [Server thread/INFO]: [ExAFK] [STDOUT] Thank you for using ExAFK!
+[15:29:48] [Server thread/WARN]: Nag author(s): '[Jackerugo]' of 'ExAFK v1.0.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:29:48] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.8-dev+3-1eb5d8a
+[15:29:48] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] Enabling DisableJoinMessage v1.0*
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] [STDOUT] §c===================================
+[15:29:48] [Server thread/WARN]: Nag author(s): '[MinecraftDev96]' of 'DisableJoinMessage v1.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] [STDOUT] §c===================================
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] [STDOUT] §aCheck out my other Plugins!
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] [STDOUT] §aI also sell a BedWars §aPlugin!
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] [STDOUT] §c===================================
+[15:29:48] [Server thread/INFO]: [DisableJoinMessage] [STDOUT] §c===================================
+[15:29:48] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
+[15:29:48] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[15:29:48] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: accessories is not valid!
+Skipping item: glass
+[15:29:48] [Server thread/WARN]: [DeluxeMenus] Material for item: glass in menu: information is not valid!
+Skipping item: glass
+[15:29:48] [Server thread/INFO]: [DeluxeMenus] 7 GUI menus loaded!
+[15:29:48] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[15:29:48] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[15:29:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
+[15:29:48] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v17.7.1
+[15:29:49] [Server thread/ERROR]: [CustomJoinMessages] It appears you've recently upgraded to CJM 17.7.1 from an older version.
+[15:29:49] [Server thread/ERROR]: [CustomJoinMessages] Since the configuration has changed in layout, your old config folder has been renamed to "plugins\CustomJoinMessages-old" and a new one has been generated.
+[15:29:49] [Server thread/ERROR]: [CustomJoinMessages] Please manually setup the new configuration and restart your server to re-enable the plugin.
+[15:29:49] [Server thread/INFO]: [CustomJoinMessages] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:29:49] [Server thread/INFO]: [CustomJoinMessages] Disabling CustomJoinMessages v17.7.1
+[15:29:49] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1*
+[15:29:49] [Server thread/INFO]: [CommandNPC] Vault compatible economy found! Economy support for CommandNPC has been enabled.
+[15:29:49] [Server thread/INFO]: [CommandNPC] Initiating Database
+[15:29:49] [Server thread/INFO]: [CommandNPC] Injecting command info into Citizens.
+[15:29:49] [Server thread/INFO]: [CommandNPC] CommandNPC successfully loaded!
+[15:29:49] [Thread-9/INFO]: [CommandNPC] Loading commands complete!
+[15:29:49] [Server thread/INFO]: [BlockParticles] Enabling BlockParticles v1.12
+[15:29:49] [Server thread/INFO]: [BlockParticles] Loading the config.yml
+[15:29:49] [Server thread/INFO]: [BlockParticles] Successfully loaded config.yml
+[15:29:49] [Server thread/INFO]: [BlockParticles] Loading the data.yml
+[15:29:49] [Server thread/INFO]: [BlockParticles] Successfully loaded data.yml
+[15:29:50] [Server thread/INFO]: [asCMD] Enabling asCMD v2.3*
+[15:29:50] [Server thread/INFO]: [asCMD] asCMD version 2.3 is enabled!
+[15:29:50] [Server thread/INFO]: [ArmorStandTools] Enabling ArmorStandTools v4.4.6
+[15:29:50] [Server thread/WARN]: [ArmorStandTools] Error in config.yml: Invalid material name specifed (SKULL_ITEM 3). Continuing using AIR instead.
+[15:29:50] [Server thread/WARN]: [ArmorStandTools] Error in config.yml: Invalid material name specifed (IRON_CHESTPLATE 0). Continuing using AIR instead.
+[15:29:50] [Server thread/WARN]: [ArmorStandTools] Error in config.yml: Invalid material name specifed (IRON_LEGGINGS 0). Continuing using AIR instead.
+[15:29:50] [Server thread/WARN]: [ArmorStandTools] Error in config.yml: Invalid material name specifed (IRON_BOOTS 0). Continuing using AIR instead.
+[15:29:50] [Server thread/INFO]: [ArmorStandTools] PlotSquared plugin not found. Continuing without PlotSquared support.
+[15:29:50] [Server thread/INFO]: [ArmorStandTools] WorldGuard plugin found. WorldGuard support enabled.
+[15:29:50] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.3.6
+[15:29:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: animatedscoreboard [0.0.1]
+[15:29:50] [Server thread/INFO]: [ajParkour] Enabling ajParkour v2.12.10
+[15:29:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajpk [2.12.10]
+[15:29:50] [Server thread/INFO]: ajParkour v2.12.10 by ajgeiss0702 has been enabled!
+[15:29:50] [Server thread/INFO]: [AdvancedChatTorch] Enabling AdvancedChatTorch v2.2.3*
+[15:29:51] [Server thread/INFO]: [spark] Starting background profiler...
+[15:29:51] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[15:29:51] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:29:51] [Server thread/INFO]: Done preparing level "world" (18.068s)
+[15:29:51] [Server thread/INFO]: Running delayed init tasks
+[15:29:51] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[15:29:51] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[15:29:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.3.0]
+[15:29:51] [Craft Scheduler Thread - 14 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:29:51] [Craft Scheduler Thread - 21 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[15:29:52] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[15:29:52] [Craft Scheduler Thread - 6 - ItemJoin/INFO]: [ItemJoin] Hooked into { Multiverse-Core, WorldGuard, PlaceholderAPI, Citizens, Vault }
+[15:29:52] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:29:52] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: [DecentHolograms] Loaded 12 holograms!
+[15:29:52] [Server thread/INFO]: [ItemJoin] 4/4 Custom item(s) loaded!
+[15:29:52] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:29:52] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] No new version available
+[15:29:52] [Craft Scheduler Thread - 21 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] No new versions found for the plugin!
+[15:29:52] [User Authenticator #1/INFO]: UUID of player Jaider is 6d051f46-f9f9-3429-a141-5d611ebacf78
+[15:29:52] [User Authenticator #0/INFO]: UUID of player Jaider is 6d051f46-f9f9-3429-a141-5d611ebacf78
+[15:29:53] [Server thread/INFO]: [Citizens] Cargando a 11 NPCs.
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[15:29:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[15:29:53] [Server thread/INFO]: 7 placeholder hook(s) registered!
+[15:29:53] [Server thread/INFO]: Done (79.186s)! For help, type "help"
+[15:29:53] [Craft Scheduler Thread - 8 - ItemJoin/INFO]: [ItemJoin] Checking for updates...
+[15:29:53] [Server thread/INFO]: Jaider (/127.0.0.1:57358) lost connection: Disconnected
+[15:29:53] [Craft Scheduler Thread - 8 - ItemJoin/INFO]: [ItemJoin] You are up to date!
+[15:29:53] [Craft Scheduler Thread - 14 - Essentials/WARN]: [Essentials] You're 296 EssentialsX dev build(s) out of date!
+[15:29:53] [Craft Scheduler Thread - 14 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[15:29:55] [Server thread/INFO]: Jaider[/127.0.0.1:57384] logged in with entity id 170 at ([Lobby]2.2293196960197097, 99.0, 14.512677414268783)
+[15:29:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2584ms or 51 ticks behind
+[15:29:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /spawn Jaider
+[15:29:57] [Server thread/INFO]: ♯ | Server ･ Teletransportando...
+[15:30:00] [Server thread/INFO]: Jaider issued server command: /informacion
+[15:30:03] [Server thread/INFO]: Jaider issued server command: /cosmetics
+[15:30:05] [Server thread/INFO]: Jaider issued server command: /gmenu menu hats
+[15:30:50] [Server thread/INFO]: Jaider issued server command: /animatedsb reload
+[15:31:03] [Server thread/INFO]: Jaider issued server command: /animatedsb reload
+[15:31:33] [Server thread/INFO]: Jaider issued server command: /selector
+[15:31:44] [Server thread/INFO]: Jaider lost connection: Disconnected

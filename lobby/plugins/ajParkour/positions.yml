@@ -1,0 +1,37 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+areas:
+  easy:
+    difficulty: MEDIUM
+    max: 2147483647
+    pos1: Lobby,5,226,-3888,5.275734,66.34338
+    pos2: Lobby,-20,198,-3832,-157.90648,85.930786
+    fallpos: Lobby,13,154,-3857,-270.0763,-0.14338376
+  medium:
+    difficulty: HARD
+    max: 2147483647
+    pos1: Lobby,-35,246,-3916,-22.86358,59.72238
+    pos2: Lobby,24,224,-3883,97.005646,85.93088
+    fallpos: Lobby,13,154,-3857,-270.0763,-0.14338376
+  hard:
+    difficulty: EXPERT
+    max: 2147483647
+    pos1: Lobby,-76,232,-3829,-136.43488,71.58505
+    pos2: Lobby,-32,197,-3884,18.057158,88.620575
+    fallpos: Lobby,13,154,-3857,-270.0763,-0.14338376
+  parkour:
+    difficulty: MEDIUM
+    max: 2147483647
+    pos1: hub,16,155,34,-208.12154,90.0
+    pos2: hub,-44,133,-23,-44.133484,28.410072
+    fallpos: hub,-15,90,0,-0.18164062,-1.453761
+  Parkour:
+    difficulty: HARD
+    max: 2147483647
+    pos1: Lobby,-15,122,9,-79.461685,49.440323
+    pos2: Lobby,9,142,31,112.67914,59.01053
+    fallpos: Lobby,0,100,0,-0.040782213,-1.1456621
+portals: {}

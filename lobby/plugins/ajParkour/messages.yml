@@ -1,0 +1,226 @@
+#
+#
+# This is the messsages file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+# 	
+# 	
+
+#
+#
+# This is the messsages file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+# 	
+# 	
+prefix: ''
+alreadyin: '&cYa estas jugando en el parkour.'
+start:
+  score: "&r \n&e¡Has iniciado el &f&lPARKOUR&e!\n&b¡Trata de mejorar tu puntuació\
+    n de &3&l{SCORE}&b!\n&r "
+  first: "&r \n&e¡Has iniciado el &f&lPARKOUR&e!\n&b¡Esta es tu primera vez jugando,\
+    \ mucha suerte!\n&r "
+  no-area-player: '&cNo arena or player could be found called ''{INPUT}''.'
+  unknown-player: '&cCannot find that player.'
+  unknown-area: '&cCannot find that area.'
+  started-other: '&eStarted parkour for &f{PLY}&e.'
+  started-other-area: '&eStarted parkour for &f{PLY}&e on area &f{AREA}&e.'
+noperm: '&cNo tienes acceso a este comando, si crees que esto es un error puedes contactar
+  con un administrador.'
+score: '§x§f§f§8§a§0§0♯ &fPuntuación: &6{SCORE}'
+beatrecord: '&b¡Mejoraste tu puntuación anterior de &3&l{SCORE}&b!'
+beatrecord-ingame: '&b¡Acabas de superar tu puntuación más alta anterior! &e&lSIGUE
+  ADELANTE'
+disabledworld: '&cNo puedes empezar parkour en este mundo.'
+block:
+  potion: '&cNope.'
+  place: '&cYou can''t place blocks here.'
+  break: '&cYou can''t break blocks here.'
+numberformatexception: '&cThat is not a valid number.'
+areafull: '&cThis arena is currently full.'
+must-be-ingame: '&cYou must be in-game to do that.'
+not-in-game: '&cYou must do this command from the console.'
+couldnt-find-player: '&c{PLAYER} is offline.'
+list:
+  header: |-
+    &r
+    &e&lPARKOUR> &fLista de jugadores:
+    &r
+  format: '&6 ● &e{NAME} &7» &f{SCORE} saltos'
+  none: '&fNone'
+nobodys-played-yet: '&cNadie ha jugado aun.'
+first-position: '&eFirst position set.'
+second-position: '&eSecond position set.'
+setup-done: '&aYou can now do &2/ajParjour start&a to do parkour.'
+reload:
+  usage: '&cUsage: /{CMD} reload <file>&7 Files: {POSS}'
+fallpos:
+  set: '&aFall position set.'
+  removed: '&aFall position removed.'
+top:
+  header: "&r \n&e&lPARKOUR> &f¡Top 10!\n&r "
+  header-area: "&r \n&e&lPARKOUR> &f¡Top 10!\n&r "
+  format: '&6 #{#} &7┃ &e{NAME} &7» &f{SCORE} jumps'
+fall:
+  normal: '&6¡Has caido! &eTu puntuación ha sido &l{SCORE}&e.'
+  force:
+    base: '&cYour parkour game was ended because '
+    reasons:
+      teleport: you teleported
+      afk: you went AFK.
+    afk: you went AFK.
+errors:
+  blocknotair:
+    base: '&c&lAn error occured:&r&c The block is not air.'
+    player: '&6Tell an admin, and try again later.'
+    admin: '&6Make sure the parkour area is completly air, and that the plugin has
+      been correctly set up by reading /{CMD} setup.'
+  notsetup:
+    base: '&cajParkour has not been set up yet.'
+    player: '&6Ask an admin to set it up.'
+    admin: '&6For info on how to set it up, do /{CMD} setup'
+  too-many-players: '&cThere are too many players in parkour right now. Try again
+    later.'
+migrate:
+  more-args: '&cPlease provide the source to migrate from.'
+  success: '&aMigrated {COUNT} scores.'
+  error: '&cSomething went wrong. There is probably more information in the console.'
+placeholders:
+  stats:
+    no-data: None
+    time-format: '{m}m {s}s'
+  current:
+    no-data: '0'
+max-score-reached: '&cYou reached the max score. Your game has been ended.'
+console-warn-confirm: |-
+  &cIf you do this command, you will only be able to set it again in-game.
+  &7To run the command anyway, run this command: &f{COMMAND} confirm
+commands:
+  help:
+    header: "&r \n&e&lPARKOUR> &fComandos:\n&r "
+    start: '&6 ● &f/{CMD} start &7» &fStart parkour.'
+    startarea: '&6 ● &f/{CMD} start <area> &7» &fStart parkour in a certain area.'
+    startothers: '&6 ● &f/{CMD} start <player> [area] &7» &fStart another player''s
+      parkour in a certain area.'
+    top: '&6 ● &f/{CMD} top &7» &fSee the top 10 players.'
+    list: '&6 ● &f/{CMD} list &7» &fSee everyone that is playing parkour, and their
+      current scores.'
+    setup: '&6 ● &f/{CMD} setup &7» &fCommands for setting up the plugin.'
+    portals: '&6 ● &f/{CMD} portals &7» &fCommands for setting up portals.'
+    areas: '&6 ● &f/{CMD} areas &7» &fList all loaded areas'
+  setup:
+    header: "&r \n&e&lPARKOUR> &fSetup:\n&r "
+    create: '&6 ● &f/{CMD} setup create &7» &fCreate an area'
+    pos1: '&6 ● &f/{CMD} setup pos1 &7» &fSet the first position'
+    pos2: '&6 ● &f/{CMD} setup pos2 &7» &fSet the second position'
+    we: '&6 ● &f/{CMD} setup we &7» &fSelect first and second position with worldedit'
+    fallpos: '&6 ● &f/{CMD} setup fallpos &7» &fSet fall position.'
+    edit: '&6 ● &f/{CMD} edit &7» &fLoad an existing area into the editing queue.'
+    info: '&6 ● &f/{CMD} setup info &7» &fShow which points you have set so far.'
+    diff: '&6 ● &f/{CMD} setup difficulty &7» &fSet the area''s difficulty.'
+    max: '&6 ● &f/{CMD} setup max &7» &fSet the maximum number of people allowed in
+      the area.'
+    save: '&6 ● &f/{CMD} setup save &7» &fSaves and enabled the area.'
+  portals:
+    header: "&r \n&e&lPARKOUR> &fPortales:\n&r "
+    list: '&6 ● &f/{CMD} portals list'
+    create: '&6 ● &f/{CMD} portals create'
+    remove: '&6 ● &f/{CMD} portals remove'
+  listareas:
+    header: "&r \n&e&lPARKOUR> &fAreas:\n&r "
+    format: '&7 - &a{NAME} &7Difficulty: &9{DIFFICULTY}'
+    none: '&7No areas loaded.'
+  not-on-whitelist: '&cYou cannot use this command while on parkour.'
+not-from-console: '&cYou cannot run this command from the console.'
+setup:
+  no-name: '&cYou must name your area.'
+  edit:
+    no-name: '&cPlease enter the name of an area to edit.'
+    loaded: '&aArea loaded for editing. Re-set positions using /{CMD} setup'
+    no-area: '&cAn area with that name does not exist.'
+  need-to-create: '&aYou must create an area before editing it.'
+  we:
+    not-installed: '&cYou need to have WorldEdit installed to use this command.&7
+      Try using the built-in pos1 and pos2 setup commands.'
+    incomplete-selection: '&cYou must make a complete worldedit selection before doing
+      this.'
+  created: '&aArea created and added to the editing queue. See &2/ajParkour setup&a
+    or view the plugin page for steps to set it up.'
+  already-creating: '&cAn arena is currently being set up. &aPlease either save that
+    arena, or run this command again to override. (&c&lNOTE:&r&c Overriding will erase
+    all of the data of the arena being set up before.)'
+  info:
+    header: '&6Colors: &aSet &7Not set (optional) &cNot set (required)'
+  set:
+    pos1: '&aFirst position set.'
+    pos2: '&aSecond position set.'
+    fallpos: '&aFall position set.'
+    we: '&aPositions set.'
+    diff: '&aDifficulty set.'
+    max: '&aMax players set.'
+  max:
+    need-args: '&cPlease enter a number.'
+  diff:
+    not-valid: '&cInvalid difficulty. &7Valid difficulties are &feasy&7, &fmedium&7,
+      &fhard&7, &fexpert&7, and &fbalanced'
+    need-args: |-
+      &cPlease enter a difficulty. &7Valid difficulties are &feasy&7, &fmedium&7, &fhard&7, &fexpert&7, and &fbalanced&7.
+      &aBalanced difficulty will make the parkour get harder as the player gets higher scores.
+  save:
+    not-done: '&cYou have not set all of the required settings. &7Check &f/{CMD} setup
+      info&7 to see what you have left.'
+    success: '&aArena {NAME} saved and loaded.'
+  area:
+    too-small: |-
+      &cThe area you just created does not meet the minimum reccomended size of 20x20x20!
+      &7You can continue creating the area, but know you may run into issues with players running into each other, and possibly parkour going outside the area!
+      &7Your area: {l}x{w}x{h} (XxZxY)
+  invalid-name: '&cYou can''t name your arena that.'
+portals:
+  list:
+    header: "&r \n&e&lPARKOUR> &fPortales:\n&r "
+    format:
+      area: '&2{NAME} &7» &a{COORDS} &7» &a{AREA}'
+      no-area: '&2{NAME} &7» &a{COORDS}'
+  create:
+    help: '&cUsage: /{CMD} portals create <name> [area]'
+    success: '&aCreated a portal named ''{NAME}'' at your current location. &7You
+      might have to restart the server for the portal to start working.'
+  remove:
+    help: '&cPlease enter the name of the portal to be removed.'
+    cannot-find: '&cCannot find a portal with that name. Make sure you spelled it
+      correctly, and that you put the same caps too.'
+    success: '&aRemoved portal ''{NAME}''.'
+    no-portals: '&cNo portals have been set up yet. Please create portals before removing
+      them.'
+gui:
+  selector:
+    title: '&eBlock Selector'
+    items:
+      random:
+        title: '&eRandom Blocks'
+        lore: '&7Will pick a random block.'
+      selected:
+        lore: '&7This block is currently selected.'
+      nextpage:
+        name: '&eNext Page'
+      prevpage:
+        name: '&cPrevious Page'
+items:
+  blockselector:
+    name: '&eBlock Selector'
+reset:
+  usage: '&cUsage: /{CMD} reset <player>'
+  success: '&aReset score of {PLAYER} to 0'
+blockselector:
+  openedfor: '&aOpened block selector for {PLAYER}'
+areas:
+  remove:
+    help: '&cPlease enter the name of the area to be removed.'
+    cannot-find: '&cCannot find an area with that name. Make sure you spelled it correctly,
+      and that you put the same caps too.'
+    success: '&aRemoved area ''{NAME}''.'

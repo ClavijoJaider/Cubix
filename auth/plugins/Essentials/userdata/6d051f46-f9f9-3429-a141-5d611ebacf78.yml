@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741206593404
+  login: 1741206546868
+money: '0'
+logoutlocation:
+  world: f06db6da-1570-42fb-a2f9-a8f5dc9848e2
+  world-name: Auth
+  x: -1.2571683822180042
+  y: 50.0
+  z: -12.695491641245923
+  yaw: -13.15386962890625
+  pitch: 6.51178503036499
+last-account-name: Jaider
+lastlocation:
+  world: f06db6da-1570-42fb-a2f9-a8f5dc9848e2
+  world-name: Auth
+  x: -0.5
+  y: 50.0
+  z: -12.5
+  yaw: -0.10418701171875
+  pitch: 1.111778736114502

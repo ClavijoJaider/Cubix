@@ -1,0 +1,90 @@
+menu_title: '§x§f§b§8§8§0§0§lA§x§f§b§9§4§0§0§lC§x§f§b§a§0§0§0§lC§x§f§c§a§c§0§0§lE§x§f§c§b§8§0§0§lS§x§f§c§c§3§0§0§lO§x§f§c§c§f§0§0§lR§x§f§d§d§b§0§0§lI§x§f§d§e§7§0§0§lO§x§f§d§f§3§0§0§lS §x§7§9§7§9§7§9ᴀ§x§8§3§8§3§8§3ᴊ§x§8§e§8§e§8§eᴜ§x§9§8§9§8§9§8s§x§a§2§a§2§a§2ᴛ§x§a§d§a§d§a§dᴇ§x§b§7§b§7§b§7s'
+open_command:
+- cosmeticsettings
+- cosmeticssettings
+- gadgetssettings
+- gadgetsettings
+size: 27
+items:
+  selfmorphview:
+    material: ENDER_EYE
+    slot: 11
+    display_name: '&6&lVer disfraz propio'
+    lore:
+    - '&8Ajustes'
+    - ''
+    - '&7Activando esta opción podras ver tu'
+    - '&7propio disfraz.'
+    - ''
+    - '&6 > &fEstado: &f%gadgetsmenu_settings_selfmorphview%'
+    - ''
+    - '&7&o[Clic izquierdo para activar]'
+    - '&7&o[Clic dedrecho para desactivar]'
+    left_click_commands:
+    - '[close]'
+    - '[player] gmenu settings selfmorphview enable'
+    right_click_commands:
+    - '[close]'
+    - '[player] gmenu settings selfmorphview disable'
+#
+  cooldownbypass:
+    material: COMMAND_BLOCK
+    slot: 15
+    priority: 2
+    display_name: '&6&lTiempo de espera'
+    lore:
+    - '&8Ajustes'
+    - ''
+    - '&7Con esta opcion decides si'
+    - '&7esperas un tiempo antes de'
+    - '&7usar otro cosmetico o no.'
+    - ''
+    - '&6 > &fEstado: &f%gadgetsmenu_settings_bypasscooldown%'
+    - ''
+    - '&7&o[Clic izquierdo para activar]'
+    - '&7&o[Clic dedrecho para desactivar]'
+    left_click_commands:
+    - '[close]'
+    - '[player] gmenu settings bypasscooldown enable'
+    right_click_commands:
+    - '[close]'
+    - '[player] gmenu settings bypasscooldown disable'
+  cooldownbypass_noperm:
+    material: COMMAND_BLOCK
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        available:
+          type: string equals ignorecase
+          input: '%player_has_permission_gadgetsmenu.cooldown.bypass%'
+          output: 'false'
+    display_name: '&6&lTiempo de espera'
+    lore:
+    - '&8Ajustes'
+    - ''
+    - '&7Con esta opcion decides si'
+    - '&7esperas un tiempo antes de'
+    - '&7usar otro cosmetico o no.'
+    - ''
+    - '&c&oRequieres rango &e&lHEROE &co'
+    - '&c&osuperior para usar.'
+#
+  back:
+    material: BOOK
+    slot: 22
+    display_name: '&6Atras'
+    left_click_commands:
+    - '[openguimenu] cosmetics'
+    right_click_commands:
+    - '[openguimenu] cosmetics'
+#
+  glass:
+    display_name: '&r'
+    material: WHITE_STAINED_GLASS_PANE
+    data: 7
+    slots: 
+    - 0-10
+    - 12-14
+    - 16-21
+    - 23-26

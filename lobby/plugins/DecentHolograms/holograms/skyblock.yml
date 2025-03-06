@@ -1,0 +1,18 @@
+location: Lobby:-1.490:102.519:24.496
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: GRASS_BLOCK'
+    height: 0.6
+  - content: '&c&l¡POPULAR!'
+    height: 0.3
+  - content: '&3SkyBlock  v1.0'
+    height: 0.3
+  - content: '&e&l¡HAZ CLIC PARA IR!'
+    height: 0.3
+  actions: {}

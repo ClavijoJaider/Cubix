@@ -1,0 +1,205 @@
+Emotes:
+  Smile:
+    Name: '&eSmile Emote'
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fsmiles'
+    Lore: ''
+  Cool:
+    Name: '&eCool Emote'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fB)'
+    Lore: ''
+  Wink:
+    Name: '&eWink Emote'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fwinks'
+    Lore: ''
+  Grin:
+    Name: '&eGrin Emote'
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fYay!'
+    Lore: ''
+  Surprised:
+    Name: '&eSurprised Emote'
+    Cooldown: 10
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fOMG'
+    Lore: ''
+  Cry:
+    Name: '&eCry Emote'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fWaaaaa!'
+    Lore: ''
+  Sleepy:
+    Name: '&eSleepy Emote'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fZZzzzz'
+    Lore: ''
+  Rage:
+    Name: '&eRage Emote'
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&cGRRRRR!!!'
+    Lore: ''
+  Frown:
+    Name: '&eFrown Emote'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fsniff'
+    Lore: ''
+  Cheeky:
+    Name: '&eCheeky Emote'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&f:P'
+    Lore: ''
+  Sun Tan:
+    Name: '&eSun Tan Emote'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fSunny'
+    Lore: ''
+  Heart Eyes:
+    Name: '&eHeart Eye Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&d❤  ❤'
+    Lore: ''
+  Dizzy:
+    Name: '&eDizzy Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fx_x'
+    Lore: ''
+  RIP:
+    Name: '&eRIP Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fRest In Pepperoni'
+    Lore: ''
+  Relax:
+    Name: '&eRelax Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fPhew'
+    Lore: ''
+  Spicy:
+    Name: '&eSpicy Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fBurns!'
+    Lore: ''
+  Deal With It:
+    Name: '&eDeal With It Emote'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Hologram:
+      Enabled: true
+      Text: '&fDeal With It :)'
+    Lore: ''

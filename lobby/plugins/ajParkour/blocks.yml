@@ -1,0 +1,33 @@
+# This is where you can set what blocks to use.
+# Here is a guide for the special things you can do in this file: https://ajgeiss72.gitbook.io/ajparkour/blocks
+# Here is a list of block types for each version made by brc: https://wiki.brcdev.net/Materials
+#  Make sure to only use blocks (not items) or it will break!
+blocks:
+- STONE
+- COBBLESTONE
+- END_STONE
+- SANDSTONE
+- RED_SANDSTONE
+- STONE_BRICKS
+- BRICK
+#
+- EMERALD_BLOCK
+- DIAMOND_BLOCK
+- GOLD_BLOCK
+- LAPIS_BLOCK
+- REDSTONE_BLOCK
+- IRON_BLOCK
+- COAL_BLOCK
+- QUARTZ_BLOCK
+- NOTE_BLOCK
+#
+- DIRT
+- DIRT:1
+- DIRT:2
+- MYCELIUM
+- OBSIDIAN
+- BEDROCK
+- BROWN_MUSHROOM_BLOCK
+- RED_MUSHROOM_BLOCK
+#
+- WHITE_WOOL

@@ -1,0 +1,745 @@
+menu_title: '§x§f§f§9§9§0§0§lS§x§f§f§a§4§0§0§lE§x§f§f§a§f§0§0§lL§x§f§f§b§a§0§0§lE§x§f§f§c§5§0§0§lC§x§f§f§d§0§0§0§lT§x§f§f§d§b§0§0§lO§x§f§f§e§6§0§0§lR §x§4§e§4§e§4§eᴍ§x§5§4§5§4§5§4ᴏ§x§5§b§5§b§5§bᴅ§x§6§1§6§1§6§1ᴀ§x§6§8§6§8§6§8ʟ§x§6§e§6§e§6§eɪ§x§7§4§7§4§7§4ᴅ§x§7§b§7§b§7§bᴀ§x§8§1§8§1§8§1ᴅ§x§8§8§8§8§8§8ᴇ§x§8§e§8§e§8§es'
+open_command: selector
+update_interval: 1
+size: 54
+items:
+  serverinfo:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI0ZmVkODQ2ODQzMDc0NDBjMTM3MWI0ODM0M2JkYmVhYjZjM2FmNzY2NWVhOTVjMmFjMzA2MTMwYTk1ZiJ9fX0=
+    update: true
+    slot: 9
+    display_name: '§x§f§f§9§9§0§0§lS§x§f§f§a§4§0§0§lE§x§f§f§a§f§0§0§lR§x§f§f§b§a§0§0§lV§x§f§f§c§5§0§0§lI§x§f§f§d§0§0§0§lD§x§f§f§d§b§0§0§lO§x§f§f§e§6§0§0§lR §x§4§e§4§e§4§eʀ§x§5§e§5§e§5§eᴇ§x§6§e§6§e§6§eᴅ§x§7§e§7§e§7§eᴇ§x§8§e§8§e§8§es'
+    lore:
+    - ''
+    - '  §7･ &fForo: &bwww.servidor.net'
+    - '  §7･ &fTienda: &btienda.servidor.net'
+    - '  §7･ &fDiscord: &bdiscord.servidor.net'
+    - ''
+    - '  &d✔ ᴊᴜɢᴀᴅᴏʀᴇs ʀᴇɢɪsᴛʀᴀᴅᴏs: &a%server_unique_joins%'
+    - ''
+    - '&c&oClic para ver las redes...'
+    left_click_commands:
+    - '[openguimenu] information'
+    right_click_commands:
+    - '[openguimenu] information'
+#
+  lobbyselector:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY0ZTg3N2E0MjFmOTJmYjQ5YTJhODhlMTQ5NDg3OTFiZjg5ZDc0YWU2NjBhZTk4OWNkYjM1ZjMxOGU5Y2IifX19
+    update: true
+    slot: 18
+    display_name: '§x§f§f§9§9§0§0§lS§x§f§f§a§4§0§0§lE§x§f§f§a§f§0§0§lL§x§f§f§b§a§0§0§lE§x§f§f§c§5§0§0§lC§x§f§f§d§0§0§0§lT§x§f§f§d§b§0§0§lO§x§f§f§e§6§0§0§lR §x§4§e§4§e§4§eʟ§x§5§9§5§9§5§9ᴏ§x§6§3§6§3§6§3ʙ§x§6§e§6§e§6§eʙ§x§7§9§7§9§7§9ɪ§x§8§3§8§3§8§3ᴇ§x§8§e§8§e§8§es'
+    lore:
+    - ''
+    - '  §7･ &fLobby #1: &b%bungee_Lobby% jugadores'
+    - '  §7･ &fLobby #2: &c&oApagado...'
+    - '  §7･ &fLobby #3: &c&oApagado...'
+    - ''
+    - '&c&oClic para ver los lobbies...'
+    left_click_commands:
+    - '[openguimenu] lobbyselector'
+    right_click_commands:
+    - '[openguimenu] lobbyselector'
+#
+  playerinfo:
+    material: head-%player_name%
+    update: true
+    slot: 27
+    display_name: '§x§f§f§9§9§0§0§lP§x§f§f§a§8§0§0§lE§x§f§f§b§8§0§0§lR§x§f§f§c§7§0§0§lF§x§f§f§d§7§0§0§lI§x§f§f§e§6§0§0§lL &8%player_name%'
+    lore:
+    - ''
+    - '  §7･ &eRegistrado: &c%player_first_played_formatted%'
+    - ''
+    - '  §7･ &fRango: &f%luckperms_prefix%'
+    - '  §7･ &fNivel: &e%alonsolevels_level% ✰'
+    - '  §7･ &fAlmas: &a%playerpoints_points% ⛁'
+    - ''
+    - '&c&oGracias por jugar ☺'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+#
+  buildteam:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUzMDA0YjljODg4MDRjNGNmZTg0ODE4NjkxNjY5OThmMDJmNTRmMWJlNTRjNDgyNzFmMWE3NzYxMzNhNTMifX19
+    update: true
+    slot: 36
+    display_name: '§x§f§f§9§9§0§0§lB§x§f§f§a§3§0§0§lU§x§f§f§a§c§0§0§lI§x§f§f§b§6§0§0§lL§x§f§f§c§0§0§0§lD §x§f§f§c§9§0§0§lT§x§f§f§d§3§0§0§lE§x§f§f§d§c§0§0§lA§x§f§f§e§6§0§0§lM §x§4§e§4§e§4§es§x§5§7§5§7§5§7ᴇ§x§6§0§6§0§6§0ʀ§x§6§9§6§9§6§9ᴠ§x§7§3§7§3§7§3ɪ§x§7§c§7§c§7§cᴅ§x§8§5§8§5§8§5ᴏ§x§8§e§8§e§8§eʀ'
+    lore:
+    - ''
+    - '&7Servidor de uso exclusivo para el'
+    - '&7equipo de builders del servidor.'
+    - ''
+    - '&c&oClic para conectarse...'
+    left_click_commands:
+    - '[connect] buildteam'
+    right_click_commands:
+    - '[connect] buildteam'
+#
+#
+#               BEDWARS
+#
+#
+  bedwars:
+    dynamic_amount: '%bungee_BedWars%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc5ZGY3OTdhMTM1MWQwNDEyNDViODVlMzk5Y2QzYTZlYjQ5YmNhY2MzN2U0NTViNjhiZTZjNWJiYTMwIn19fQ==
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor bedwars en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§f§f§0§0§0§0🔥 §x§f§f§0§0§0§0§lB§x§f§f§0§f§0§0§lE§x§f§f§1§f§0§0§lD§x§f§f§2§e§0§0§lW§x§f§f§3§d§0§0§lA§x§f§f§4§d§0§0§lR§x§f§f§5§c§0§0§lS &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ʀᴏᴍᴘᴇ ᴛᴏᴅᴀs ʟᴀs ᴄᴀᴍᴀs ᴅᴇ ᴛᴜs'
+    - '&7ᴇɴᴇᴍɪɢᴏs ʏ ᴄᴏɴsɪɢᴜᴇ ʟᴀ ᴠɪᴄᴛᴏʀɪᴀ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_BedWars%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eBedWars§f, espera un momento.'
+    - '[connect] BedWars'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eBedWars§f, espera un momento.'
+    - '[connect] BedWars'
+  bedwars-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc5ZGY3OTdhMTM1MWQwNDEyNDViODVlMzk5Y2QzYTZlYjQ5YmNhY2MzN2U0NTViNjhiZTZjNWJiYTMwIn19fQ==
+    update: true
+    slot: 20
+    priority: 2
+    display_name: '§x§f§f§0§0§0§0🔥 §x§f§f§0§0§0§0§lB§x§f§f§0§f§0§0§lE§x§f§f§1§f§0§0§lD§x§f§f§2§e§0§0§lW§x§f§f§3§d§0§0§lA§x§f§f§4§d§0§0§lR§x§f§f§5§c§0§0§lS &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ʀᴏᴍᴘᴇ ᴛᴏᴅᴀs ʟᴀs ᴄᴀᴍᴀs ᴅᴇ ᴛᴜs'
+    - '&7ᴇɴᴇᴍɪɢᴏs ʏ ᴄᴏɴsɪɢᴜᴇ ʟᴀ ᴠɪᴄᴛᴏʀɪᴀ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_BedWars%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eBedWars§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eBedWars§f...'
+#
+#
+#               SKYWARS
+#
+#
+  skywars:
+    dynamic_amount: '%bungee_SkyWars%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor skywars en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§0§0§a§7§b§1🏹 §x§0§0§a§7§b§1§lS§x§0§0§a§e§b§e§lK§x§0§0§b§5§c§b§lY§x§0§1§b§c§d§8§lW§x§0§1§c§3§e§5§lA§x§0§1§c§a§f§2§lR§x§0§1§d§1§f§f§lS &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴀᴄᴀʙᴀ ᴄᴏɴ ᴛᴏᴅᴏs ʟᴏs ᴇɴᴇᴍɪɢᴏs'
+    - '&7sᴀʟᴛᴀɴᴅᴏ ᴅᴇ ɪsʟᴀ ᴇɴ ɪsʟᴀ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_SkyWars%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eSkyWars§f, espera un momento.'
+    - '[connect] SkyWars'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eSkyWars§f, espera un momento.'
+    - '[connect] SkyWars'
+  skywars-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY2OGQ1MDliNWQxNjY5Yjk3MWRkMWQ0ZGYyZTQ3ZTE5YmNiMWIzM2JmMWE3ZmYxZGRhMjliZmM2ZjllYmYifX19
+    update: true
+    slot: 21
+    priority: 2
+    display_name: '§x§0§0§a§7§b§1🏹 §x§0§0§a§7§b§1§lS§x§0§0§a§e§b§e§lK§x§0§0§b§5§c§b§lY§x§0§1§b§c§d§8§lW§x§0§1§c§3§e§5§lA§x§0§1§c§a§f§2§lR§x§0§1§d§1§f§f§lS &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴀᴄᴀʙᴀ ᴄᴏɴ ᴛᴏᴅᴏs ʟᴏs ᴇɴᴇᴍɪɢᴏs'
+    - '&7sᴀʟᴛᴀɴᴅᴏ ᴅᴇ ɪsʟᴀ ᴇɴ ɪsʟᴀ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_SkyWars%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eSkyWars§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eSkyWars§f...'
+#
+#
+#               THEPIT
+#
+#
+  thepit:
+    dynamic_amount: '%bungee_ThePit%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM2MmVkMTg3YmVlYTYwMWQ1MmZjYjcyZmRmYTlkYWRhMWFmMWQ3ZWQzMGU5OTBiZTEyNGVmMWE4YThjYTI0In19fQ==
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor thepit en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§a§3§0§0§b§1⚔ §x§a§3§0§0§b§1§lT§x§b§4§0§0§c§1§lH§x§c§6§0§0§d§0§lE §x§d§7§0§0§e§0§lP§x§e§9§0§0§e§f§lI§x§f§a§0§0§f§f§lT &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴅᴇᴍᴜᴇsᴛʀᴀ ᴛᴜs ʜᴀʙɪʟɪᴅᴀᴅᴇs'
+    - '&7ᴅᴇ ᴘᴇʟᴇᴀ ᴇɴ ᴇsᴛᴇ ғғᴀ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_ThePit%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eThePit§f, espera un momento.'
+    - '[connect] ThePit'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eThePit§f, espera un momento.'
+    - '[connect] ThePit'
+  thepit-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM2MmVkMTg3YmVlYTYwMWQ1MmZjYjcyZmRmYTlkYWRhMWFmMWQ3ZWQzMGU5OTBiZTEyNGVmMWE4YThjYTI0In19fQ==
+    update: true
+    slot: 29
+    priority: 2
+    display_name: '§x§a§3§0§0§b§1⚔ §x§a§3§0§0§b§1§lT§x§b§4§0§0§c§1§lH§x§c§6§0§0§d§0§lE §x§d§7§0§0§e§0§lP§x§e§9§0§0§e§f§lI§x§f§a§0§0§f§f§lT &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴅᴇᴍᴜᴇsᴛʀᴀ ᴛᴜs ʜᴀʙɪʟɪᴅᴀᴅᴇs'
+    - '&7ᴅᴇ ᴘᴇʟᴇᴀ ᴇɴ ᴇsᴛᴇ ғғᴀ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_ThePit%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eThePit§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eThePit§f...'
+#
+#
+#               ARCADE
+#
+#
+  arcade:
+    dynamic_amount: '%bungee_Arcade%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk5OThjYjk2YTg5N2RjMzNhYzMzNThhZmU1YmI3NTg0OTA2ZWM2OTAxZDU2NWY5OTZmMzJjNjY0YjFhYTkxIn19fQ==
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor arcade en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§0§0§9§d§1§9⌘ §x§0§0§9§d§1§9§lA§x§0§4§b§1§1§4§lR§x§0§8§c§4§0§f§lC§x§0§c§d§8§0§a§lA§x§1§0§e§b§0§5§lD§x§1§4§f§f§0§0§lE &8&ov.0.1'
+    lore:
+    - '&8Servidor: Minujuegos'
+    - ''
+    - '&7¡ᴅɪsғʀᴜᴛᴀ ᴅᴇ ᴊᴜᴇɢᴏs ᴀʀᴄᴀᴅᴇ'
+    - '&7ᴘᴀʀᴀ ᴘᴀsᴀʀ ᴇʟ ʀᴀᴛᴏ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_Arcade%'
+    - '&6&l > &fVersión: &d1.8 - 1.19.2'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eArcade§f, espera un momento.'
+    - '[connect] Arcade'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eArcade§f, espera un momento.'
+    - '[connect] Arcade'
+  arcade-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk5OThjYjk2YTg5N2RjMzNhYzMzNThhZmU1YmI3NTg0OTA2ZWM2OTAxZDU2NWY5OTZmMzJjNjY0YjFhYTkxIn19fQ==
+    update: true
+    slot: 30
+    priority: 2
+    display_name: '§x§0§0§9§d§1§9⌘ §x§0§0§9§d§1§9§lA§x§0§4§b§1§1§4§lR§x§0§8§c§4§0§f§lC§x§0§c§d§8§0§a§lA§x§1§0§e§b§0§5§lD§x§1§4§f§f§0§0§lE &8&ov.0.1'
+    lore:
+    - '&8Servidor: Minijuegos'
+    - ''
+    - '&7¡ᴅɪsғʀᴜᴛᴀ ᴅᴇ ᴊᴜᴇɢᴏs ᴀʀᴄᴀᴅᴇ'
+    - '&7ᴘᴀʀᴀ ᴘᴀsᴀʀ ᴇʟ ʀᴀᴛᴏ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_Arcade%'
+    - '&6&l > &fVersión: &d1.8 - 1.19.2'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eArcade§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eArcade§f...'
+#
+#
+#               SURVIVAL
+#
+#
+  survival:
+    dynamic_amount: '%bungee_Survival%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ5YzYzYmM1MDg3MjMzMjhhMTllNTk3ZjQwODYyZDI3YWQ1YzFkNTQ1NjYzYWMyNDQ2NjU4MmY1NjhkOSJ9fX0=
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor survival en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§f§f§0§0§f§5🗡 §x§f§f§0§0§f§5§lS§x§f§4§0§0§e§b§lU§x§e§a§0§0§e§0§lR§x§d§f§0§0§d§6§lV§x§d§4§0§0§c§c§lI§x§c§9§0§0§c§2§lV§x§b§f§0§0§b§7§lA§x§b§4§0§0§a§d§lL &8&ov.0.1'
+    lore:
+    - '&8Servidor: Supervivencia'
+    - ''
+    - '&7¡ᴀᴠᴇɴᴛᴜʀᴀᴛᴇ ᴇɴ ᴜɴ ᴍᴜɴᴅᴏ ɴᴜᴇᴠᴏ'
+    - '&7ʟʟᴇɴᴏ ᴅᴇ ʀᴇᴛᴏs ʏ sᴏʙʀᴇᴠɪᴠᴇ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_Survival%'
+    - '&6&l > &fVersión: &d1.19.2'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eSurvival§f, espera un momento.'
+    - '[connect] Survival'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eSurvival§f, espera un momento.'
+    - '[connect] Survival'
+  survival-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ5YzYzYmM1MDg3MjMzMjhhMTllNTk3ZjQwODYyZDI3YWQ1YzFkNTQ1NjYzYWMyNDQ2NjU4MmY1NjhkOSJ9fX0=
+    update: true
+    slot: 23
+    priority: 2
+    display_name: '§x§f§f§0§0§f§5🗡 §x§f§f§0§0§f§5§lS§x§f§4§0§0§e§b§lU§x§e§a§0§0§e§0§lR§x§d§f§0§0§d§6§lV§x§d§4§0§0§c§c§lI§x§c§9§0§0§c§2§lV§x§b§f§0§0§b§7§lA§x§b§4§0§0§a§d§lL &8&ov.0.1'
+    lore:
+    - '&8Servidor: Supervivencia'
+    - ''
+    - '&7¡ᴀᴠᴇɴᴛᴜʀᴀᴛᴇ ᴇɴ ᴜɴ ᴍᴜɴᴅᴏ ɴᴜᴇᴠᴏ'
+    - '&7ʟʟᴇɴᴏ ᴅᴇ ʀᴇᴛᴏs ʏ sᴏʙʀᴇᴠɪᴠᴇ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_Survival%'
+    - '&6&l > &fVersión: &d1.19.2'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eSurvival§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eSurvival§f...'
+#
+#
+#               SKYBLOCK
+#
+#
+  skyblock:
+    dynamic_amount: '%bungee_SkyBlock%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUxN2Q5MzRiNDY1ZjUyNmE4Mzc2NmZhZmMwNGIyNzRkMmYxMTFhNDE2MThlMzY3OTcwNmJhODUxY2E4ZiJ9fX0=
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor skyblock en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§b§9§8§8§2§9☁ §x§b§9§8§8§2§9§lS§x§b§2§8§2§2§7§lK§x§a§a§7§d§2§4§lY§x§a§3§7§7§2§2§lB§x§9§c§7§2§2§0§lL§x§9§5§6§c§1§e§lO§x§8§d§6§7§1§b§lC§x§8§6§6§1§1§9§lK &8&ov.0.1'
+    lore:
+    - '&8Servidor: Supervivencia'
+    - ''
+    - '&7¡ᴀᴠᴇɴᴛᴜʀᴀᴛᴇ ᴇɴ ᴜɴᴀ ɪsʟᴀ ɴᴜᴇᴠᴀ'
+    - '&7ʟʟᴇɴᴀ ᴅᴇ ʀᴇᴛᴏs ʏ sᴏʙʀᴇᴠɪᴠᴇ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_SkyBlock%'
+    - '&6&l > &fVersión: &d1.19.2'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eSkyBlock§f, espera un momento.'
+    - '[connect] SkyBlock'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eSkyBlock§f, espera un momento.'
+    - '[connect] SkyBlock'
+  skyblock-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUxN2Q5MzRiNDY1ZjUyNmE4Mzc2NmZhZmMwNGIyNzRkMmYxMTFhNDE2MThlMzY3OTcwNmJhODUxY2E4ZiJ9fX0=
+    update: true
+    slot: 24
+    priority: 2
+    display_name: '§x§b§9§8§8§2§9☁ §x§b§9§8§8§2§9§lS§x§b§2§8§2§2§7§lK§x§a§a§7§d§2§4§lY§x§a§3§7§7§2§2§lB§x§9§c§7§2§2§0§lL§x§9§5§6§c§1§e§lO§x§8§d§6§7§1§b§lC§x§8§6§6§1§1§9§lK &8&ov.0.1'
+    lore:
+    - '&8Servidor: Supervivencia'
+    - ''
+    - '&7¡ᴀᴠᴇɴᴛᴜʀᴀᴛᴇ ᴇɴ ᴜɴᴀ ɪsʟᴀ ɴᴜᴇᴠᴀ'
+    - '&7ʟʟᴇɴᴀ ᴅᴇ ʀᴇᴛᴏs ʏ sᴏʙʀᴇᴠɪᴠᴇ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_SkyBlock%'
+    - '&6&l > &fVersión: &d1.19.2'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eSkyBlock§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eSkyBlock§f...'
+#
+#
+#               PRISON
+#
+#
+  prison:
+    dynamic_amount: '%bungee_Prison%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM3ZjhmOTVjMTI1NzU3Y2JmNzY3YTExZjUyYTRlNjY5MWNlMThhMjU5NzhjNjhjZmEzOTEwMzYwZmUifX19
+    update: true
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25604%' #En este placeholder coloca la IP que colocaste para tu servidor prison en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§b§9§b§9§b§9⛏ §x§b§9§b§9§b§9§lP§x§a§8§a§8§a§8§lR§x§9§6§9§6§9§6§lI§x§8§5§8§5§8§5§lS§x§7§3§7§3§7§3§lO§x§6§2§6§2§6§2§lN &8&ov.0.1'
+    lore:
+    - '&8Servidor: Supervivencia'
+    - ''
+    - '&7¡ᴘɪᴄᴀ ᴘᴀʀᴀ sᴜʙɪʀ ᴅᴇ ʀᴀɴɢᴏ ʏ'
+    - '&7ᴘᴏᴅᴇʀ ᴇsᴄᴀᴘᴀʀ ᴅᴇ ᴘʀɪsɪᴏɴ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_Prison%'
+    - '&6&l > &fVersión: &d1.8 - 1.19.2'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §ePrison§f, espera un momento.'
+    - '[connect] Prison'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §ePrison§f, espera un momento.'
+    - '[connect] Prison'
+  prison-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM3ZjhmOTVjMTI1NzU3Y2JmNzY3YTExZjUyYTRlNjY5MWNlMThhMjU5NzhjNjhjZmEzOTEwMzYwZmUifX19
+    update: true
+    slot: 25
+    priority: 2
+    display_name: '§x§b§9§b§9§b§9⛏ §x§b§9§b§9§b§9§lP§x§a§8§a§8§a§8§lR§x§9§6§9§6§9§6§lI§x§8§5§8§5§8§5§lS§x§7§3§7§3§7§3§lO§x§6§2§6§2§6§2§lN &8&ov.0.1'
+    lore:
+    - '&8Servidor: Supervivencia'
+    - ''
+    - '&7¡ᴘɪᴄᴀ ᴘᴀʀᴀ sᴜʙɪʀ ᴅᴇ ʀᴀɴɢᴏ ʏ'
+    - '&7ᴘᴏᴅᴇʀ ᴇsᴄᴀᴘᴀʀ ᴅᴇ ᴘʀɪsɪᴏɴ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_Prison%'
+    - '&6&l > &fVersión: &d1.8 - 1.19.2'
+    - ''
+    - '&c&oServidor apagado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §ePrison§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §ePrison§f...'
+#
+#
+#               CREATIVO
+#
+#
+  creativo:
+    dynamic_amount: '%bungee_Creativo%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY5YzcxYWYzZjdlODE5ZWMzYzQ0OTZmMjkxNTY3YWVmYjk4ZjU1ODQ1MTdkYTI2NmJhMGE2ZWNjYWE5YTZlMyJ9fX0=
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor creativo en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§f§f§8§a§0§0🌊 §x§f§f§8§a§0§0§lC§x§f§f§8§1§0§0§lR§x§f§f§7§9§0§0§lE§x§f§f§7§0§0§0§lA§x§f§f§6§7§0§0§lT§x§f§f§5§e§0§0§lI§x§f§f§5§6§0§0§lV§x§f§f§4§d§0§0§lO &8&ov.0.1'
+    lore:
+    - '&8Servidor: Construcción'
+    - ''
+    - '&7¡sᴀᴄᴀ ᴛᴜs ᴅᴏᴛᴇs ᴅᴇ ᴄᴏɴsᴛʀᴜᴄᴄɪᴏɴ'
+    - '&7ʏ ᴄʀᴇᴀ ɢʀᴀɴᴅᴇs ᴄᴏsᴀs!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_Creativo%'
+    - '&6&l > &fVersión: &d1.19.2'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eCreativo§f, espera un momento.'
+    - '[connect] Creativo'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eCreativo§f, espera un momento.'
+    - '[connect] Creativo'
+  creativo-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY5YzcxYWYzZjdlODE5ZWMzYzQ0OTZmMjkxNTY3YWVmYjk4ZjU1ODQ1MTdkYTI2NmJhMGE2ZWNjYWE5YTZlMyJ9fX0=
+    update: true
+    slot: 32
+    priority: 2
+    display_name: '§x§f§f§8§a§0§0🌊 §x§f§f§8§a§0§0§lC§x§f§f§8§1§0§0§lR§x§f§f§7§9§0§0§lE§x§f§f§7§0§0§0§lA§x§f§f§6§7§0§0§lT§x§f§f§5§e§0§0§lI§x§f§f§5§6§0§0§lV§x§f§f§4§d§0§0§lO &8&ov.0.1'
+    lore:
+    - '&8Servidor: Construcción'
+    - ''
+    - '&7¡sᴀᴄᴀ ᴛᴜs ᴅᴏᴛᴇs ᴅᴇ ᴄᴏɴsᴛʀᴜᴄᴄɪᴏɴ'
+    - '&7ʏ ᴄʀᴇᴀ ɢʀᴀɴᴅᴇs ᴄᴏsᴀs!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_Creativo%'
+    - '&6&l > &fVersión: &d1.19.2'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eCreativo§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eCreativo§f...'
+#
+#
+#               PRACTICE
+#
+#
+  practice:
+    dynamic_amount: '%bungee_Practice%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor practice en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§f§f§6§2§6§2⚡ §x§f§f§6§2§6§2§lP§x§f§f§5§4§5§4§lR§x§f§f§4§6§4§6§lA§x§f§f§3§8§3§8§lC§x§f§f§2§a§2§a§lT§x§f§f§1§c§1§c§lI§x§f§f§0§e§0§e§lC§x§f§f§0§0§0§0§lE &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴘʀᴀᴄᴛɪᴄᴀ ᴛᴜs ʜᴀʙɪʟɪᴅᴀᴅᴇs ᴇɴ ᴘᴠᴘ'
+    - '&7ᴊᴜɢᴀɴᴅᴏ ᴄᴏɴᴛʀᴀ ᴏᴛʀᴏs ᴊᴜɢᴀᴅᴏʀᴇs!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_Practice%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §ePractice§f, espera un momento.'
+    - '[connect] Practice'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §ePractice§f, espera un momento.'
+    - '[connect] Practice'
+  practice-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19
+    update: true
+    slot: 33
+    priority: 2
+    display_name: '§x§f§f§6§2§6§2⚡ §x§f§f§6§2§6§2§lP§x§f§f§5§4§5§4§lR§x§f§f§4§6§4§6§lA§x§f§f§3§8§3§8§lC§x§f§f§2§a§2§a§lT§x§f§f§1§c§1§c§lI§x§f§f§0§e§0§e§lC§x§f§f§0§0§0§0§lE &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴘʀᴀᴄᴛɪᴄᴀ ᴛᴜs ʜᴀʙɪʟɪᴅᴀᴅᴇs ᴇɴ ᴘᴠᴘ'
+    - '&7ᴊᴜɢᴀɴᴅᴏ ᴄᴏɴᴛʀᴀ ᴏᴛʀᴏs ᴊᴜɢᴀᴅᴏʀᴇs!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_Practice%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §ePractice§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §ePractice§f...'
+#
+#
+#               CTW
+#
+#
+  ctw:
+    dynamic_amount: '%bungee_CTW%'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZhZjRjMjlmMWU3NDA1ZjQ2ODBjNWMyYjAzZWY5Mzg0ZjFhZWNmZTI5ODZhZDUwMTM4YzYwNWZlZmZmMmYxNSJ9fX0=
+    data: 16421
+    hide_effects: true
+    update: true
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        online:
+          type: string equals ignorecase
+          input: '%pinger_online_127.0.0.1:25601%' #En este placeholder coloca la IP que colocaste para tu servidor ctw en la configuración de BungeeCord.
+          output: 'Online'
+    display_name: '§x§f§8§a§2§f§f჻ §x§f§8§a§2§f§f§lC§x§f§4§9§a§f§a§lA§x§f§0§9§2§f§6§lP§x§e§b§8§a§f§1§lT§x§e§7§8§2§e§d§lU§x§e§3§7§a§e§8§lR§x§d§f§7§2§e§3§lE §x§d§a§6§9§d§f§lT§x§d§6§6§1§d§a§lH§x§d§2§5§9§d§5§lE §x§c§e§5§1§d§1§lW§x§c§9§4§9§c§c§lO§x§c§5§4§1§c§8§lO§x§c§1§3§9§c§3§lL &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴇɴғʀᴇɴᴛᴀᴛᴇ ᴀ ᴏᴛʀᴏ ᴇǫᴜɪᴘᴏ ʏ ʟᴏɢʀᴀ'
+    - '&7ᴄᴀᴘᴛᴜʀᴀʀ sᴜs ʟᴀɴᴀs ᴘᴀʀᴀ ɢᴀɴᴀʀ!'
+    - ''
+    - '&6&l > &fEstado: &a¡Activo!'
+    - '&6&l > &fJugadores: &b%bungee_CTW%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oClic para conectar...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eCTW§f, espera un momento.'
+    - '[connect] CTW'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fConectando a un servidor §eCTW§f, espera un momento.'
+    - '[connect] CTW'
+  ctw-offline:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZhZjRjMjlmMWU3NDA1ZjQ2ODBjNWMyYjAzZWY5Mzg0ZjFhZWNmZTI5ODZhZDUwMTM4YzYwNWZlZmZmMmYxNSJ9fX0=
+    update: true
+    slot: 34
+    priority: 2
+    display_name: '§x§f§8§a§2§f§f჻ §x§f§8§a§2§f§f§lC§x§f§4§9§a§f§a§lA§x§f§0§9§2§f§6§lP§x§e§b§8§a§f§1§lT§x§e§7§8§2§e§d§lU§x§e§3§7§a§e§8§lR§x§d§f§7§2§e§3§lE §x§d§a§6§9§d§f§lT§x§d§6§6§1§d§a§lH§x§d§2§5§9§d§5§lE §x§c§e§5§1§d§1§lW§x§c§9§4§9§c§c§lO§x§c§5§4§1§c§8§lO§x§c§1§3§9§c§3§lL &8&ov.0.1'
+    lore:
+    - '&8Servidor: Competitivo'
+    - ''
+    - '&7¡ᴇɴғʀᴇɴᴛᴀᴛᴇ ᴀ ᴏᴛʀᴏ ᴇǫᴜɪᴘᴏ ʏ ʟᴏɢʀᴀ'
+    - '&7ᴄᴀᴘᴛᴜʀᴀʀ sᴜs ʟᴀɴᴀs ᴘᴀʀᴀ ɢᴀɴᴀʀ!'
+    - ''
+    - '&6&l > &fEstado: &c¡Apagado!'
+    - '&6&l > &fJugadores: &b%bungee_CTW%'
+    - '&6&l > &fVersión: &d1.8'
+    - ''
+    - '&c&oServidor cerrado...'
+    left_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eCTW§f...'
+    right_click_commands:
+    - '[close]'
+    - '[message] §x§f§f§0§0§0§0☄ §x§f§f§1§1§0§0§l| §x§f§f§2§3§0§0P§x§f§f§3§4§0§0u§x§f§f§4§5§0§0e§x§f§f§5§6§0§0n§x§f§f§6§8§0§0t§x§f§f§7§9§0§0e §x§f§f§8§a§0§0･ §fNo hay servidores disponibles para §eCTW§f...'
+
+  gray-glass:
+    display_name: '&f♯'
+    material: WHITE_STAINED_GLASS_PANE
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 19
+    - 22
+    - 26
+    - 28
+    - 31
+    - 35
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+
+  light-gray-glass:
+    display_name: '&3♯'
+    material: CYAN_STAINED_GLASS_PANE
+    data: 8
+    slots:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53

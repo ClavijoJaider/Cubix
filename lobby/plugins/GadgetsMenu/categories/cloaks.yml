@@ -1,0 +1,82 @@
+Cloaks:
+  Superhero:
+    Name: '&aSuperhero Cloak'
+    Material: RED_DYE
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Mystical:
+    Name: '&aMystical Cloak'
+    Material: BOOK
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Firewings:
+    Name: '&aFirewings Cloak'
+    Material: BLAZE_POWDER
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Vampire Wings:
+    Name: '&aVampire Wings Cloak'
+    Material: REDSTONE
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Frosty:
+    Name: '&aFrosty Cloak'
+    Material: SNOWBALL
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Icewings:
+    Name: '&aIcewings Cloak'
+    Material: ICE
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Shaman:
+    Name: '&aShaman Cloak'
+    Material: BONE
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Firerings:
+    Name: '&aFirerings Cloak'
+    Material: BLAZE_ROD
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''
+  Scanner:
+    Name: '&aScanner Cloak'
+    Material: BEACON
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: false
+    Purchasable: false
+    Lore: ''

@@ -1,0 +1,18 @@
+location: Auth:-4.514:52.484:2.490
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: FEATHER'
+    height: 0.6
+  - content: '&c&l¡BIENVENID@!'
+    height: 0.3
+  - content: '&3Lobby Principal'
+    height: 0.3
+  - content: '&e&l¡HAZ CLIC PARA IR!'
+    height: 0.3
+  actions: {}

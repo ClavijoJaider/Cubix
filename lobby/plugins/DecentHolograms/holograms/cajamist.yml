@@ -1,0 +1,16 @@
+location: Lobby:-8.492:101.920:11.485
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: §x§7§9§7§9§7§9ᴀ§x§7§e§7§e§7§eᴄ§x§8§4§8§4§8§4ᴄ§x§8§9§8§9§8§9ᴇ§x§8§f§8§f§8§fs§x§9§4§9§4§9§4ᴏ§x§9§a§9§a§9§aʀ§x§9§f§9§f§9§fɪ§x§a§5§a§5§a§5ᴏ§x§a§a§a§a§a§as
+    height: 0.3
+  - content: '&3Cajas Misteriosas'
+    height: 0.3
+  - content: '&e&l¡CLIC PARA ABRIR!'
+    height: 0.3
+  actions: {}
